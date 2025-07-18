@@ -1,0 +1,15 @@
+[workspace]
+authors = ["Fernando Ferraz Ribeiro <ffribeiro@gmail.com>"]
+channels = ["conda-forge"]
+name = "intro_ifc"
+platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+serve = "mkdocs serve"
+deploy = "mkdocs gh-deploy"
+
+[dependencies]
+mkdocs-material = ">=9.6.15,<10"
+mkdocs-jupyter = ">=0.25.1,<0.26"
+ipykernel = ">=6.29.5,<7"
