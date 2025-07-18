@@ -29,9 +29,9 @@ theme:
         name: Switch to light mode
   
 
-site_url: "https://255ribeiro.github.io/intro_Revit/"
-repo_url: "https://github.com/255ribeiro/intro_Revit/"
-repo_name: "255ribeiro/intro_Revit" 
+site_url: "https://255ribeiro.github.io/intro_ifc/"
+repo_url: "https://github.com/255ribeiro/intro_ifc/"
+repo_name: "255ribeiro/intro_ifc" 
 
 
 nav:
