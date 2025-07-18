@@ -1,11 +1,10 @@
 site_name: Introdução ao IFC
 use_directory_urls: false
 
-copyright: Copyright &copy; 2016 - 2021 Fernando Ferraz Ribeiro
+copyright: Copyright &copy; 2025 Fernando Ribeiro - Bruno Leão
 
 theme:
   features:
-
     #- navigation.sections
     - toc.integrate
     #- navigation.tabs
@@ -27,19 +26,14 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-  
+
 
 site_url: "https://255ribeiro.github.io/intro_ifc/"
 repo_url: "https://github.com/255ribeiro/intro_ifc/"
 repo_name: "255ribeiro/intro_ifc" 
 
-
 nav:
   - Home: index.md
- 
-  
-
-
 
 markdown_extensions:
   - admonition
