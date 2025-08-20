@@ -10,12 +10,15 @@ O link direto para baixar o instalador para Windows é:
 
 Após a instalação, o instalador mostrará uma tela com links para instalar:
 
-    * O BimCollab Zoom
-    * E os plugins para os softwares escolhidos:
-        * Revit,
-        * Navisworks,
-        * Autocad,
-        * Archicad.
+ * O BimCollab Zoom
+ * E os plugins para os softwares escolhidos.
+
+Instale os plugins para os softwares:
+
+  * Revit,
+  * Navisworks,
+  * Autocad,
+  * Archicad.
 
 ![alt text](./img/instalador_bimCollab.png)
 
