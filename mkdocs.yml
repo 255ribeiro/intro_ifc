@@ -34,6 +34,12 @@ repo_name: "255ribeiro/intro_ifc"
 
 nav:
   - Home: index.md
+  - Instalação das ferramentas:
+    - Bonsai BIM: ./install_tools/bonsai_install/bonsai_install.md
+    - project libre: ./install_tools/project_libre_install/pl_install.md
+    - BimCollab: ./install_tools/bimcollab_install/bimcollab_install.md
+    - Ifc Open Viewer: ./install_tools/open_ifc_viewer_install/open_ifc_viewer.md
+    - DDS Cad Vewer: ./install_tools/dds_cad_install/dds_cad_install.md
 
 markdown_extensions:
   - admonition
