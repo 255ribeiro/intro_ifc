@@ -40,6 +40,7 @@ nav:
     - BimCollab: ./install_tools/bimcollab_install/bimcollab_install.md
     - Ifc Open Viewer: ./install_tools/open_ifc_viewer_install/open_ifc_viewer.md
     - DDS Cad Vewer: ./install_tools/dds_cad_install/dds_cad_install.md
+    - KIT Tools: ./install_tools/kit_tools_install/kit_tools_install.md
 
 markdown_extensions:
   - admonition
