@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# Introdução ao IFC e aos padrões da BuildingSmart
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![BuildingSmart Logo](img/Retina_NEW_-BuildingSMART_RGB_International_colour.png)
 
-## Commands
+## Site oficial
+[https://www.buildingsmart.org/](https://www.buildingsmart.org/)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Site técnico
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[https://technical.buildingsmart.org/](https://technical.buildingsmart.org/)
