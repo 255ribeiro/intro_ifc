@@ -42,7 +42,7 @@ nav:
       - Ifc Open Viewer: ./install_tools/open_ifc_viewer_install/open_ifc_viewer.md
       - DDS Cad Viewer: ./install_tools/dds_cad_install/dds_cad_install.md
       - KIT Tools: ./install_tools/kit_tools_install/kit_tools_install.md
-   - Exemplos: ./exemplos/exemplos.md
+  - Exemplos: ./exemplos/exemplos.md
 
 markdown_extensions:
   - admonition
