@@ -25,3 +25,9 @@ Instale os plugins para os softwares:
 Caso não seja possível instalar pelo instalador, os programas tem que ser instalados manualmente, um a um, pela página de downloads do BimCollab:
 
 [https://helpcenter.bimcollab.com/portal/en/kb/articles/downloads#BIMcollab_ZOOM]([https://helpcenter.bimcollab.com/portal/en/kb/articles/downloads#BIMcollab_ZOOM)
+
+## Criando uma conta do BimCollab
+
+Acesse o link para criar uma conta:
+
+[https://my.bimcollab.com/createUserAccount](https://my.bimcollab.com/createUserAccount)

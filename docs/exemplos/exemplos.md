@@ -1,5 +1,9 @@
 # Exemplos
 
+[Página de downloads do BimCollab](https://helpcenter.bimcollab.com/pt-BR/articles/325099-projetos-e-modelos-de-exemplo)
+
+## Arquivos locais
+
 [Exemplos ifc BimCollab](bimCollab_samples.zip)
 
 [Exemplos RVT BimCollab](02_BIMcollab_Example_STR.zip)

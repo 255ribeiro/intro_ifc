@@ -57,7 +57,7 @@ nav:
               - Parâmetros compartilhados: ./exportacao/Revit/shared_param/shared_param.md
           - Georreferenciamento: ./exportacao/Revit/georref/georref.md
       - Archicad:
-          - IFC: docs/exportacao/Archicad/archicad_ifc.md
+          - IFC: ./exportacao/Archicad/archicad_ifc.md
   - Exemplos: ./exemplos/exemplos.md
 
 markdown_extensions:

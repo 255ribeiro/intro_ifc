@@ -1,6 +1,17 @@
 # Instalação do Bonsai BIM (antigo Blender BIM)
 
+O processo de instalação é simples e divide-se em duas partes:
+
+1. Primeiro instala-se o Blender
+2. Em seguida instala-se o BlenderBIM
+
+A seguir mostramos 3 alternativas para instalar o Blender e 1 de como instalar o BlenderBIM.
+
 ## Instale o Blender
+
+Existem alguns métodos para instalar o Blender.
+
+### Método 1 - baxado o instalador
 
 No site do [Blender](https://www.blender.org), na página de [downloads](https://www.blender.org/download/) e baixe o instalador.
 
@@ -8,7 +19,24 @@ No site do [Blender](https://www.blender.org), na página de [downloads](https:/
 
 Execute o instalador e siga as instruções.
 
+### Método 2 - Pela loja de aplicativos do seu sistema operacional
+
+Abra a loja de aplicativos e digite Blender na barra de consulta
+
+![alt text](img/win_store_search.png)
+
+Na loja de aplicações do Windows várias versões do Blender vão aparecer. A última versão do programa geralmente é a que **não** tem nenhum número de versão.
+
+
+
+![alt text](img/win_store_install.png)
+
+
+### Método 3 - baixando o pacote portátil do Blender
+
 Caso não tenha permissão para instalações de programas na sua máquina, clique na seta de dropdown para acessar outas versões do Blender e procure a versão portátil. e procure a versão potable para o seu sistema operacional.
+
+Aguarde o download terminar, descompacte o arquivo baixado e procure o executável blender.exe e rode. Por esse método, é possível rodar o Blender **até** em um pendrive.
 
 ![alt text](./img/BB_install_portable.png)
 
