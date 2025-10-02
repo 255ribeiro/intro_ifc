@@ -43,6 +43,23 @@ nav:
       - DDS Cad Viewer: ./install_tools/dds_cad_install/dds_cad_install.md
       - KIT Tools: ./install_tools/kit_tools_install/kit_tools_install.md
   - Exemplos: ./exemplos/exemplos.md
+  - Exportação IFC:
+    - Revit:
+      - IFC:
+        - Atualizar exportador IFC do Revit: ./exportacao/Revit/IFC/revit_IFC_install.md
+        - Dados do projeto: ./exportacao/Revit/IFC/ifc_project_data.md
+        - Configuração básica do exportador IFC do Revit: ./exportacao/Revit/IFC/Revit_2024_config_basica/config_exporter.md
+      - Informações e parâmetros:
+       - Organizando as pastas do projeto: ./exportacao/Revit/projeto_revit/projeto.md
+       - Informações do Projeto: ./exportacao/Revit/project_info.md
+       - Planilhas: ./exportacao/Revit/planilhas/planilhas.md
+       - Tipos de parâmetros: ./exportacao/Revit/parametros.md
+       - Parâmetros de familia: ./exportacao/Revit/param_de_familia.md
+       - Parâmetros compartilhados: ./exportacao/Revit/shared_param/shared_param.md
+      - Georreferenciamento: ./exportacao/Revit/georref/georref.md
+    - Archicad:
+      - IFC: docs/exportacao/Archicad/archicad_ifc.md
+
 
 markdown_extensions:
   - admonition
