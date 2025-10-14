@@ -2,82 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/index.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/IFC/ifc_intro.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/intro_ifc/IFC/IfcWall/IfcWall.html</loc>
+         <lastmod>2025-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/intro_ifc/IFC/ifcCovering/IfcCovering.html</loc>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/exemplos/exemplos.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/exportacao/Archicad/archicad_ifc.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/exportacao/Revit/param_de_familia.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/exportacao/Revit/parametros.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/exportacao/Revit/project_info.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/exportacao/Revit/IFC/ifc_project_data.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/exportacao/Revit/IFC/revit_IFC_install.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/exportacao/Revit/IFC/Revit_2024_config_basica/config_exporter.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/exportacao/Revit/georref/georref.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/exportacao/Revit/planilhas/planilhas.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/exportacao/Revit/projeto_revit/projeto.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/exportacao/Revit/shared_param/shared_param.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/install_tools/bimcollab_install/bimcollab_install.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/install_tools/bonsai_install/bonsai_install.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/install_tools/dds_cad_install/dds_cad_install.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/install_tools/kit_tools_install/kit_tools_install.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/install_tools/open_ifc_viewer_install/open_ifc_viewer.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/intro_ifc/install_tools/project_libre_install/pl_install.html</loc>
-         <lastmod>2025-10-09</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
 </urlset>
