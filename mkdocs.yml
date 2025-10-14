@@ -59,7 +59,7 @@ nav:
       - Archicad:
           - IFC: ./exportacao/Archicad/archicad_ifc.md
       - IFC:
-        - Introdção: ./IFC/ifc_intro.md
+        - Introdução: ./IFC/ifc_intro.md
         - IfcWall: ./IFC/IfcWall/IfcWall.md
         - IfcCovering: ./IFC/ifcCovering/IfcCovering.md
   - Exemplos: ./exemplos/exemplos.md
