@@ -19,7 +19,7 @@ Informações técnicas sobre os padrões mantidos pela instituição:<br>
 
  
 <h3>Principais padrões da building SMART</h3>
-<ul style="font-size: 2rem;">
+<ul style="font-size: 1rem;">
 <li>Um padrão de dados específico para a industria da construção - Industry Foundation Classes
        [IFC]</li>
 <li>Uma metodologia para definir e documentar processos de negócio e requisitos de dados -
@@ -33,12 +33,12 @@ Informações técnicas sobre os padrões mantidos pela instituição:<br>
  
 <h3>IFC e OpenBIM</h3>
 
-<p style="font-size: 2rem;">Para tornar o BIM uma plataforma aberta, em 1994 cria-se o Building
+<p style="font-size: 1rem;">Para tornar o BIM uma plataforma aberta, em 1994 cria-se o Building
       Smart, grupo técnico responsável pelo desenvolvimento do IFC (Industry Foundation Classes),
       em 1997, protocolo de organização de dados de arquitetura aberta, uma linguagem comum,
       utilizada para a troca entre modelos de diversos fabricantes;</p>
 
-<p style="font-size: 2rem;">No entanto, como existem diversas ferramentas de criação com
+<p style="font-size: 1rem;">No entanto, como existem diversas ferramentas de criação com
       diferentes mecanismos de se criar a geometria e dados associados, no processo de exportação
       para IFC, esse mapeamento pode não ser bem identificado. Desta forma, pode ocorrer perda de
       informação.</p>
