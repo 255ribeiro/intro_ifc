@@ -2,6 +2,10 @@
 
 ## Configurando Exportador IFC no Revit
 
+### Baixando configurações de exportação
+
+[IFC Configuration - MIC_2025_V01](<IFC Configuration - MIC_2025_V01.json>)
+
 ### Configurações básicas:
 
 ![Alt text](ifc_export_01.png)
