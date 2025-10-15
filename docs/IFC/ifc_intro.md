@@ -1,13 +1,10 @@
 # Introdução ao padrão IFC
 
 <h1>Building SMART</h1>
-   
 
-
- 
 buildingSMART é a entidade mundial que impulsiona a transformação digital da indústria de ativos construídos.
 O buildingSMART se compromete a entregar melhorias pela criação e adoção de padrões e soluções abertos e internacionais para infraestruturas e edifícios.
- 
+
 <h3>Links da buildingSMART</h3>
 
 Informações gerias sobre a instituição: <br>
@@ -17,7 +14,6 @@ Informações técnicas sobre os padrões mantidos pela instituição:<br>
 <a target="_blank" href="https://technical.buildingsmart.org">https://technical.buildingsmart.org
      </a>
 
- 
 <h3>Principais padrões da building SMART</h3>
 <ul style="font-size: 1rem;">
 <li>Um padrão de dados específico para a industria da construção - Industry Foundation Classes
