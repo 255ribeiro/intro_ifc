@@ -8,8 +8,11 @@ O buildingSMART se compromete a entregar melhorias pela criação e adoção de 
 <h3>Links da buildingSMART</h3>
 
 Informações gerias sobre a instituição:
+<br>
 <a target="_blank" href="https://www.buildingsmart.org/">https://www.buildingsmart.org </a>
+<br>
 Informações técnicas sobre os padrões mantidos pela instituição:
+<br>
 <a target="_blank" href="https://technical.buildingsmart.org">https://technical.buildingsmart.org
      </a>
 
