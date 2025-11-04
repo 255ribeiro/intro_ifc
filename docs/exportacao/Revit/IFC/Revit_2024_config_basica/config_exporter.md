@@ -14,8 +14,6 @@
 
 Exportar os arquivos individuais utilizando a configuração abaixo:
 
-
-
 ![alt text](export_v2_002.png)
 
 ![alt text](export_v2_003.png)
@@ -25,8 +23,6 @@ Exportar os arquivos individuais utilizando a configuração abaixo:
 #### Exportação BlenderBIM:
 
 Exportar o arquivo federado com todos os arquivos linkados utilizando a configuração abaixo
-
-
 
 ![alt text](export_bbim_002.png)
 
