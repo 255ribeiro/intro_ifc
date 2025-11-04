@@ -10,12 +10,22 @@
 
 ### Configurações básicas:
 
-![Alt text](ifc_export_01.png)
+#### Exportação de arquivos individuais:
 
-![Alt text](IFC_export_02.png)
+Exportar os arquivos individuais utilizando a configuração abaixo:
 
-![Alt text](Ifc_export_03.png)
+![alt text](export_v2_001.png)
 
-![Alt text](Ifc_export_04.png)
+![alt text](export_v2_002.png)
 
-![Alt text](Ifc_export_05.png)
+![alt text](export_v2_003.png)
+
+#### Exportação BlenderBIM:
+
+Exportar o arquivo federado com todos os arquivos linkados utilizando a configuração abaixo
+
+![alt text](export_bbim_001.png)
+
+![alt text](export_bbim_002.png)
+
+![alt text](export_bbim_003.png)
