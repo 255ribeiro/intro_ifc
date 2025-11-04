@@ -4,7 +4,9 @@
 
 ### Baixando configurações de exportação
 
-[IFC Configuration - MIC_2025_V01](<IFC Configuration - MIC_2025_V01.json>)
+[IFC Configuration - MIC_2025_V02.json](<IFC Configuration - MIC_2025_V02.json>)
+
+[IFC Configuration - MIC_2025_BONSAIBIM_V01.json](<IFC Configuration - MIC_2025_BONSAIBIM_V01.json>)
 
 ### Configurações básicas:
 

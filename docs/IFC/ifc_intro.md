@@ -47,4 +47,18 @@ Informações técnicas sobre os padrões mantidos pela instituição:
       href="https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/">IFC
       Schema Specifications</a>
 
-  
+## Relações entre elementos de um arquivo IFC
+
+[https://biblus.accasoftware.com/en/ifc-schema-the-ifcrelationship-concept/](https://biblus.accasoftware.com/en/ifc-schema-the-ifcrelationship-concept/)
+
+## Definições de objetos em um arquivo IFC
+
+[https://biblus.accasoftware.com/en/ifc-file-structure-the-ifcobjectdefinition/](https://biblus.accasoftware.com/en/ifc-file-structure-the-ifcobjectdefinition/)
+
+## IFC e classificação
+
+[https://biblus.accasoftware.com/en/ifc-and-classification-systems-in-the-construction-industry/](https://biblus.accasoftware.com/en/ifc-and-classification-systems-in-the-construction-industry/)
+
+## IFC 4x3 estrutura espacial
+
+[https://bimcorner.com/mastering-spatial-elements-in-ifc-4-3/](https://bimcorner.com/mastering-spatial-elements-in-ifc-4-3/)
