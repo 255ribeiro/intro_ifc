@@ -63,7 +63,7 @@ nav:
     - IfcWall: ./IFC/IfcWall/IfcWall.md
     - IfcCovering: ./IFC/ifcCovering/IfcCovering.md
   - IDS:
-    - IDS Editor Online: ./IDS/ids_editor
+    - IDS Editor Online: ./IDS/ids_editor.md
 
   - Exemplos: ./exemplos/exemplos.md
   - Exercícios:
