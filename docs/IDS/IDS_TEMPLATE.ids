@@ -1,0 +1,30 @@
+<ids xmlns="http://standards.buildingsmart.org/IDS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/0.9.7/ids.xsd">
+    <info>
+        <title>Untitled</title>
+        <version>1.0</version>
+    </info>
+    <specifications>
+        <specification name="specification 1" ifcVersion="IFC4" description="teste">
+            <applicability minOccurs="1" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property dataType="IFCLENGTHMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Name" cardinality="required">
+                    <propertySet>
+                        <simpleValue>Qto_WallBaseQuantities</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>Width</simpleValue>
+                    </baseName>
+                    <value>
+                        <simpleValue>0.20</simpleValue>
+                    </value>
+                </property>
+            </requirements>
+        </specification>
+    </specifications>
+</ids>
