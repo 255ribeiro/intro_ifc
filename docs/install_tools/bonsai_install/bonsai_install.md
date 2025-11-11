@@ -64,8 +64,8 @@ O processo de habilitação e acesso às extensões disponíveis online leva alg
 
 !!! Error "Em caso de erro:"
 
-    1. Verifique a sua conexção com a internet.
-    2. Na janela ```Get Extensions```, clique no botão dropdown na parte superior esquerda da janela e escolha a opção ```Refresh Remote```.
+    1. Verifique a sua conexão com a internet.
+    2. Na janela ```Get Extensions```, clique no botão dropdown na parte superior direita da janela e escolha a opção ```Refresh Remote```.
 
     obs: pode ser necessário reiniciar o Blender para que o processo funcione.
 

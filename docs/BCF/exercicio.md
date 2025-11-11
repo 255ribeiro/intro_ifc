@@ -16,4 +16,4 @@
 8. o prazo de uma semana deve ser atribuído para essas mudanças.
 9. após a realização das mudanças, os arquivos devem ser exportados novamente para IFC substituindo as versões anteriores.
 10. após a verificação das mudanças, os arquivos BCF devem ser marcados como resolvidos (resolved).
-11. ao final, todos os arquivos devem ser compactados e enviados em entrega aberta no ambiente virtual da diciplina.
+11. ao final, todos os arquivos devem ser compactados e enviados em entrega aberta no ambiente virtual da disciplina.
