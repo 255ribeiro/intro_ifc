@@ -20,7 +20,7 @@
 
 ## O que é o BEP
 
-O **BIM Execution Plan (BEP)** é um documento formal que define como os processos BIM serão conduzidos em um projeto específico.[^1] Ele estabelece:
+O **BIM Execution Plan (BEP)**[^bd-bep] é um documento formal que define como os processos BIM serão conduzidos em um projeto específico.[^1] Ele estabelece:
 
 - o **escopo de uso do BIM** (quais BIM Uses serão aplicados);
 - os **papéis e responsabilidades** de cada membro da equipe;
@@ -39,71 +39,92 @@ Em síntese, o BEP responde à pergunta: *"Como o BIM será implementado com suc
 
 ## Relação com o EIR
 
-O BEP é preparado como **resposta ao EIR** (Employer's Information Requirements). O contratante define suas expectativas de informação; a equipe de projeto responde descrevendo como entregará essas expectativas.
+O BEP é preparado como **resposta ao EIR**[^bd-eir] (Employer's Information Requirements — Requisitos de Informação do Contratante). O contratante define suas expectativas de informação; a equipe de projeto responde descrevendo como entregará essas expectativas.
 
 ```mermaid
-flowchart LR
-    A([Contratante]) -->|publica| B[EIR\nEmployer's Information\nRequirements]
-    B -->|fundamenta| C[BEP\nBIM Execution Plan]
+%%{init: {"themeVariables": {"fontSize": "16px"}}}%%
+flowchart TD
+    A([Contratante]) -->|publica| B["EIR\nEmployer's Information\nRequirements"]
+    B -->|fundamenta| C["BEP\nBIM Execution Plan"]
     C -->|responde a| B
-    C -->|governa| D[Execução BIM\ndo Projeto]
-    D -->|gera| E[Entregáveis\nIFC · COBie · BCF]
-    E -->|validados contra| F[IDS\nInformation Delivery\nSpecification]
+    C -->|governa| D["Execucao BIM\ndo Projeto"]
+    D -->|gera| E["Entregaveis\nIFC · COBie · BCF"]
+    E -->|validados contra| F["IDS\nInformation Delivery\nSpecification"]
     F -->|derivado do| B
 ```
 
 ### Ecossistema de documentos relacionados
 
-| Sigla | Nome | Elaborado por |
-|-------|------|--------------|
-| **OIR** | Organizational Information Requirements | Contratante (nível organizacional) |
-| **PIR** | Project Information Requirements | Contratante (nível de projeto) |
-| **EIR** | Employer's Information Requirements | Contratante (para licitação) |
-| **BEP** | BIM Execution Plan | Equipe de entrega (resposta ao EIR) |
-| **MIDP** | Master Information Delivery Plan | Líder da equipe |
-| **TIDP** | Task Information Delivery Plan | Cada disciplina/empresa |
-| **IDS** | Information Delivery Specification | Contratante ou BIM Manager |
+Os documentos abaixo formam o contexto informacional em que o BEP está inserido, conforme a hierarquia da **ISO 19650**.[^5]
+
+| Sigla | Nome completo | Definição | Elaborado por |
+|-------|--------------|-----------|--------------|
+| **OIR**[^bd-oir] | Organizational Information Requirements | Requisitos de informação definidos no nível da organização contratante, estabelecendo as necessidades permanentes de dados para suportar seus processos de negócio e gestão de ativos ao longo do tempo. | Contratante (nível organizacional) |
+| **PIR**[^bd-pir] | Project Information Requirements | Requisitos de informação derivados do OIR e específicos para um projeto, definindo quais informações são necessárias para apoiar as decisões ao longo do ciclo de vida daquele empreendimento. | Contratante (nível de projeto) |
+| **EIR**[^bd-eir] | Employer's Information Requirements | Requisitos de informação que o contratante comunica às equipes durante a licitação/contratação. É o documento que o BEP deve responder diretamente, detalhando como cada requisito será atendido. | Contratante (para licitação/contratação) |
+| **BEP**[^bd-bep] | BIM Execution Plan | Plano que descreve como a equipe de entrega vai gerenciar e produzir a informação do projeto — respondendo ao EIR e detalhando processos, papéis, padrões e tecnologias adotados. | Equipe de entrega (resposta ao EIR) |
+| **MIDP**[^bd-midp] | Master Information Delivery Plan | Plano consolidado de entrega de informação de todo o projeto. Lista todos os contêineres de informação a serem produzidos, por quem, em que formato e em que prazo. Integra os TIDPs de cada disciplina. | Líder da equipe de entrega |
+| **TIDP**[^bd-tidp] | Task Information Delivery Plan | Plano de entrega de informação para uma tarefa ou disciplina específica. Detalha os contêineres de informação, responsáveis, datas e formatos de uma parte da equipe. Os TIDPs compõem o MIDP. | Cada disciplina / empresa contratada |
+| **IDS**[^bd-ids] | Information Delivery Specification | Arquivo XML que define, de forma legível por máquina, os requisitos de informação que os modelos IFC devem atender — permitindo validação automatizada de conformidade contra o EIR. | Contratante ou BIM Manager |
 
 ---
 
 ## Tipos de BEP
 
-A ISO 19650-2 define duas iterações principais do BEP ao longo do processo de contratação.[^5]
+A ISO 19650-2 define duas iterações principais do BEP ao longo do processo de licitação/contratação e execução do projeto.[^5]
+
+> **Siglas de fases do projeto usadas neste documento:** LP = Levantamento Preliminar (Estudo Preliminar) · AP = Anteprojeto · EP = Projeto Executivo
 
 ```mermaid
 timeline
-    title Evolução do BEP ao longo do projeto
-    section Licitação
-        Publicação do EIR : Contratante define requisitos
-        Pre-appointment BEP : Equipes concorrentes elaboram proposta BIM
-    section Contratação
-        Avaliação dos BEPs : Contratante seleciona equipe
-        Delivery Team BEP  : Equipe contratada confirma e detalha o BEP
-    section Execução
-        BEP Fase LP/AP  : Revisão e atualização por fase
-        BEP Fase EP     : Revisão e atualização por fase
-        BEP Obras       : Revisão e atualização por fase
+    title Evolucao do BEP ao longo do projeto
+    section Licitacao / Contratacao
+        Publicacao do EIR : Contratante define requisitos
+        BEP pre-contrato  : Equipes concorrentes elaboram proposta BIM
+        Avaliacao e selecao : Contratante avalia os BEPs e seleciona equipe
+        BEP pos-contrato  : Equipe contratada confirma e detalha o BEP
+    section Execucao
+        Fase LP / AP      : Revisao e atualizacao do BEP por fase
+        Fase EP           : Revisao e atualizacao do BEP por fase
+        Fase de Obras     : Revisao e atualizacao do BEP por fase
     section Entrega
-        Handover BEP    : Atualização final para FM/operação
+        Handover          : Atualizacao final do BEP para FM / operacao
 ```
 
-### Pré-appointment BEP
+### BEP pré-contrato (*pre-appointment BEP*)
 
-Elaborado pelo potencial líder da equipe de entrega durante a licitação, como parte da proposta técnica.[^6]
+O **BEP pré-contrato** é elaborado pelo potencial líder da equipe de entrega durante o processo de licitação/contratação, como parte integrante da proposta técnica submetida ao contratante.[^6]
 
-- Propõe como os requisitos do EIR serão atendidos, **sem garantia de contratação**
-- Permite ao contratante avaliar a **capacidade técnica BIM** dos concorrentes
-- Inclui visão geral de abordagem, equipe proposta e metodologia
-- Referenciado na **ISO 19650-2, Cláusula 5.3.2**
+Trata-se de um documento **propositivo**: ele descreve a intenção e a capacidade da equipe candidata de atender aos requisitos do EIR[^bd-eir], sem que haja ainda garantia de contratação. Por isso, pode conter aproximações e premissas que serão refinadas caso a equipe seja selecionada.
 
-### Delivery Team BEP
+O BEP pré-contrato tipicamente abrange:
 
-Confirmado após a contratação, desenvolvido colaborativamente pela equipe completa.[^6]
+- abordagem geral para a gestão da informação no projeto;
+- equipe BIM proposta, com papéis e empresas envolvidas;
+- visão geral dos BIM Uses pretendidos e dos objetivos a atingir;
+- proposta de plataforma CDE[^bd-cde] e ferramentas de software;
+- declaração de competências e experiências anteriores relevantes.
 
-- É o **documento de referência operacional** durante toda a execução
-- Detalha todos os procedimentos, padrões e responsabilidades com base no contrato
-- Incorpora feedbacks do contratante ao pré-BEP
-- Referenciado na **ISO 19650-2, Cláusula 5.4.1**
+Ao permitir que o contratante avalie a **maturidade BIM** dos concorrentes antes da seleção, o BEP pré-contrato é um instrumento essencial de due diligence técnica. Referenciado na **ISO 19650-2, Cláusula 5.3.2**.[^5]
+
+### BEP pós-contrato (*delivery team BEP*)
+
+O **BEP pós-contrato** é confirmado após a assinatura do contrato, desenvolvido colaborativamente pelo líder da equipe de entrega em conjunto com todas as partes contratadas.[^6]
+
+É o **documento operacional de referência** durante toda a execução do projeto. Ele evolui a partir do BEP pré-contrato, incorporando os feedbacks e exigências do contratante e detalhando todos os aspectos que na fase de proposta eram apenas esboçados.
+
+O BEP pós-contrato deve cobrir integralmente:
+
+- descrição detalhada de todos os BIM Uses com objetivos mensuráveis;
+- organograma BIM completo e matriz de responsabilidades (RACI);
+- MIDP[^bd-midp] e TIDPs[^bd-tidp] por disciplina, com datas, formatos e níveis de informação;
+- padrões e convenções de modelagem, nomenclatura e gestão de arquivos;
+- configuração e fluxo de status do CDE[^bd-cde] adotado;
+- processos de coordenação, QA/QC e validação contra o IDS[^bd-ids];
+- infraestrutura de software e formatos de intercâmbio (IFC, BCF);
+- procedimentos de entrega final e handover para FM/operação.
+
+O BEP pós-contrato deve ser **aprovado formalmente pelo contratante** e publicado no CDE antes do início da produção de informação. Referenciado na **ISO 19650-2, Cláusula 5.4.1**.[^5]
 
 ---
 
@@ -114,27 +135,27 @@ Com base na ISO 19650, Penn State BEP Guide e NBIMS-US, as seções essenciais d
 ```mermaid
 mindmap
   root((BEP))
-    Identificação
-      Capa e controle de revisões
-      Informações do projeto
-    Estratégia BIM
+    Identificacao
+      Capa e controle de revisoes
+      Informacoes do projeto
+    Estrategia BIM
       Objetivos e BIM Uses
-      Níveis de informação LOD/LOI
-      Estratégia de entrega MIDP/TIDP
+      Niveis de informacao LOD/LOI
+      Estrategia de entrega MIDP/TIDP
     Pessoas
       Equipe e responsabilidades
       Matriz RACI
     Processos
-      Processos de colaboração
-      Gestão de qualidade QA/QC
-      Segurança da informação
+      Processos de colaboracao
+      Gestao de qualidade QA/QC
+      Seguranca da informacao
     Tecnologia
       Infraestrutura de software
       Common Data Environment CDE
-      Padrões e convenções
+      Padroes e convencoes
     Entrega
       Handover e FM
-      Apêndices e templates
+      Apendices e templates
 ```
 
 A NATSPEC estrutura as seções do BEP em três aspectos conforme a **ISO 19650.1, Seção 5**:[^10]
@@ -179,7 +200,7 @@ Identifica o documento e registra seu histórico.
 | Nome do projeto | [Nome oficial] |
 | Localização | [Endereço completo] |
 | Cliente / Contratante | [Razão social + CNPJ] |
-| Fases cobertas | [EP / LP / AP / Obras / Operação] |
+| Fases cobertas | LP (Levantamento Preliminar) / AP (Anteprojeto) / EP (Projeto Executivo) / Obras / Operação |
 | Disciplinas | [ARQ / EST / HID / ELT / AR-COND / ...] |
 | Versão IFC adotada | [IFC 4 / IFC 4.3] |
 | Norma de referência | ISO 19650-2:2018 / ABNT NBR ISO 19650 |
@@ -191,7 +212,7 @@ Identifica o documento e registra seu histórico.
 Lista os BIM Uses definidos para o projeto, com objetivos mensuráveis para cada um.[^1]
 
 | # | BIM Use | Fase | Objetivo mensurável | Responsável |
-|---|---------|------|--------------------:|-------------|
+|---|---------|------|---------------------|-------------|
 | 01 | Modelagem de projeto | LP → EP | Modelo único de referência por disciplina | BIM Author |
 | 02 | Coordenação 3D / Clash detection | AP → EP | Zero clashes hard antes do início da obra | BIM Coordinator |
 | 03 | Quantitativos e orçamento | EP | Extração automática com desvio ≤ 5% | Orçamentista |
@@ -205,10 +226,10 @@ Lista os BIM Uses definidos para o projeto, com objetivos mensuráveis para cada
 
 ```mermaid
 graph TD
-    A[BIM Manager\nLíder da Equipe] --> B[BIM Coordinator\nArquitetura]
+    A[BIM Manager\nLider da Equipe] --> B[BIM Coordinator\nArquitetura]
     A --> C[BIM Coordinator\nEstrutura]
     A --> D[BIM Coordinator\nMEP]
-    A --> E[Gestor de\nInformação / CDE]
+    A --> E[Gestor de\nInformacao / CDE]
     B --> F[BIM Author ARQ\nEmpresa A]
     C --> G[BIM Author EST\nEmpresa B]
     D --> H[BIM Author HID\nEmpresa C]
@@ -232,10 +253,10 @@ graph TD
 
 ### 5.0 Estratégia de Entrega de Informação
 
-O **MIDP** (Master Information Delivery Plan) consolida todos os entregáveis de informação do projeto. Cada disciplina elabora seu **TIDP** (Task Information Delivery Plan).[^8]
+O **MIDP**[^bd-midp] (Master Information Delivery Plan) consolida todos os entregáveis de informação do projeto. Cada disciplina elabora seu **TIDP**[^bd-tidp] (Task Information Delivery Plan).[^8]
 
 | Disciplina | Marco de entrega | Data prevista | Formato nativo | Intercâmbio | LOD | Responsável |
-|------------|-----------------|:-------------:|:----------:|:---:|:---:|-------------|
+|------------|-----------------|:-------------:|:--------------:|:-----------:|:---:|-------------|
 | ARQ | Entrega EP | dd/mm/aaaa | .rvt | IFC 4 | 350 | BIM Coord. ARQ |
 | EST | Entrega EP | dd/mm/aaaa | .tekla | IFC 4 | 350 | BIM Coord. EST |
 | HID | Entrega EP | dd/mm/aaaa | .rvt MEP | IFC 4 | 300 | BIM Coord. MEP |
@@ -292,27 +313,32 @@ O **MIDP** (Master Information Delivery Plan) consolida todos os entregáveis de
 
 ---
 
-### 7.0 Common Data Environment (CDE)
+### 7.0 Common Data Environment (CDE)[^bd-cde]
 
 ```mermaid
-stateDiagram-v2
-    [*] --> WIP : Criação do arquivo
-    WIP --> Shared : Equipe autora compartilha para revisão
-    Shared --> WIP : Revisão solicita correções
-    Shared --> Published : BIM Manager aprova
-    Published --> Archived : Nova versão publicada
-    Published --> Void : Documento cancelado
-    Archived --> [*]
-    Void --> [*]
+%%{init: {"themeVariables": {"fontSize": "15px"}}}%%
+flowchart TD
+    ST([Inicio]) --> WIP
 
-    note right of WIP
-        Acesso: somente a equipe autora
-        Localização: pasta da disciplina
-    end note
-    note right of Published
-        Acesso: toda a equipe
-        Fonte de verdade do projeto
-    end note
+    WIP["WIP · Work In Progress\nEm elaboracao\nAcesso: equipe autora"]
+
+    WIP -->|"Autora publica\npara revisao"| SH
+
+    SH["Shared\nCompartilhado\npara revisao interna"]
+
+    SH -->|"Revisao solicita\ncorrecoes"| WIP
+    SH -->|"BIM Manager\naprova"| PUB
+
+    PUB["Published\nAprovado para uso\nFonte de verdade do projeto"]
+
+    PUB -->|"Nova versao\npublicada"| ARC
+    PUB -->|"Documento\ncancelado"| VOI
+
+    ARC["Archived\nVersao arquivada"]
+    VOI["Void\nDocumento obsoleto"]
+
+    ARC --> FIM([Fim])
+    VOI --> FIM
 ```
 
 | Campo | Detalhamento |
@@ -343,15 +369,15 @@ stateDiagram-v2
 
 ```mermaid
 flowchart TD
-    A[BIM Author\nconclui modelagem] --> B{Verificação\nvisual}
-    B -->|Aprovado| C{Verificação\nde consistência\nIfcOpenShell / Solibri}
+    A[BIM Author\nconclui modelagem] --> B{Verificacao\nvisual}
+    B -->|Aprovado| C{Verificacao\nde consistencia\nIfcOpenShell / Solibri}
     B -->|Reprovado| A
-    C -->|Aprovado| D{Verificação\nde propriedades\nIDS}
+    C -->|Aprovado| D{Verificacao\nde propriedades\nIDS}
     C -->|Reprovado| A
-    D -->|100% PASS| E[Status: Shared\nno CDE]
+    D -->|100pct PASS| E[Status: Shared\nno CDE]
     D -->|FAIL| A
     E --> F{Clash\ndetection}
-    F -->|Zero hard clashes| G[Aprovação\nBIM Manager]
+    F -->|Zero hard clashes| G[Aprovacao\nBIM Manager]
     F -->|Clashes encontrados| H[Issue BCF\ncriada]
     H --> A
     G --> I[Status: Published\nno CDE]
@@ -371,7 +397,7 @@ flowchart TD
 ### 10.0 Infraestrutura Tecnológica
 
 | Disciplina | Software | Versão | Formato nativo | Intercâmbio |
-|-----------|---------|:------:|:----------:|:----------:|
+|-----------|---------|:------:|:--------------:|:-----------:|
 | Arquitetura | Autodesk Revit | 2025 | .rvt | IFC 4 |
 | Estruturas | Tekla Structures | 2024 | .tekla | IFC 4 |
 | MEP (instalações) | Autodesk Revit MEP | 2025 | .rvt | IFC 4 |
@@ -424,37 +450,40 @@ flowchart TD
 
 ## BEP no contexto da ISO 19650
 
+A **ISO 19650-2:2018**[^5] é a norma internacional que regula a gestão da informação BIM durante a fase de entrega de ativos. Ela define explicitamente quando e como o BEP deve ser elaborado, aprovado e atualizado — estruturando o processo em torno de dois papéis principais: o **Appointing Party** (parte contratante) e o **Lead Appointed Party** (líder da equipe contratada).
+
 ```mermaid
 sequenceDiagram
     autonumber
-    actor CP as Contratante<br/>(Appointing Party)
-    actor LE as Líder da Equipe<br/>(Lead Appointed Party)
-    actor EQ as Equipes<br/>(Appointed Parties)
+    actor CP as Contratante
+    actor LE as Lider da Equipe
+    actor EQ as Equipes
 
-    CP->>LE: Publica EIR + documentos de licitação
-    LE->>CP: Entrega Pré-appointment BEP (ISO 19650-2 §5.3.2)
+    CP->>LE: Publica EIR + documentos de licitacao
+    LE->>CP: Entrega BEP pre-contrato (ISO 19650-2 §5.3.2)
     CP->>LE: Avalia e seleciona equipe
-    CP->>LE: Confirmação da contratação
-    LE->>EQ: Solicita contribuição para Delivery Team BEP
-    EQ->>LE: Entregam TIDPs e informações de processo
-    LE->>CP: Entrega Delivery Team BEP (ISO 19650-2 §5.4.1)
-    CP->>LE: Aprovação formal do BEP
-    Note over LE,EQ: Execução do projeto — BEP é referência operacional
-    LE->>CP: Revisão do BEP a cada nova fase / marco
-    CP->>LE: Aprovação das revisões
+    CP->>LE: Confirmacao da contratacao
+    LE->>EQ: Solicita contribuicao para BEP pos-contrato
+    EQ->>LE: Entregam TIDPs e informacoes de processo
+    LE->>CP: Entrega BEP pos-contrato (ISO 19650-2 §5.4.1)
+    CP->>LE: Aprovacao formal do BEP
+    Note over LE,EQ: Execucao - BEP e referencia operacional
+    LE->>CP: Revisao do BEP a cada nova fase
+    CP->>LE: Aprovacao das revisoes
 ```
 
 ### Hierarquia de documentos na ISO 19650
 
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {"fontSize": "15px", "lineColor": "#999999", "primaryColor": "#2a2f3e", "primaryTextColor": "#e8eaf0", "primaryBorderColor": "#666666", "edgeLabelBackground": "#2a2f3e", "tertiaryColor": "#2a2f3e"}}}%%
 graph TD
-    OIR["OIR\nOrganizational Information\nRequirements\n(nível organizacional)"]
-    PIR["PIR\nProject Information\nRequirements\n(nível de projeto)"]
-    EIR["EIR\nEmployer's Information\nRequirements\n(licitação)"]
-    preBEP["Pre-appointment BEP\n(proposta — pré-contrato)"]
-    dtBEP["Delivery Team BEP\n(pós-contrato — documento operacional)"]
+    OIR["OIR\nOrganizational Information Requirements\nnivel organizacional"]
+    PIR["PIR\nProject Information Requirements\nnivel de projeto"]
+    EIR["EIR\nEmployer's Information Requirements\nlicitacao / contratacao"]
+    preBEP["BEP pre-contrato\npre-appointment BEP\nfase de licitacao / proposta"]
+    dtBEP["BEP pos-contrato\ndelivery team BEP\ndocumento operacional"]
     MIDP["MIDP\nMaster Information\nDelivery Plan"]
-    TIDPs["TIDPs\nTask Information\nDelivery Plans\n(por disciplina)"]
+    TIDPs["TIDPs\nTask Information Delivery Plans\npor disciplina"]
     IDS["IDS\nInformation Delivery\nSpecification"]
 
     OIR --> PIR --> EIR
@@ -464,6 +493,9 @@ graph TD
     MIDP --> TIDPs
     EIR -.->|"gera"| IDS
     IDS -.->|"referenciado em"| dtBEP
+
+    linkStyle 0,1,2,3,4 stroke:#999999,stroke-width:2px
+    linkStyle 5,6 stroke:#999999,stroke-width:2px,stroke-dasharray:5 5
 ```
 
 ---
@@ -471,23 +503,24 @@ graph TD
 ## Fluxo de elaboração
 
 ```mermaid
+%%{init: {"themeVariables": {"fontSize": "14px"}}}%%
 flowchart TD
-    S1["📋 1. Revisar o EIR e objetivos\nAnalisar requisitos mandatórios e opcionais\nCompreender objetivos estratégicos do cliente"]
-    S2["🎯 2. Definir os BIM Uses\nSelecionar usos BIM aplicáveis\nDefinir objetivo mensurável para cada um"]
-    S3["👥 3. Mapear equipe e responsabilidades\nIdentificar todos os participantes\nCriar organograma BIM e matriz RACI"]
-    S4["📐 4. Definir padrões, convenções e CDE\nAcordar nomenclatura, coordenadas, templates\nSelecionar e configurar a plataforma CDE"]
-    S5["📅 5. Elaborar MIDP e TIDPs\nConsolidar entregáveis, datas, formatos e LOD\nCada disciplina elabora seu TIDP"]
-    S6["✅ 6. Definir processos de QA/QC e colaboração\nDocumentar rotinas de verificação e clash\nDefinir fluxo de aprovação e BCF"]
-    S7["📤 7. Revisar, aprovar e publicar\nCompartilhar rascunho com todas as partes\nPublicar no CDE com status aprovado"]
-    S8["🔄 8. Manter e atualizar\nRevisar a cada nova fase ou mudança relevante\nRegistrar todas as revisões no histórico"]
+    S1["1. Revisar EIR e objetivos\nLevantar requisitos mandatorios\ne objetivos estrategicos"]
+    S2["2. Definir BIM Uses\nSelecionar usos aplicaveis\nDefinir meta mensuravel"]
+    S3["3. Mapear equipe\nIdentificar participantes\nOrganograma e RACI"]
+    S4["4. Padroes e CDE\nNomenclatura, coordenadas\nPlataforma e templates"]
+    S5["5. Elaborar MIDP e TIDPs\nEntregaveis, datas e LOD\npor disciplina"]
+    S6["6. Definir QA/QC\nRotinas de verificacao\nFluxo de aprovacao"]
+    S7["7. Revisar e publicar\nFeedback de todas as partes\nPublicar no CDE"]
+    S8["8. Manter e atualizar\nRevisar a cada nova fase\nRegistrar no historico"]
 
     S1 --> S2 --> S3 --> S4 --> S5 --> S6 --> S7 --> S8
-    S8 -.->|"nova fase / mudança"| S1
+    S8 -.->|"nova fase\nou mudanca"| S1
 ```
 
 ### Boas práticas de elaboração
 
-- **Envolver todos cedo:** incluir as equipes de projeto e construção desde a elaboração do pré-BEP evita revisões custosas após a contratação.[^11]
+- **Envolver todos cedo:** incluir as equipes de projeto e construção desde a elaboração do BEP pré-contrato evita revisões custosas após a contratação.[^11]
 - **BIM Uses com objetivos mensuráveis:** cada uso BIM deve ter um critério de sucesso verificável — "reduzir RFIs em 40%" é melhor que "melhorar a coordenação".[^2]
 - **Flexibilidade planejada:** um BEP rígido se torna obsoleto; prever ciclos de revisão garante que o documento permaneça relevante.[^3]
 - **Usar templates como ponto de partida:** templates da Penn State, NATSPEC ou CDBB são bases consolidadas — adapte ao projeto, nunca copie sem reflexão.[^9][^10]
@@ -574,3 +607,19 @@ Use esta lista antes de submeter o BEP ao contratante.
 [^11]: Plannerly. *7 Things You Should Consider For Your BEP — 16-point checklist*. Disponível em: <https://plannerly.com/bep-bim-execution-plan-guide/>. Acesso em: abr. 2026.
 
 [^12]: MDPI Applied Sciences. *Developing Standard BIM Execution Plans for Complex Construction Projects* (2024). Disponível em: <https://www.mdpi.com/2076-3417/14/15/6614>. Acesso em: abr. 2026.
+
+[^bd-bep]: BIM Dictionary. *BIM Execution Plan*. Disponível em: <https://www.bimdictionary.com/en/term/bim-execution-plan/1/>. Acesso em: abr. 2026.
+
+[^bd-eir]: BIM Dictionary. *Exchange Information Requirements (EIR)*. Disponível em: <https://www.bimdictionary.com/en/term/exchange-information-requirements/1/>. Acesso em: abr. 2026.
+
+[^bd-oir]: BIM Dictionary. *Organisational Information Requirements (OIR)*. Disponível em: <https://www.bimdictionary.com/en/term/organisational-information-requirements/1/>. Acesso em: abr. 2026.
+
+[^bd-pir]: BIM Dictionary. *Project Information Requirements (PIR)*. Disponível em: <https://www.bimdictionary.com/en/term/project-information-requirements/1/>. Acesso em: abr. 2026.
+
+[^bd-midp]: BIM Dictionary. *Master Information Delivery Plan (MIDP)*. Disponível em: <https://www.bimdictionary.com/en/term/master-information-delivery-plan/1/>. Acesso em: abr. 2026.
+
+[^bd-tidp]: BIM Dictionary. *Task Information Delivery Plan (TIDP)*. Disponível em: <https://www.bimdictionary.com/en/term/task-information-delivery-plan/1/>. Acesso em: abr. 2026.
+
+[^bd-ids]: BIM Dictionary. *Information Delivery Specification (IDS)*. Disponível em: <https://www.bimdictionary.com/en/term/information-delivery-specification/1/>. Acesso em: abr. 2026.
+
+[^bd-cde]: BIM Dictionary. *Common Data Environment (CDE)*. Disponível em: <https://www.bimdictionary.com/en/term/common-data-environment/1/>. Acesso em: abr. 2026.

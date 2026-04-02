@@ -1,0 +1,4 @@
+.mermaid svg line,
+.mermaid svg path.arrow {
+  stroke: #888888 !important;
+}
