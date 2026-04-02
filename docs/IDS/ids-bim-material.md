@@ -85,8 +85,8 @@ graph TD
     D["&lt;specification&gt;\nRegra individual *"]
     E["&lt;applicability&gt;\nFiltro — a quem se aplica"]
     F["&lt;requirements&gt;\nExigências — o que é obrigado"]
-    G["facets de filtro\n(entity, property, material...)"]
-    H["facets de requisito\n(attribute, property, classification...)"]
+    G["facets de filtro\n(Entity, Attribute,\n Property, Material, \nClassification, PartOf)"]
+    H["facets de requisito\n(Entity, Attribute,\n Property, Material, \nClassification, PartOf)"]
 
     A --> B
     A --> C
@@ -96,11 +96,16 @@ graph TD
     E --> G
     F --> H
 
-    style D fill:#2d3748,stroke:#f0b429,color:#f0b429
-    style G fill:#1a365d,stroke:#4da6ff,color:#4da6ff
-    style H fill:#1c3d2e,stroke:#34d399,color:#34d399
+    style D fill:#697282,stroke:#f0b429,color:#f0b429
+    style G fill:#5b6b82,stroke:#4da6ff,color:#4da6ff
+    style H fill:#6a897b,stroke:#34d399,color:#34d399
 ```
+<!-- #f0b429
+#697282
 
+#5b6b82
+
+#6a897b -->
 > **\*** Um arquivo IDS pode conter **N specifications** independentes, cada uma com seu próprio escopo e conjunto de requisitos.
 
 ### Elementos da estrutura
