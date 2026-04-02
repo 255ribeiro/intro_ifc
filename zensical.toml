@@ -19,51 +19,51 @@ Copyright &copy; 2026 The authors
 # ]
 
 nav = [
-    { title = "Home", path = "index.md" },
-    { title = "Instalação das ferramentas", children = [
-        { title = "Bonsai BIM", path = "./install_tools/bonsai_install/bonsai_install.md" },
-        { title = "project libre", path = "./install_tools/project_libre_install/pl_install.md" },
-        { title = "BimCollab", path = "./install_tools/bimcollab_install/bimcollab_install.md" },
-        { title = "Visualizadores de IFC", children = [
-            { title = "Ifc Open Viewer", path = "./install_tools/open_ifc_viewer_install/open_ifc_viewer.md" },
-            { title = "DDS Cad Viewer", path = "./install_tools/dds_cad_install/dds_cad_install.md" },
-            { title = "KIT Tools", path = "./install_tools/kit_tools_install/kit_tools_install.md" }
-        ] }
-    ] },
-    { title = "Exportação IFC", children = [
-        { title = "Revit", children = [
-            { title = "IFC", children = [
-                { title = "Atualizar exportador IFC do Revit", path = "./exportacao/Revit/IFC/revit_IFC_install.md" },
-                { title = "Dados do projeto", path = "./exportacao/Revit/IFC/ifc_project_data.md" },
-                { title = "Configuração básica do exportador IFC do Revit", path = "./exportacao/Revit/IFC/Revit_2024_config_basica/config_exporter.md" }
-            ] },
-            { title = "Informações e parâmetros", children = [
-                { title = "Organizando as pastas do projeto", path = "./exportacao/Revit/projeto_revit/projeto.md" },
-                { title = "Informações do Projeto", path = "./exportacao/Revit/project_info.md" },
-                { title = "Planilhas", path = "./exportacao/Revit/planilhas/planilhas.md" },
-                { title = "Tipos de parâmetros", path = "./exportacao/Revit/parametros.md" },
-                { title = "Parâmetros de familia", path = "./exportacao/Revit/param_de_familia.md" },
-                { title = "Parâmetros compartilhados", path = "./exportacao/Revit/shared_param/shared_param.md" }
-            ] },
-            { title = "Georreferenciamento", path = "./exportacao/Revit/georref/georref.md" }
-        ] },
-        { title = "Archicad", children = [
-            { title = "IFC", path = "./exportacao/Archicad/archicad_ifc.md" }
-        ] }
-    ] },
-    { title = "IFC", children = [
-        { title = "Introdução", path = "./IFC/ifc_intro.md" },
-        { title = "IfcWall", path = "./IFC/IfcWall/IfcWall.md" },
-        { title = "IfcCovering", path = "./IFC/ifcCovering/IfcCovering.md" }
-    ] },
-    { title = "IDS", children = [
-        { title = "IDS | editores Online", path = "./IDS/ids_editor.md" }
-    ] },
-    { title = "Exemplos", path = "./exemplos/exemplos.md" },
-    { title = "Exercícios", children = [
-        { title = "Exercício 01", path = "./BCF/exercicio.md" },
-        { title = "Exercício 02", path = "./IDS/exercicio/exercicio_ids.md" }
-    ] }
+  {"Home" = "index.md"},
+  {"Instalação das ferramentas" = [
+    {"Bonsai BIM" = "./install_tools/bonsai_install/bonsai_install.md"},
+    {"project libre" = "./install_tools/project_libre_install/pl_install.md"},
+    {"BimCollab" = "./install_tools/bimcollab_install/bimcollab_install.md"},
+    {"Visualizadores de IFC" = [
+      {"Ifc Open Viewer" = "./install_tools/open_ifc_viewer_install/open_ifc_viewer.md"},
+      {"DDS Cad Viewer" = "./install_tools/dds_cad_install/dds_cad_install.md"},
+      {"KIT Tools" = "./install_tools/kit_tools_install/kit_tools_install.md"}
+    ]},
+  ]},
+  {"Exportação IFC" = [
+    {"Revit" = [
+      {"IFC" = [
+        {"Atualizar exportador IFC do Revit" = "./exportacao/Revit/IFC/revit_IFC_install.md"},
+        {"Dados do projeto" = "./exportacao/Revit/IFC/ifc_project_data.md"},
+        {"Configuração básica do exportador IFC do Revit" = "./exportacao/Revit/IFC/Revit_2024_config_basica/config_exporter.md"}
+      ]},
+      {"Informações e parâmetros" = [
+        {"Organizando as pastas do projeto" = "./exportacao/Revit/projeto_revit/projeto.md"},
+        {"Informações do Projeto" = "./exportacao/Revit/project_info.md"},
+        {"Planilhas" = "./exportacao/Revit/planilhas/planilhas.md"},
+        {"Tipos de parâmetros" = "./exportacao/Revit/parametros.md"},
+        {"Parâmetros de familia" = "./exportacao/Revit/param_de_familia.md"},
+        {"Parâmetros compartilhados" = "./exportacao/Revit/shared_param/shared_param.md"}
+      ]},
+      {"Georreferenciamento" = "./exportacao/Revit/georref/georref.md"}
+    ]},
+    {"Archicad" = [
+      {"IFC" = "./exportacao/Archicad/archicad_ifc.md"}
+    ]},
+  ]},
+  {"IFC" = [
+    {"Introdução" = "./IFC/ifc_intro.md"},
+    {"IfcWall" = "./IFC/IfcWall/IfcWall.md"},
+    {"IfcCovering" = "./IFC/ifcCovering/IfcCovering.md"}
+  ]},
+  {"IDS" = [
+    {"IDS | editores Online" = "./IDS/ids_editor.md"}
+  ]},
+  {"Exemplos" = "./exemplos/exemplos.md"},
+  {"Exercícios" = [
+    {"Exercício 01" = "./BCF/exercicio.md"},
+    {"Exercício 02" = "./IDS/exercicio/exercicio_ids.md"}
+  ]},
 ]
 
 [project.theme]
