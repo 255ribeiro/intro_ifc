@@ -13,7 +13,7 @@ copyright = """
 Copyright &copy; 2026 The authors
 """
 
-extra_css = ["overrides/css/extra_css.css"]
+# extra_css = ["overrides/css/extra_css.css"]
 # extra_javascript = [
 #     "https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js",  # 1st - the library
 #     "javascripts/download_zip_folder.js"                                 # 2nd - your code that uses it
