@@ -6,5 +6,9 @@
     }
 
 .md-content {
-    margin-right: 0;
-    }
+  margin-right: 0rem;
+}
+
+.md-grid {
+  max-width: initial;
+}
