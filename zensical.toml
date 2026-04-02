@@ -1,0 +1,170 @@
+[project]
+
+site_name = "Introdução ao IFC e ao OpenBIM"
+site_url = "https://255ribeiro.github.io/intro_ifc/"
+
+repo_url = "https://github.com/255ribeiro/intro_ifc"
+repo_name = "255ribeiro/intro_ifc"
+
+site_description = "Anotações de aula para sobre IFC e OpenBIM"
+site_author = "Fernando Ferraz Ribeiro"
+
+copyright = """
+Copyright &copy; 2026 The authors
+"""
+
+# extra_javascript = [
+#     "https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js",  # 1st - the library
+#     "javascripts/download_zip_folder.js"                                 # 2nd - your code that uses it
+# ]
+
+nav = [
+    { title = "Home", path = "index.md" },
+    { title = "Instalação das ferramentas", children = [
+        { title = "Bonsai BIM", path = "./install_tools/bonsai_install/bonsai_install.md" },
+        { title = "project libre", path = "./install_tools/project_libre_install/pl_install.md" },
+        { title = "BimCollab", path = "./install_tools/bimcollab_install/bimcollab_install.md" },
+        { title = "Visualizadores de IFC", children = [
+            { title = "Ifc Open Viewer", path = "./install_tools/open_ifc_viewer_install/open_ifc_viewer.md" },
+            { title = "DDS Cad Viewer", path = "./install_tools/dds_cad_install/dds_cad_install.md" },
+            { title = "KIT Tools", path = "./install_tools/kit_tools_install/kit_tools_install.md" }
+        ] }
+    ] },
+    { title = "Exportação IFC", children = [
+        { title = "Revit", children = [
+            { title = "IFC", children = [
+                { title = "Atualizar exportador IFC do Revit", path = "./exportacao/Revit/IFC/revit_IFC_install.md" },
+                { title = "Dados do projeto", path = "./exportacao/Revit/IFC/ifc_project_data.md" },
+                { title = "Configuração básica do exportador IFC do Revit", path = "./exportacao/Revit/IFC/Revit_2024_config_basica/config_exporter.md" }
+            ] },
+            { title = "Informações e parâmetros", children = [
+                { title = "Organizando as pastas do projeto", path = "./exportacao/Revit/projeto_revit/projeto.md" },
+                { title = "Informações do Projeto", path = "./exportacao/Revit/project_info.md" },
+                { title = "Planilhas", path = "./exportacao/Revit/planilhas/planilhas.md" },
+                { title = "Tipos de parâmetros", path = "./exportacao/Revit/parametros.md" },
+                { title = "Parâmetros de familia", path = "./exportacao/Revit/param_de_familia.md" },
+                { title = "Parâmetros compartilhados", path = "./exportacao/Revit/shared_param/shared_param.md" }
+            ] },
+            { title = "Georreferenciamento", path = "./exportacao/Revit/georref/georref.md" }
+        ] },
+        { title = "Archicad", children = [
+            { title = "IFC", path = "./exportacao/Archicad/archicad_ifc.md" }
+        ] }
+    ] },
+    { title = "IFC", children = [
+        { title = "Introdução", path = "./IFC/ifc_intro.md" },
+        { title = "IfcWall", path = "./IFC/IfcWall/IfcWall.md" },
+        { title = "IfcCovering", path = "./IFC/ifcCovering/IfcCovering.md" }
+    ] },
+    { title = "IDS", children = [
+        { title = "IDS | editores Online", path = "./IDS/ids_editor.md" }
+    ] },
+    { title = "Exemplos", path = "./exemplos/exemplos.md" },
+    { title = "Exercícios", children = [
+        { title = "Exercício 01", path = "./BCF/exercicio.md" },
+        { title = "Exercício 02", path = "./IDS/exercicio/exercicio_ids.md" }
+    ] }
+]
+
+[project.theme]
+variant = "classic"
+language = "pt-BR"
+
+
+features = [
+    "announce.dismiss",                  # allows users to dismiss the announcement bar
+    # "content.action.view",             # adds a button to view the page source
+    # "content.action.edit",             # adds a button to edit the page in the repo
+    "content.code.annotate",             # enables annotations inside code blocks
+    "content.code.copy",                 # adds a copy button to code blocks
+    "content.code.select",               # adds a line range selection button to code blocks
+    "content.footnote.tooltips",         # renders footnotes as inline tooltips
+    "content.tabs.link",                 # syncs all content tabs with the same label
+    "content.tooltips",                  # enables tooltips on links
+    # "header.autohide",                 # hides header when scrolling down
+    # "navigation.expand",               # expands all nav sections by default
+    # "navigation.footer",               # adds prev/next page links in footer
+    # "navigation.indexes",              # attaches index.md to section headers
+    "navigation.instant",                # enables instant navigation via XHR
+    "navigation.instant.prefetch",       # prefetches pages on link hover
+    "navigation.instant.progress",       # shows progress bar on slow connections
+    "navigation.path",                   # shows breadcrumb above page title
+    # "navigation.prune",                # only renders visible nav items (reduces size)
+    # "navigation.sections",             # renders top-level sections as flat groups
+    # "navigation.tabs",                 # renders top-level sections as header tabs
+    # "navigation.tabs.sticky",          # keeps tabs visible while scrolling
+    "navigation.top",                    # shows back-to-top button
+    "navigation.tracking",               # updates URL with active anchor
+    "search.highlight",                  # highlights search terms after following result
+    "search.share",                      # adds a share button to search results
+    "search.suggest",                    # shows search suggestions while typing
+    "toc.follow",                        # auto-scrolls TOC to active anchor
+    # "toc.integrate",
+    "content.footnote.tooltips"                  # moves TOC into the left navigation sidebar
+]
+
+[project.theme.icon]
+logo = "fontawesome/solid/globe"
+
+# Palette toggle for automatic mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+# Palette toggle for light mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "lime"
+accent = "yellow"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+
+# Palette toggle for dark mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "lime"
+accent = "yellow"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"
+
+[project.markdown_extensions]
+attr_list = {}
+md_in_html = {}
+pymdownx.blocks.caption = {}
+
+[project.markdown_extensions.footnotes]
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+
+[project.markdown_extensions.toc]
+toc_depth = 1
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/255ribeiro"
+name = "GitHub"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/linkedin"
+link = "https://www.linkedin.com/in/fernando-ferraz-ribeiro-b49a7bb0/"
+name = "LinkedIn"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/youtube"
+link = "https://www.youtube.com/@ferrax"
+name = "youtube"
+
+[[project.extra.social]]
+icon = "fontawesome/solid/envelope"
+link = "mailto:ffribeiro@gmail.com"
+name = "Email"
