@@ -6,6 +6,14 @@
     }
 
 
+.md-content {
+  max-width: none;
+}
+
+.md-main__inner {
+  margin: 0;
+}
+
 .md-grid {
-  max-width: initial;
+  max-width: none;
 }
