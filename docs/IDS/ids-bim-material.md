@@ -171,66 +171,12 @@ A unidade central do IDS. Cada specification é uma **regra independente** que c
 
 ---
 
-## Facets — os tipos de requisito
-
-Facets são os **blocos de construção** do IDS.[^3] Cada facet representa um aspecto diferente de um elemento IFC que pode ser usado tanto em `<applicability>` (para filtrar) quanto em `<requirements>` (para exigir).
-
-O IDS 1.0 define **6 facets**:
-
-```mermaid
-mindmap
-  root((Facets IDS))
-    Entity
-      Tipo de entidade IFC
-      IfcWall, IfcBeam, IfcDoor...
-      predefinedType opcional
-    Attribute
-      Atributos diretos da entidade
-      Name, Description, ObjectType
-      GlobalId, Tag...
-    Property
-      Propriedades em Psets e Qsets
-      Pset_WallCommon.FireRating
-      Qto_WallBaseQuantities.GrossArea
-    Material
-      Materiais associados ao elemento
-      Concreto, Aço, Alvenaria...
-    Classification
-      Códigos de sistemas de classificação
-      OMNICLASS, Uniclass 2015
-      UNIFORMAT, NBR...
-    PartOf
-      Relações de agregação/containment
-      Pertence a IfcBuildingStorey
-      Membro de IfcSystem
-```
-
-### Tabela de facets
-
-| Facet | Parâmetros principais | Uso típico |
-|-------|----------------------|-----------|
-| **Entity** | `name`, `predefinedType` | Selecionar `IfcWall` com `predefinedType = SOLIDWALL` |
-| **Attribute** | `name`, `value` | Exigir que `Name` não seja vazio; verificar `Description` |
-| **Property** | `propertySet`, `baseName`, `dataType`, `value` | Exigir `IsExternal = TRUE` em `Pset_WallCommon` |
-| **Material** | `value` | Exigir material `Concreto` em pilares |
-| **Classification** | `value`, `system` | Exigir código Uniclass 2015 em todas as portas |
-| **PartOf** | `relation`, `entity` | Exigir que janelas pertençam a um `IfcBuildingStorey` |
-
-### Restrições de valor
-
-Cada facet pode usar diferentes formas de restrição para o valor esperado:
-
-| Restrição | Sintaxe XML | Exemplo |
-|-----------|-------------|---------|
-| Valor exato | `<simpleValue>` | `FireRating` deve ser exatamente `"EI60"` |
-| Lista de valores | `<xs:enumeration>` | Aceitar `"EI30"`, `"EI60"` ou `"EI90"` |
-| Padrão regex | `<xs:pattern>` | Código Uniclass que comece com `"Pr_25"` |
-| Intervalo numérico | `<xs:minInclusive>` / `<xs:maxInclusive>` | Espessura entre `150` e `300` mm |
-| Comprimento | `<xs:length>` | Nome com exatamente 10 caracteres |
-
----
-
 ## Applicability vs Requirements
+
+Em uma `specification` IDS, **`<applicability>`** e **`<requirements>`** cumprem papéis diferentes e complementares. O primeiro define **a quais elementos IFC a regra se aplica**; o segundo define **quais regras os elementos selecionados devem seguir
+** para serem considerados conformes.
+
+Em termos práticos, `applicability` funciona como um **filtro de seleção**, enquanto `requirements` funciona como um **conjunto de verificações** executadas somente sobre os elementos filtrados. Assim, um elemento fora do filtro não falha na regra; ele simplesmente não é avaliado por ela.
 
 ```mermaid
 flowchart LR
@@ -252,6 +198,41 @@ flowchart LR
 
     AP -->|"elementos selecionados"| RQ
 ```
+
+---
+
+## Facets — os tipos de requisito
+
+Facets são os **blocos de construção** do IDS.[^3] Cada facet representa um aspecto diferente de um elemento IFC que pode ser usado tanto em `<applicability>` (para filtrar) quanto em `<requirements>` (para exigir).
+
+O IDS 1.0 define **6 facets**:
+
+### Tabela de facets
+
+| Facet | Parâmetros `<applicability>` | Parâmetros `<requirements>` | Uso típico |
+|-------|------------------------------|----------------------------|-----------|
+| **Entity** | `name`, `predefinedType` | `name`, `predefinedType`, `instructions` | Selecionar `IfcWall` com `predefinedType = SOLIDWALL` |
+| **Attribute** | `name`, `value` | `name`, `value`, `cardinality`, `instructions` | Exigir que `Name` não seja vazio; verificar `Description` |
+| **Property** | `propertySet`, `baseName`, `value`, `dataType` | `propertySet`, `baseName`, `value`, `dataType`, `uri`, `cardinality`, `instructions` | Exigir `IsExternal = TRUE` em `Pset_WallCommon` |
+| **Material** | `value` | `value`, `uri`, `cardinality`, `instructions` | Exigir material `Concreto` em pilares |
+| **Classification** | `system`, `value` | `system`, `value`, `uri`, `cardinality`, `instructions` | Exigir código Uniclass 2015 em todas as portas |
+| **PartOf** | `entity.name`, `entity.predefinedType`, `relation` | `entity.name`, `entity.predefinedType`, `relation`, `cardinality`, `instructions` | Exigir que janelas pertençam a um `IfcBuildingStorey` |
+
+### Restrições de valor
+
+Cada facet pode usar diferentes formas de restrição para o valor esperado:
+
+| Restrição | Sintaxe XML | Exemplo |
+|-----------|-------------|---------|
+| Valor exato | `<simpleValue>` | `FireRating` deve ser exatamente `"EI60"` |
+| Lista de valores | `<xs:enumeration>` | Aceitar `"EI30"`, `"EI60"` ou `"EI90"` |
+| Padrão regex | `<xs:pattern>` | Código Uniclass que comece com `"Pr_25"` |
+| Intervalo numérico | `<xs:minInclusive>` / `<xs:maxInclusive>` | Espessura entre `150` e `300` mm |
+| Comprimento | `<xs:length>` | Nome com exatamente 10 caracteres |
+
+---
+
+
 
 ### Atributo `cardinality`
 
@@ -381,7 +362,7 @@ Toda `IfcDoor` deve ter um código Uniclass 2015 iniciado em `Pr_25` (padrão re
 
 ```mermaid
 flowchart TD
-    S1["📋 1. Mapear requisitos de informação\nContratante identifica dados necessários\npor elemento, fase e finalidade"]
+    S1["📋 1. Mapear requisitos de \n informação Contratante identifica dados \nnecessários\npor elemento, fase e finalidade"]
     S2["🛠️ 2. Criar o arquivo IDS\nUsando editor visual ou XML\nDefine specifications, applicability e requirements"]
     S3["📤 3. Distribuir o IDS\nPublicado no CDE e referenciado\nno BEP como requisito contratual"]
     S4["🏗️ 4. Modelar conforme o IDS\nEquipes inserem os dados exigidos\nnos modelos IFC durante o projeto"]
