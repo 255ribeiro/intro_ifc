@@ -80,6 +80,7 @@ A ISO 19650-2 define duas iterações principais do BEP ao longo do processo de 
 > **Siglas de fases do projeto usadas neste documento:** LP = Levantamento Preliminar (Estudo Preliminar) · AP = Anteprojeto · EP = Projeto Executivo
 
 <div style="background: #FFFFE0; border-radius: 10px; color: #000000";>
+
 ```mermaid
 
 %%{init: {"theme": "base", "themeVariables": {
@@ -100,6 +101,7 @@ timeline
     section Entrega
         Handover          : Atualizacao final do BEP para FM / operacao
 ```
+
 </div>
 
 ### BEP pré-contrato (*pre-appointment BEP*)
@@ -144,29 +146,35 @@ O BEP pós-contrato deve ser **aprovado formalmente pelo contratante** e publica
 Com base na ISO 19650, Penn State BEP Guide e NBIMS-US, as seções essenciais de um BEP completo são:[^7][^8][^9]
 
 ```mermaid
-mindmap
-  root((BEP))
-    Identificacao
-      Capa e controle de revisoes
-      Informacoes do projeto
-    Estrategia BIM
-      Objetivos e BIM Uses
-      Niveis de informacao LOD/LOI
-      Estrategia de entrega MIDP/TIDP
-    Pessoas
-      Equipe e responsabilidades
-      Matriz RACI
-    Processos
-      Processos de colaboracao
-      Gestao de qualidade QA/QC
-      Seguranca da informacao
-    Tecnologia
-      Infraestrutura de software
-      Common Data Environment CDE
-      Padroes e convencoes
-    Entrega
-      Handover e FM
-      Apendices e templates
+graph LR
+    BEP(("BEP"))
+
+    BEP --> A["Identificacao"]
+    A --> A1["Capa e controle de revisoes"]
+    A --> A2["Informacoes do projeto"]
+
+    BEP --> B["Estrategia BIM"]
+    B --> B1["Objetivos e BIM Uses"]
+    B --> B2["Niveis de informacao LOD/LOI"]
+    B --> B3["Estrategia de entrega MIDP/TIDP"]
+
+    BEP --> C["Pessoas"]
+    C --> C1["Equipe e responsabilidades"]
+    C --> C2["Matriz RACI"]
+
+    BEP --> D["Processos"]
+    D --> D1["Processos de colaboracao"]
+    D --> D2["Gestao de qualidade QA/QC"]
+    D --> D3["Seguranca da informacao"]
+
+    BEP --> E["Tecnologia"]
+    E --> E1["Infraestrutura de software"]
+    E --> E2["Common Data Environment CDE"]
+    E --> E3["Padroes e convencoes"]
+
+    BEP --> F["Entrega"]
+    F --> F1["Handover e FM"]
+    F --> F2["Apendices e templates"]
 ```
 
 A NATSPEC estrutura as seções do BEP em três aspectos conforme a **ISO 19650.1, Seção 5**:[^10]
