@@ -1,3 +1,7 @@
+---
+icon: lucide/brick-wall
+---
+
 # IfcWall
 
 ## Documentação

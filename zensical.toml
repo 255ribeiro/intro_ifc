@@ -29,8 +29,8 @@ nav = [
       {"Ifc Open Viewer" = "install_tools/open_ifc_viewer_install/open_ifc_viewer.md"},
       {"DDS Cad Viewer" = "install_tools/dds_cad_install/dds_cad_install.md"},
       {"KIT Tools" = "install_tools/kit_tools_install/kit_tools_install.md"}
-    ]},
-  ]},
+    ],  icon = "<fontawesome/regula/eye"},
+  ],  icon = "fontawesome/solid/screwdriver-wrench"},
   {"BEP" = "bep/bep-bim-material.md"},
   {"Exportação IFC" = [
     {"Revit" = [
@@ -52,7 +52,7 @@ nav = [
     {"Archicad" = [
       {"IFC" = "exportacao/Archicad/archicad_ifc.md"}
     ]},
-  ]},
+  ], icon = "fontawesome/solid/building-circle-arrow-right"}, 
   {"IFC" = [
     {"Introdução" = "IFC/ifc_intro.md"},
     {"IfcWall" = "IFC/IfcWall/IfcWall.md"},
@@ -61,7 +61,7 @@ nav = [
   {"IDS" = [
     {"IDS" = "IDS/ids-bim-material.md"},
     {"IDS | editores Online" = "IDS/ids_editor.md"}
-  ]},
+  ], icon = "fontawesome/solid/building-circle-check"},
   {"Exemplos" = "exemplos/exemplos.md"},
   {"Exercícios" = [
     {"Exercício 01" = "BCF/exercicio.md"},

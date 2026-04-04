@@ -1,3 +1,7 @@
+---
+icon: fontawesome/brands/readme
+---
+
 # BIM Execution Plan (BEP)
 
 > **Documento central de governança BIM** — define quem faz o quê, quando, com qual software e em qual nível de detalhe ao longo de todo o ciclo de vida do projeto.

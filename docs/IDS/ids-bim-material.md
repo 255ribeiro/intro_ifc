@@ -174,6 +174,7 @@ A unidade central do IDS. Cada specification é uma **regra independente** que c
 ## Applicability vs Requirements
 
 Em uma `specification` IDS, **`<applicability>`** e **`<requirements>`** cumprem papéis diferentes e complementares. O primeiro define **a quais elementos IFC a regra se aplica**; o segundo define **quais regras os elementos selecionados devem seguir
+
 ** para serem considerados conformes.
 
 Em termos práticos, `applicability` funciona como um **filtro de seleção**, enquanto `requirements` funciona como um **conjunto de verificações** executadas somente sobre os elementos filtrados. Assim, um elemento fora do filtro não falha na regra; ele simplesmente não é avaliado por ela.
