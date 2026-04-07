@@ -1,0 +1,79 @@
+<svg viewBox="0 0 720 280" width="720" height="280" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="280" rx="8" fill="#1a1f2e"/>
+  <text x="360" y="24" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="bold" font-family="sans-serif">Fluxo BCF entre ferramentas</text>
+
+  <!-- Left column: Deteccao -->
+  <rect x="20" y="44" width="150" height="212" rx="5" fill="#1e2333" stroke="#374151" stroke-width="1"/>
+  <text x="95" y="64" text-anchor="middle" fill="#64748b" font-size="9" font-weight="bold" font-family="monospace">DETECCAO</text>
+
+  <rect x="32" y="74" width="126" height="34" rx="3" fill="#0f2035" stroke="#60a5fa" stroke-width="1"/>
+  <text x="95" y="96" text-anchor="middle" fill="#93c5fd" font-size="9" font-family="sans-serif">Navisworks / Solibri</text>
+
+  <rect x="32" y="116" width="126" height="34" rx="3" fill="#0a1f14" stroke="#34d399" stroke-width="1"/>
+  <text x="95" y="138" text-anchor="middle" fill="#6ee7b7" font-size="9" font-family="sans-serif">BonsaiBIM / IfcClash</text>
+
+  <rect x="32" y="158" width="126" height="34" rx="3" fill="#0f2035" stroke="#60a5fa" stroke-width="1"/>
+  <text x="95" y="180" text-anchor="middle" fill="#93c5fd" font-size="9" font-family="sans-serif">BIMcollab Zoom</text>
+
+  <rect x="32" y="200" width="126" height="34" rx="3" fill="#0f2035" stroke="#60a5fa" stroke-width="1"/>
+  <text x="95" y="222" text-anchor="middle" fill="#93c5fd" font-size="9" font-family="sans-serif">ACC Model Coord.</text>
+
+  <!-- Arrow out from detection -->
+  <line x1="170" y1="150" x2="226" y2="150" stroke="#f0b429" stroke-width="2"/>
+  <polygon points="226,150 217,144 217,156" fill="#f0b429"/>
+  <text x="198" y="143" text-anchor="middle" fill="#f0b429" font-size="8" font-family="monospace">exporta</text>
+  <text x="198" y="155" text-anchor="middle" fill="#f0b429" font-size="8" font-family="monospace">.bcf</text>
+
+  <!-- Central BCF file -->
+  <rect x="226" y="104" width="140" height="92" rx="6" fill="#2d2010" stroke="#f0b429" stroke-width="2"/>
+  <text x="296" y="138" text-anchor="middle" fill="#fcd34d" font-size="13" font-weight="bold" font-family="monospace">BCF</text>
+  <text x="296" y="156" text-anchor="middle" fill="#fbbf24" font-size="9" font-family="monospace">.bcfzip</text>
+  <text x="296" y="172" text-anchor="middle" fill="#64748b" font-size="8" font-family="sans-serif">v2.1 / v3.0</text>
+  <text x="296" y="186" text-anchor="middle" fill="#64748b" font-size="8" font-family="monospace">XML + PNG</text>
+
+  <!-- Arrow out to authoring -->
+  <line x1="366" y1="120" x2="420" y2="100" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="420,100 410,96 412,108" fill="#4b5563"/>
+  <text x="395" y="105" text-anchor="middle" fill="#4b5563" font-size="8" font-family="monospace">importa</text>
+
+  <!-- Arrow out to issue mgmt -->
+  <line x1="366" y1="180" x2="420" y2="196" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="420,196 409,190 413,202" fill="#4b5563"/>
+  <text x="395" y="200" text-anchor="middle" fill="#4b5563" font-size="8" font-family="monospace">importa</text>
+
+  <!-- Arrow back from authoring -->
+  <line x1="420" y1="116" x2="366" y2="130" stroke="#4b5563" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <polygon points="366,130 373,122 376,133" fill="#4b5563"/>
+  <text x="393" y="132" text-anchor="middle" fill="#4b5563" font-size="7" font-family="monospace">atualiza</text>
+
+  <!-- Right top: Autoria -->
+  <rect x="420" y="44" width="280" height="112" rx="5" fill="#1e2333" stroke="#374151" stroke-width="1"/>
+  <text x="560" y="64" text-anchor="middle" fill="#64748b" font-size="9" font-weight="bold" font-family="monospace">AUTORIA (correcao no modelo)</text>
+
+  <rect x="432" y="74" width="124" height="34" rx="3" fill="#0f2035" stroke="#60a5fa" stroke-width="1"/>
+  <text x="494" y="96" text-anchor="middle" fill="#93c5fd" font-size="9" font-family="sans-serif">Revit / ARCHICAD</text>
+
+  <rect x="564" y="74" width="124" height="34" rx="3" fill="#0a1f14" stroke="#34d399" stroke-width="1"/>
+  <text x="626" y="87" text-anchor="middle" fill="#6ee7b7" font-size="9" font-family="sans-serif">BonsaiBIM</text>
+  <text x="626" y="100" text-anchor="middle" fill="#34d399" font-size="8" font-family="monospace">Open Source</text>
+
+  <rect x="432" y="114" width="256" height="28" rx="3" fill="#1e1a0a" stroke="#fbbf24" stroke-width="1"/>
+  <text x="560" y="132" text-anchor="middle" fill="#fcd34d" font-size="8" font-family="sans-serif">Navega ao viewpoint e corrige o modelo IFC</text>
+
+  <!-- Right bottom: Issue mgmt -->
+  <rect x="420" y="168" width="280" height="112" rx="5" fill="#1e2333" stroke="#374151" stroke-width="1"/>
+  <text x="560" y="188" text-anchor="middle" fill="#64748b" font-size="9" font-weight="bold" font-family="monospace">GESTAO DE ISSUES</text>
+
+  <rect x="432" y="198" width="78" height="34" rx="3" fill="#0f2035" stroke="#60a5fa" stroke-width="1"/>
+  <text x="471" y="220" text-anchor="middle" fill="#93c5fd" font-size="8" font-family="sans-serif">BIMcollab</text>
+
+  <rect x="516" y="198" width="78" height="34" rx="3" fill="#0f2035" stroke="#60a5fa" stroke-width="1"/>
+  <text x="555" y="220" text-anchor="middle" fill="#93c5fd" font-size="8" font-family="sans-serif">ACC Issues</text>
+
+  <rect x="600" y="198" width="88" height="34" rx="3" fill="#0a1f14" stroke="#34d399" stroke-width="1"/>
+  <text x="644" y="211" text-anchor="middle" fill="#6ee7b7" font-size="8" font-family="sans-serif">BonsaiBIM</text>
+  <text x="644" y="224" text-anchor="middle" fill="#34d399" font-size="7" font-family="monospace">BCF Panel</text>
+
+  <rect x="432" y="240" width="256" height="28" rx="3" fill="#0a1828" stroke="#60a5fa" stroke-width="1"/>
+  <text x="560" y="258" text-anchor="middle" fill="#7dd3fc" font-size="8" font-family="sans-serif">Atribuicao, status, comentarios, prazo por issue</text>
+</svg>

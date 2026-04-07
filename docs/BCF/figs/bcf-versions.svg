@@ -1,0 +1,32 @@
+<svg viewBox="0 0 660 220" width="660" height="220" xmlns="http://www.w3.org/2000/svg">
+  <rect width="660" height="220" rx="8" fill="#1a1f2e"/>
+  <text x="330" y="26" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="bold" font-family="sans-serif">Versoes do BCF</text>
+
+  <!-- BCF 2.1 -->
+  <rect x="20" y="40" width="300" height="164" rx="6" fill="#0f2035" stroke="#60a5fa" stroke-width="1.5"/>
+  <rect x="20" y="40" width="300" height="34" rx="6" fill="#1e3a5f"/>
+  <rect x="20" y="62" width="300" height="12" fill="#1e3a5f"/>
+  <text x="170" y="63" text-anchor="middle" fill="#bfdbfe" font-size="12" font-weight="bold" font-family="monospace">BCF-XML 2.1</text>
+
+  <text x="40" y="96" fill="#93c5fd" font-size="9" font-weight="bold" font-family="sans-serif">Adocao mais ampla na industria</text>
+  <text x="40" y="112" fill="#94a3b8" font-size="9" font-family="sans-serif">Suportado por praticamente todas</text>
+  <text x="40" y="126" fill="#94a3b8" font-size="9" font-family="sans-serif">as ferramentas BIM do mercado</text>
+  <text x="40" y="148" fill="#94a3b8" font-size="9" font-family="sans-serif">Campos: titulo, status, prioridade,</text>
+  <text x="40" y="162" fill="#94a3b8" font-size="9" font-family="sans-serif">responsavel, comentarios, viewpoints</text>
+  <text x="40" y="184" fill="#4b5563" font-size="8" font-family="monospace">Especificacao: github.com/buildingSMART/BCF-XML</text>
+  <text x="40" y="197" fill="#34d399" font-size="8" font-weight="bold" font-family="sans-serif">BonsaiBIM: suporte completo v2.1</text>
+
+  <!-- BCF 3.0 -->
+  <rect x="340" y="40" width="300" height="164" rx="6" fill="#0a1f14" stroke="#34d399" stroke-width="1.5"/>
+  <rect x="340" y="40" width="300" height="34" rx="6" fill="#14532d"/>
+  <rect x="340" y="62" width="300" height="12" fill="#14532d"/>
+  <text x="490" y="63" text-anchor="middle" fill="#bbf7d0" font-size="12" font-weight="bold" font-family="monospace">BCF 3.0 + BCF-API</text>
+
+  <text x="360" y="96" fill="#6ee7b7" font-size="9" font-weight="bold" font-family="sans-serif">Versao atual — maior flexibilidade</text>
+  <text x="360" y="112" fill="#94a3b8" font-size="9" font-family="sans-serif">Adiciona campos customizados,</text>
+  <text x="360" y="126" fill="#94a3b8" font-size="9" font-family="sans-serif">due dates, documentos relacionados</text>
+  <text x="360" y="148" fill="#94a3b8" font-size="9" font-family="sans-serif">BCF-API: acesso via REST a CDEs</text>
+  <text x="360" y="162" fill="#94a3b8" font-size="9" font-family="sans-serif">compatíveis com OpenCDE spec</text>
+  <text x="360" y="184" fill="#4b5563" font-size="8" font-family="monospace">Especificacao: github.com/buildingSMART/BCF-API</text>
+  <text x="360" y="197" fill="#34d399" font-size="8" font-weight="bold" font-family="sans-serif">BonsaiBIM: suporte completo v3.0</text>
+</svg>

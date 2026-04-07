@@ -1,0 +1,135 @@
+<svg viewBox="0 0 660 370" width="660" height="370" xmlns="http://www.w3.org/2000/svg">
+  <rect width="660" height="370" rx="8" fill="#1a1f2e"/>
+  <text x="330" y="26" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="bold" font-family="sans-serif">Clash Matrix — Exemplo de projeto de edificacao</text>
+
+  <!-- cell dimensions: w=104, h=42, col starts: 108,212,316,420,524 -->
+  <!-- row starts: 46,90,132,174,216,258 -->
+
+  <!-- header labels (col) -->
+  <rect x="108" y="46" width="104" height="42" rx="2" fill="#252d3e" stroke="#374151"/>
+  <text x="160" y="72" text-anchor="middle" fill="#94a3b8" font-size="11" font-weight="bold" font-family="monospace">ARQ</text>
+  <rect x="212" y="46" width="104" height="42" rx="2" fill="#252d3e" stroke="#374151"/>
+  <text x="264" y="72" text-anchor="middle" fill="#94a3b8" font-size="11" font-weight="bold" font-family="monospace">EST</text>
+  <rect x="316" y="46" width="104" height="42" rx="2" fill="#252d3e" stroke="#374151"/>
+  <text x="368" y="72" text-anchor="middle" fill="#94a3b8" font-size="11" font-weight="bold" font-family="monospace">HID</text>
+  <rect x="420" y="46" width="104" height="42" rx="2" fill="#252d3e" stroke="#374151"/>
+  <text x="472" y="72" text-anchor="middle" fill="#94a3b8" font-size="11" font-weight="bold" font-family="monospace">ELT</text>
+  <rect x="524" y="46" width="104" height="42" rx="2" fill="#252d3e" stroke="#374151"/>
+  <text x="576" y="72" text-anchor="middle" fill="#94a3b8" font-size="11" font-weight="bold" font-family="monospace">AVAC</text>
+
+  <!-- row labels -->
+  <rect x="4" y="90" width="102" height="42" rx="2" fill="#252d3e" stroke="#374151"/>
+  <text x="55" y="116" text-anchor="middle" fill="#94a3b8" font-size="11" font-weight="bold" font-family="monospace">ARQ</text>
+  <rect x="4" y="132" width="102" height="42" rx="2" fill="#252d3e" stroke="#374151"/>
+  <text x="55" y="158" text-anchor="middle" fill="#94a3b8" font-size="11" font-weight="bold" font-family="monospace">EST</text>
+  <rect x="4" y="174" width="102" height="42" rx="2" fill="#252d3e" stroke="#374151"/>
+  <text x="55" y="200" text-anchor="middle" fill="#94a3b8" font-size="11" font-weight="bold" font-family="monospace">HID</text>
+  <rect x="4" y="216" width="102" height="42" rx="2" fill="#252d3e" stroke="#374151"/>
+  <text x="55" y="242" text-anchor="middle" fill="#94a3b8" font-size="11" font-weight="bold" font-family="monospace">ELT</text>
+  <rect x="4" y="258" width="102" height="42" rx="2" fill="#252d3e" stroke="#374151"/>
+  <text x="55" y="284" text-anchor="middle" fill="#94a3b8" font-size="11" font-weight="bold" font-family="monospace">AVAC</text>
+
+  <!-- HARD macro (reusable style) -->
+  <!-- ROW ARQ -->
+  <rect x="108" y="90" width="104" height="42" rx="2" fill="#120808" stroke="#374151"/>
+  <text x="160" y="116" text-anchor="middle" fill="#4b5563" font-size="18" font-family="sans-serif">—</text>
+
+  <rect x="212" y="90" width="104" height="42" rx="2" fill="#2d1515" stroke="#f87171" stroke-width="1.2"/>
+  <text x="264" y="107" text-anchor="middle" fill="#fca5a5" font-size="10" font-weight="bold" font-family="sans-serif">Hard P1</text>
+  <text x="264" y="121" text-anchor="middle" fill="#f87171" font-size="9" font-family="monospace">tol: 0mm</text>
+
+  <rect x="316" y="90" width="104" height="42" rx="2" fill="#0a1828" stroke="#60a5fa" stroke-width="1.2"/>
+  <text x="368" y="107" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="bold" font-family="sans-serif">Soft P2</text>
+  <text x="368" y="121" text-anchor="middle" fill="#60a5fa" font-size="9" font-family="monospace">tol: 50mm</text>
+
+  <rect x="420" y="90" width="104" height="42" rx="2" fill="#0a1828" stroke="#60a5fa" stroke-width="1.2"/>
+  <text x="472" y="107" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="bold" font-family="sans-serif">Soft P2</text>
+  <text x="472" y="121" text-anchor="middle" fill="#60a5fa" font-size="9" font-family="monospace">tol: 25mm</text>
+
+  <rect x="524" y="90" width="104" height="42" rx="2" fill="#2d1515" stroke="#f87171" stroke-width="1.2"/>
+  <text x="576" y="107" text-anchor="middle" fill="#fca5a5" font-size="10" font-weight="bold" font-family="sans-serif">Hard P1</text>
+  <text x="576" y="121" text-anchor="middle" fill="#f87171" font-size="9" font-family="monospace">tol: 0mm</text>
+
+  <!-- ROW EST -->
+  <rect x="108" y="132" width="104" height="42" rx="2" fill="#0a1828" stroke="#60a5fa" stroke-width="1.2"/>
+  <text x="160" y="149" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="bold" font-family="sans-serif">Soft P2</text>
+  <text x="160" y="163" text-anchor="middle" fill="#60a5fa" font-size="9" font-family="monospace">tol: 50mm</text>
+
+  <rect x="212" y="132" width="104" height="42" rx="2" fill="#120808" stroke="#374151"/>
+  <text x="264" y="158" text-anchor="middle" fill="#4b5563" font-size="18" font-family="sans-serif">—</text>
+
+  <rect x="316" y="132" width="104" height="42" rx="2" fill="#2d1515" stroke="#f87171" stroke-width="1.2"/>
+  <text x="368" y="149" text-anchor="middle" fill="#fca5a5" font-size="10" font-weight="bold" font-family="sans-serif">Hard P1</text>
+  <text x="368" y="163" text-anchor="middle" fill="#f87171" font-size="9" font-family="monospace">tol: 0mm</text>
+
+  <rect x="420" y="132" width="104" height="42" rx="2" fill="#2d1515" stroke="#f87171" stroke-width="1.2"/>
+  <text x="472" y="149" text-anchor="middle" fill="#fca5a5" font-size="10" font-weight="bold" font-family="sans-serif">Hard P1</text>
+  <text x="472" y="163" text-anchor="middle" fill="#f87171" font-size="9" font-family="monospace">tol: 0mm</text>
+
+  <rect x="524" y="132" width="104" height="42" rx="2" fill="#2d1515" stroke="#f87171" stroke-width="1.2"/>
+  <text x="576" y="149" text-anchor="middle" fill="#fca5a5" font-size="10" font-weight="bold" font-family="sans-serif">Hard P1</text>
+  <text x="576" y="163" text-anchor="middle" fill="#f87171" font-size="9" font-family="monospace">tol: 0mm</text>
+
+  <!-- ROW HID -->
+  <rect x="108" y="174" width="104" height="42" rx="2" fill="#091408" stroke="#34d399" stroke-width="1.2"/>
+  <text x="160" y="191" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="bold" font-family="sans-serif">Soft P3</text>
+  <text x="160" y="205" text-anchor="middle" fill="#34d399" font-size="9" font-family="monospace">tol: 100mm</text>
+
+  <rect x="212" y="174" width="104" height="42" rx="2" fill="#2d1515" stroke="#f87171" stroke-width="1.2"/>
+  <text x="264" y="191" text-anchor="middle" fill="#fca5a5" font-size="10" font-weight="bold" font-family="sans-serif">Hard P1</text>
+  <text x="264" y="205" text-anchor="middle" fill="#f87171" font-size="9" font-family="monospace">tol: 0mm</text>
+
+  <rect x="316" y="174" width="104" height="42" rx="2" fill="#120808" stroke="#374151"/>
+  <text x="368" y="200" text-anchor="middle" fill="#4b5563" font-size="18" font-family="sans-serif">—</text>
+
+  <rect x="420" y="174" width="104" height="42" rx="2" fill="#0a1828" stroke="#60a5fa" stroke-width="1.2"/>
+  <text x="472" y="191" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="bold" font-family="sans-serif">Soft P2</text>
+  <text x="472" y="205" text-anchor="middle" fill="#60a5fa" font-size="9" font-family="monospace">tol: 50mm</text>
+
+  <rect x="524" y="174" width="104" height="42" rx="2" fill="#0a1828" stroke="#60a5fa" stroke-width="1.2"/>
+  <text x="576" y="191" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="bold" font-family="sans-serif">Soft P2</text>
+  <text x="576" y="205" text-anchor="middle" fill="#60a5fa" font-size="9" font-family="monospace">tol: 75mm</text>
+
+  <!-- ROW ELT -->
+  <rect x="108" y="216" width="104" height="42" rx="2" fill="#091408" stroke="#34d399" stroke-width="1.2"/>
+  <text x="160" y="242" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="bold" font-family="sans-serif">Soft P3</text>
+
+  <rect x="212" y="216" width="104" height="42" rx="2" fill="#2d1515" stroke="#f87171" stroke-width="1.2"/>
+  <text x="264" y="242" text-anchor="middle" fill="#fca5a5" font-size="10" font-weight="bold" font-family="sans-serif">Hard P1</text>
+
+  <rect x="316" y="216" width="104" height="42" rx="2" fill="#0a1828" stroke="#60a5fa" stroke-width="1.2"/>
+  <text x="368" y="242" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="bold" font-family="sans-serif">Soft P2</text>
+
+  <rect x="420" y="216" width="104" height="42" rx="2" fill="#120808" stroke="#374151"/>
+  <text x="472" y="242" text-anchor="middle" fill="#4b5563" font-size="18" font-family="sans-serif">—</text>
+
+  <rect x="524" y="216" width="104" height="42" rx="2" fill="#0a1828" stroke="#60a5fa" stroke-width="1.2"/>
+  <text x="576" y="242" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="bold" font-family="sans-serif">Soft P2</text>
+
+  <!-- ROW AVAC -->
+  <rect x="108" y="258" width="104" height="42" rx="2" fill="#2d1515" stroke="#f87171" stroke-width="1.2"/>
+  <text x="160" y="284" text-anchor="middle" fill="#fca5a5" font-size="10" font-weight="bold" font-family="sans-serif">Hard P1</text>
+
+  <rect x="212" y="258" width="104" height="42" rx="2" fill="#2d1515" stroke="#f87171" stroke-width="1.2"/>
+  <text x="264" y="284" text-anchor="middle" fill="#fca5a5" font-size="10" font-weight="bold" font-family="sans-serif">Hard P1</text>
+
+  <rect x="316" y="258" width="104" height="42" rx="2" fill="#0a1828" stroke="#60a5fa" stroke-width="1.2"/>
+  <text x="368" y="284" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="bold" font-family="sans-serif">Soft P2</text>
+
+  <rect x="420" y="258" width="104" height="42" rx="2" fill="#0a1828" stroke="#60a5fa" stroke-width="1.2"/>
+  <text x="472" y="284" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="bold" font-family="sans-serif">Soft P2</text>
+
+  <rect x="524" y="258" width="104" height="42" rx="2" fill="#120808" stroke="#374151"/>
+  <text x="576" y="284" text-anchor="middle" fill="#4b5563" font-size="18" font-family="sans-serif">—</text>
+
+  <!-- Legend -->
+  <rect x="20" y="318" width="14" height="14" rx="2" fill="#2d1515" stroke="#f87171"/>
+  <text x="42" y="330" fill="#fca5a5" font-size="9" font-family="sans-serif">Hard — P1</text>
+  <rect x="130" y="318" width="14" height="14" rx="2" fill="#0a1828" stroke="#60a5fa"/>
+  <text x="152" y="330" fill="#93c5fd" font-size="9" font-family="sans-serif">Soft — P2</text>
+  <rect x="240" y="318" width="14" height="14" rx="2" fill="#091408" stroke="#34d399"/>
+  <text x="262" y="330" fill="#6ee7b7" font-size="9" font-family="sans-serif">Soft — P3</text>
+  <rect x="350" y="318" width="14" height="14" rx="2" fill="#120808" stroke="#374151"/>
+  <text x="372" y="330" fill="#4b5563" font-size="9" font-family="sans-serif">N/A</text>
+  <text x="430" y="330" fill="#4b5563" font-size="9" font-family="monospace">P = Prioridade · tol = tolerancia</text>
+</svg>

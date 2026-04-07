@@ -68,6 +68,11 @@ nav = [
     {"Exercício 02" = "IDS/exercicio/exercicio_ids.md"}
   ]},
   {"Clash detection" = "clash/clash-detection-material.md"},
+  {BCF = [
+    {"Conceito" = "BCF/bcf_basics.md"},
+    
+
+  ]},
 ]
 
 [project.theme]
