@@ -67,6 +67,7 @@ nav = [
     {"Exercício 01" = "BCF/exercicio.md"},
     {"Exercício 02" = "IDS/exercicio/exercicio_ids.md"}
   ]},
+  {"Clash detection" = "clash/clash-detection-material.md"},
 ]
 
 [project.theme]
