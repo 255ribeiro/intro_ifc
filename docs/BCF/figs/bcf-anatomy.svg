@@ -3,7 +3,7 @@
 
   <!-- Title -->
   <text x="350" y="26" text-anchor="middle" fill="#e2e8f0" font-size="13" font-weight="bold" font-family="sans-serif">Anatomia de um arquivo BCF</text>
-  <text x="350" y="42" text-anchor="middle" fill="#4b5563" font-size="9" font-family="monospace">.bcfzip  =  arquivo ZIP contendo topics em XML + snapshots em PNG</text>
+  <text x="350" y="42" text-anchor="middle" fill="#e2e8f0" font-size="9" font-family="monospace">.bcfzip  =  arquivo ZIP contendo topics em XML + snapshots em PNG</text>
 
   <!-- Outer BCF file box -->
   <rect x="20" y="54" width="660" height="248" rx="6" fill="#1e2333" stroke="#f0b429" stroke-width="2"/>
@@ -30,7 +30,7 @@
   <text x="126" y="222" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">Camera 3D</text>
   <text x="126" y="234" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">posicionada no</text>
   <text x="126" y="246" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">issue</text>
-  <text x="126" y="262" text-anchor="middle" fill="#4b5563" font-size="7" font-family="monospace">viewpoint.bcfv</text>
+  <text x="126" y="262" text-anchor="middle" fill="#94a3b8" font-size="7" font-family="monospace">viewpoint.bcfv</text>
 
   <!-- Snapshot -->
   <rect x="212" y="136" width="140" height="140" rx="4" fill="#0a1828" stroke="#34d399" stroke-width="1.2"/>
@@ -44,7 +44,7 @@
   <text x="282" y="234" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">Print do modelo</text>
   <text x="282" y="246" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">na posicao do</text>
   <text x="282" y="258" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">issue</text>
-  <text x="282" y="268" text-anchor="middle" fill="#4b5563" font-size="7" font-family="monospace">snapshot.png</text>
+  <text x="282" y="268" text-anchor="middle" fill="#94a3b8" font-size="7" font-family="monospace">snapshot.png</text>
 
   <!-- Components -->
   <rect x="368" y="136" width="140" height="140" rx="4" fill="#0a1828" stroke="#f87171" stroke-width="1.2"/>
@@ -54,9 +54,9 @@
   <text x="438" y="180" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">GUIDs dos</text>
   <text x="438" y="193" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">elementos IFC</text>
   <text x="438" y="206" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">envolvidos</text>
-  <text x="438" y="226" text-anchor="middle" fill="#4b5563" font-size="7" font-family="monospace">3KwGIlA2j...</text>
-  <text x="438" y="238" text-anchor="middle" fill="#4b5563" font-size="7" font-family="monospace">0wLHqXb9k...</text>
-  <text x="438" y="250" text-anchor="middle" fill="#4b5563" font-size="7" font-family="monospace">2mJPaTvEs...</text>
+  <text x="438" y="226" text-anchor="middle" fill="#94a3b8" font-size="7" font-family="monospace">3KwGIlA2j...</text>
+  <text x="438" y="238" text-anchor="middle" fill="#94a3b8" font-size="7" font-family="monospace">0wLHqXb9k...</text>
+  <text x="438" y="250" text-anchor="middle" fill="#94a3b8" font-size="7" font-family="monospace">2mJPaTvEs...</text>
 
   <!-- Metadata -->
   <rect x="524" y="136" width="120" height="140" rx="4" fill="#0a1828" stroke="#fbbf24" stroke-width="1.2"/>
