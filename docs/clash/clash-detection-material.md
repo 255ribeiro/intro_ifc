@@ -1,3 +1,8 @@
+---
+icon: lucide/blend
+---
+
+
 # Clash Detection em BIM
 
 > **Processo de identificação automática de conflitos espaciais** em modelos BIM federados — detectando interferências entre disciplinas antes que se tornem problemas onerosos em obra.
@@ -6,15 +11,25 @@
 
 ## Sumário
 
-1. [O que é Clash Detection](#o-que-é-clash-detection)
-2. [Tipos de Clash](#tipos-de-clash)
-3. [Modelo Federado](#modelo-federado)
-4. [Clash Matrix](#clash-matrix)
-5. [Fluxo de trabalho](#fluxo-de-trabalho)
-6. [Status e ciclo de vida de um clash](#status-e-ciclo-de-vida-de-um-clash)
-7. [Ferramentas](#ferramentas)
-8. [Boas práticas](#boas-práticas)
-9. [Referências](#referências)
+- [Clash Detection em BIM](#clash-detection-em-bim)
+  - [Sumário](#sumário)
+  - [O que é Clash Detection](#o-que-é-clash-detection)
+  - [Tipos de Clash](#tipos-de-clash)
+    - [Tabela comparativa](#tabela-comparativa)
+  - [Modelo Federado](#modelo-federado)
+  - [Clash Matrix](#clash-matrix)
+    - [Prioridades recomendadas de teste](#prioridades-recomendadas-de-teste)
+  - [Fluxo de trabalho](#fluxo-de-trabalho)
+    - [Frequência recomendada por fase](#frequência-recomendada-por-fase)
+  - [Status e ciclo de vida de um clash](#status-e-ciclo-de-vida-de-um-clash)
+  - [Ferramentas](#ferramentas)
+    - [Detecção e coordenação](#detecção-e-coordenação)
+    - [Gestão de issues / BCF](#gestão-de-issues--bcf)
+  - [Boas práticas](#boas-práticas)
+    - [Antes dos testes](#antes-dos-testes)
+    - [Durante os testes](#durante-os-testes)
+    - [Após os testes](#após-os-testes)
+  - [Referências](#referências)
 
 ---
 

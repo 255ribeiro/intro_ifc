@@ -1,3 +1,9 @@
+---
+icon: lucide/messages-square
+
+---
+
+
 # BCF — BIM Collaboration Format
 
 > **Padrão aberto buildingSMART para comunicação de issues em modelos BIM** — substitui e-mails e prints de tela por um formato estruturado que carrega posição de câmera, snapshot, elementos IFC e metadados de cada problema identificado.
@@ -6,15 +12,22 @@
 
 ## Sumário
 
-1. [O que é o BCF](#o-que-é-o-bcf)
-2. [Anatomia de um arquivo BCF](#anatomia-de-um-arquivo-bcf)
-3. [Versões do BCF](#versões-do-bcf)
-4. [Fluxo de uso](#fluxo-de-uso)
-5. [Status de um topic BCF](#status-de-um-topic-bcf)
-6. [Ferramentas](#ferramentas)
-7. [BCF no contexto do clash detection](#bcf-no-contexto-do-clash-detection)
-8. [Boas práticas](#boas-práticas)
-9. [Referências](#referências)
+- [BCF — BIM Collaboration Format](#bcf--bim-collaboration-format)
+  - [Sumário](#sumário)
+  - [O que é o BCF](#o-que-é-o-bcf)
+  - [Anatomia de um arquivo BCF](#anatomia-de-um-arquivo-bcf)
+    - [Componentes de um topic](#componentes-de-um-topic)
+  - [Versões do BCF](#versões-do-bcf)
+    - [BCF-XML vs BCF-API](#bcf-xml-vs-bcf-api)
+  - [Fluxo de uso](#fluxo-de-uso)
+    - [Ciclo típico de coordenação com BCF](#ciclo-típico-de-coordenação-com-bcf)
+  - [Status de um topic BCF](#status-de-um-topic-bcf)
+  - [Ferramentas](#ferramentas)
+    - [Criação e exportação de BCF](#criação-e-exportação-de-bcf)
+    - [Gestão de issues e plataformas CDE](#gestão-de-issues-e-plataformas-cde)
+  - [BCF no contexto do clash detection](#bcf-no-contexto-do-clash-detection)
+  - [Boas práticas](#boas-práticas)
+  - [Referências](#referências)
 
 ---
 
