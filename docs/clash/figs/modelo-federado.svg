@@ -2,23 +2,23 @@
   <rect width="720" height="310" rx="8" fill="#1a1f2e"/>
 
   <!-- Title -->
-  <text x="360" y="26" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="monospace">MODELOS NATIVOS  →  MODELO FEDERADO  →  CLASH ENGINE  →  RELATORIO</text>
+  <text x="360" y="26" text-anchor="middle" fill="#cacaca" font-size="11" font-family="monospace">MODELOS NATIVOS  →  MODELO FEDERADO  →  CLASH ENGINE  →  RELATORIO</text>
 
   <!-- Discipline boxes (left column) -->
   <rect x="20" y="48" width="130" height="58" rx="5" fill="#2a1a4a" stroke="#a78bfa" stroke-width="1.5"/>
   <text x="85" y="72" text-anchor="middle" fill="#c4b5fd" font-size="12" font-weight="bold" font-family="monospace">ARQ</text>
   <text x="85" y="88" text-anchor="middle" fill="#ddd6fe" font-size="9" font-family="sans-serif">Arquitetura</text>
-  <text x="85" y="100" text-anchor="middle" fill="#64748b" font-size="8" font-family="monospace">.rvt / .ifc</text>
+  <text x="85" y="100" text-anchor="middle" fill="#cacaca" font-size="8" font-family="monospace">.rvt / .ifc</text>
 
   <rect x="20" y="126" width="130" height="58" rx="5" fill="#0f2035" stroke="#60a5fa" stroke-width="1.5"/>
   <text x="85" y="150" text-anchor="middle" fill="#93c5fd" font-size="12" font-weight="bold" font-family="monospace">EST</text>
   <text x="85" y="166" text-anchor="middle" fill="#bfdbfe" font-size="9" font-family="sans-serif">Estruturas</text>
-  <text x="85" y="178" text-anchor="middle" fill="#64748b" font-size="8" font-family="monospace">.rvt / .ifc</text>
+  <text x="85" y="178" text-anchor="middle" fill="#cacaca" font-size="8" font-family="monospace">.rvt / .ifc</text>
 
   <rect x="20" y="204" width="130" height="58" rx="5" fill="#0a1f14" stroke="#34d399" stroke-width="1.5"/>
   <text x="85" y="228" text-anchor="middle" fill="#6ee7b7" font-size="12" font-weight="bold" font-family="monospace">MEP</text>
   <text x="85" y="244" text-anchor="middle" fill="#a7f3d0" font-size="9" font-family="sans-serif">Instalacoes</text>
-  <text x="85" y="256" text-anchor="middle" fill="#64748b" font-size="8" font-family="monospace">.rvt / .ifc</text>
+  <text x="85" y="256" text-anchor="middle" fill="#cacaca" font-size="8" font-family="monospace">.rvt / .ifc</text>
 
   <!-- dashed arrows to federated -->
   <line x1="150" y1="77" x2="226" y2="148" stroke="#4b5563" stroke-width="1.5" stroke-dasharray="5,3"/>
@@ -39,7 +39,7 @@
   <text x="306" y="173" text-anchor="middle" fill="#93c5fd" font-size="9" font-family="monospace">EST</text>
   <rect x="242" y="184" width="128" height="22" rx="3" fill="#0a1f14" stroke="#34d399" stroke-width="1"/>
   <text x="306" y="199" text-anchor="middle" fill="#6ee7b7" font-size="9" font-family="monospace">MEP</text>
-  <text x="306" y="225" text-anchor="middle" fill="#64748b" font-size="8" font-family="sans-serif">somente leitura</text>
+  <text x="306" y="225" text-anchor="middle" fill="#cacaca" font-size="8" font-family="sans-serif">somente leitura</text>
 
   <!-- arrow to clash engine -->
   <line x1="386" y1="155" x2="426" y2="155" stroke="#f0b429" stroke-width="2"/>
@@ -49,9 +49,9 @@
   <rect x="426" y="96" width="140" height="118" rx="6" fill="#1e1a0a" stroke="#f0b429" stroke-width="1.5"/>
   <text x="496" y="128" text-anchor="middle" fill="#f0b429" font-size="12" font-weight="bold" font-family="monospace">CLASH</text>
   <text x="496" y="145" text-anchor="middle" fill="#f0b429" font-size="12" font-weight="bold" font-family="monospace">ENGINE</text>
-  <text x="496" y="168" text-anchor="middle" fill="#64748b" font-size="9" font-family="sans-serif">Navisworks</text>
-  <text x="496" y="182" text-anchor="middle" fill="#64748b" font-size="9" font-family="sans-serif">Solibri / ACC</text>
-  <text x="496" y="196" text-anchor="middle" fill="#64748b" font-size="9" font-family="sans-serif">BIMcollab</text>
+  <text x="496" y="168" text-anchor="middle" fill="#cacaca" font-size="9" font-family="sans-serif">Navisworks</text>
+  <text x="496" y="182" text-anchor="middle" fill="#cacaca" font-size="9" font-family="sans-serif">Solibri / ACC</text>
+  <text x="496" y="196" text-anchor="middle" fill="#cacaca" font-size="9" font-family="sans-serif">BIMcollab</text>
 
   <!-- arrow to report -->
   <line x1="566" y1="155" x2="606" y2="155" stroke="#4b5563" stroke-width="1.5"/>
@@ -65,5 +65,5 @@
   <text x="653" y="184" text-anchor="middle" fill="#34d399" font-size="10" font-family="monospace">OK   0</text>
 
   <!-- bottom note -->
-  <text x="360" y="285" text-anchor="middle" fill="#4b5563" font-size="9" font-family="sans-serif">Cada disciplina mantem seu arquivo nativo — o modelo federado e somente de leitura</text>
+  <text x="360" y="285" text-anchor="middle" fill="#cacaca" font-size="9" font-family="sans-serif">Cada disciplina mantem seu arquivo nativo — o modelo federado e somente de leitura</text>
 </svg>

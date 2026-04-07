@@ -1,55 +1,55 @@
 <svg viewBox="0 0 700 190" width="700" height="190" xmlns="http://www.w3.org/2000/svg">
   <rect width="700" height="190" rx="8" fill="#1a1f2e"/>
-  <text x="350" y="22" text-anchor="middle" fill="#4b5563" font-size="10" font-family="sans-serif">Ciclo de vida de um clash — do relatorio ao fechamento</text>
+  <text x="350" y="22" text-anchor="middle" fill="#cacaca" font-size="10" font-family="sans-serif">Ciclo de vida de um clash — do relatorio ao fechamento</text>
 
   <!-- NEW -->
   <rect x="16" y="46" width="108" height="64" rx="6" fill="#2d1515" stroke="#f87171" stroke-width="1.5"/>
   <text x="70" y="70" text-anchor="middle" fill="#fca5a5" font-size="11" font-weight="bold" font-family="monospace">NEW</text>
-  <text x="70" y="86" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">Detectado</text>
-  <text x="70" y="98" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">automaticamente</text>
+  <text x="70" y="86" text-anchor="middle" fill="#cacaca" font-size="8" font-family="sans-serif">Detectado</text>
+  <text x="70" y="98" text-anchor="middle" fill="#cacaca" font-size="8" font-family="sans-serif">automaticamente</text>
 
   <!-- arrow NEW -> ACTIVE -->
-  <line x1="124" y1="78" x2="146" y2="78" stroke="#4b5563" stroke-width="1.5"/>
-  <polygon points="146,78 138,73 138,83" fill="#4b5563"/>
+  <line x1="124" y1="78" x2="146" y2="78" stroke="#cacaca" stroke-width="1.5"/>
+  <polygon points="146,78 138,73 138,83" fill="#cacaca"/>
 
   <!-- ACTIVE -->
   <rect x="146" y="46" width="108" height="64" rx="6" fill="#1e1a0a" stroke="#f0b429" stroke-width="1.5"/>
   <text x="200" y="70" text-anchor="middle" fill="#fcd34d" font-size="11" font-weight="bold" font-family="monospace">ACTIVE</text>
-  <text x="200" y="86" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">Atribuido a</text>
-  <text x="200" y="98" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">responsavel</text>
+  <text x="200" y="86" text-anchor="middle" fill="#cacaca" font-size="8" font-family="sans-serif">Atribuido a</text>
+  <text x="200" y="98" text-anchor="middle" fill="#cacaca" font-size="8" font-family="sans-serif">responsavel</text>
 
   <!-- arrow ACTIVE -> REVIEWED -->
-  <line x1="254" y1="78" x2="276" y2="78" stroke="#4b5563" stroke-width="1.5"/>
-  <polygon points="276,78 268,73 268,83" fill="#4b5563"/>
+  <line x1="254" y1="78" x2="276" y2="78" stroke="#cacaca" stroke-width="1.5"/>
+  <polygon points="276,78 268,73 268,83" fill="#cacaca"/>
 
   <!-- REVIEWED -->
   <rect x="276" y="46" width="108" height="64" rx="6" fill="#0a1828" stroke="#38bdf8" stroke-width="1.5"/>
   <text x="330" y="70" text-anchor="middle" fill="#7dd3fc" font-size="11" font-weight="bold" font-family="monospace">REVIEWED</text>
-  <text x="330" y="86" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">Solucao</text>
-  <text x="330" y="98" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">proposta</text>
+  <text x="330" y="86" text-anchor="middle" fill="#cacaca" font-size="8" font-family="sans-serif">Solucao</text>
+  <text x="330" y="98" text-anchor="middle" fill="#cacaca" font-size="8" font-family="sans-serif">proposta</text>
 
   <!-- arrow back REVIEWED -> ACTIVE (rejected) -->
-  <path d="M330,110 Q330,148 200,148 Q176,148 200,110" fill="none" stroke="#4b5563" stroke-width="1.2" stroke-dasharray="4,3"/>
-  <polygon points="200,110 194,118 206,118" fill="#4b5563"/>
-  <text x="265" y="163" text-anchor="middle" fill="#4b5563" font-size="8" font-family="sans-serif">rejeitado</text>
+  <path d="M330,110 Q330,148 200,148 Q176,148 200,110" fill="none" stroke="#cacaca" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <polygon points="200,110 194,118 206,118" fill="#cacaca"/>
+  <text x="265" y="163" text-anchor="middle" fill="#cacaca" font-size="8" font-family="sans-serif">rejeitado</text>
 
   <!-- arrow REVIEWED -> APPROVED -->
-  <line x1="384" y1="78" x2="406" y2="78" stroke="#4b5563" stroke-width="1.5"/>
-  <polygon points="406,78 398,73 398,83" fill="#4b5563"/>
+  <line x1="384" y1="78" x2="406" y2="78" stroke="#cacaca" stroke-width="1.5"/>
+  <polygon points="406,78 398,73 398,83" fill="#cacaca"/>
 
   <!-- APPROVED -->
   <rect x="406" y="46" width="108" height="64" rx="6" fill="#0a1f14" stroke="#34d399" stroke-width="1.5"/>
   <text x="460" y="70" text-anchor="middle" fill="#6ee7b7" font-size="11" font-weight="bold" font-family="monospace">APPROVED</text>
-  <text x="460" y="86" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">Correcao</text>
-  <text x="460" y="98" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">validada</text>
+  <text x="460" y="86" text-anchor="middle" fill="#cacaca" font-size="8" font-family="sans-serif">Correcao</text>
+  <text x="460" y="98" text-anchor="middle" fill="#cacaca" font-size="8" font-family="sans-serif">validada</text>
 
   <!-- arrow APPROVED -> RESOLVED -->
-  <line x1="514" y1="78" x2="536" y2="78" stroke="#4b5563" stroke-width="1.5"/>
-  <polygon points="536,78 528,73 528,83" fill="#4b5563"/>
+  <line x1="514" y1="78" x2="536" y2="78" stroke="#cacaca" stroke-width="1.5"/>
+  <polygon points="536,78 528,73 528,83" fill="#cacaca"/>
 
   <!-- RESOLVED -->
   <rect x="536" y="46" width="148" height="64" rx="6" fill="#0a1f10" stroke="#4ade80" stroke-width="2"/>
   <text x="610" y="68" text-anchor="middle" fill="#86efac" font-size="11" font-weight="bold" font-family="monospace">RESOLVED</text>
   <text x="610" y="84" text-anchor="middle" fill="#86efac" font-size="14" font-family="sans-serif">OK</text>
-  <text x="610" y="102" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">Issue fechado</text>
+  <text x="610" y="102" text-anchor="middle" fill="#cacaca" font-size="8" font-family="sans-serif">Issue fechado</text>
 </svg>
