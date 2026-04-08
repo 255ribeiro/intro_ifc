@@ -1,100 +1,708 @@
-<svg viewBox="0 0 860 340" width="860" height="340" xmlns="http://www.w3.org/2000/svg">
-  <rect width="860" height="340" rx="8" fill="#1e2535"/>
-
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 860 340"
+   width="860"
+   height="340"
+   version="1.1"
+   id="svg37"
+   sodipodi:docname="bep-timeline.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs37" />
+  <sodipodi:namedview
+     id="namedview37"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.0273256"
+     inkscape:cx="412.72213"
+     inkscape:cy="159.1511"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg37" />
+  <rect
+     width="859.55975"
+     height="340"
+     rx="7.9959044"
+     fill="#1e2535"
+     id="rect1"
+     x="0.44024396"
+     y="0"
+     style="stroke-width:0.999743" />
   <!-- Title -->
-  <text x="430" y="32" text-anchor="middle" fill="#e2e8f0" font-size="13" font-weight="bold" font-family="sans-serif">Evolucao do BEP ao longo do projeto</text>
-
+  <text
+     x="462.19513"
+     y="31.214539"
+     text-anchor="middle"
+     fill="#e2e8f0"
+     font-size="12.6809px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text1"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">Evolucao do BEP ao longo do projeto</text>
   <!-- Section labels (vertical banners) -->
   <!-- Licitacao / Contratacao -->
-  <rect x="20" y="54" width="276" height="268" rx="6" fill="#1a2a1a" stroke="#4ade80" stroke-width="1.2"/>
-  <text x="158" y="76" text-anchor="middle" fill="#86efac" font-size="10" font-weight="bold" font-family="monospace">LICITACAO / CONTRATACAO</text>
-
+  <rect
+     x="12.6064"
+     y="54.044903"
+     width="303.49445"
+     height="267.91019"
+     rx="6.5977054"
+     fill="#1a2a1a"
+     stroke="#4ade80"
+     stroke-width="1.25815"
+     id="rect2" />
+  <text
+     x="153.9017"
+     y="74.134529"
+     text-anchor="middle"
+     fill="#86efac"
+     font-size="9.75454px"
+     font-weight="bold"
+     font-family="monospace"
+     id="text2"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">LICITACAO / CONTRATACAO</text>
   <!-- Execucao -->
-  <rect x="308" y="54" width="204" height="268" rx="6" fill="#1a2035" stroke="#60a5fa" stroke-width="1.2"/>
-  <text x="410" y="76" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="bold" font-family="monospace">EXECUCAO</text>
-
+  <rect
+     x="329.04642"
+     y="54.07843"
+     width="248.31769"
+     height="267.84314"
+     rx="7.3034616"
+     fill="#1a2035"
+     stroke="#60a5fa"
+     stroke-width="1.32356"
+     id="rect3" />
+  <text
+     x="448.16003"
+     y="74.134529"
+     text-anchor="middle"
+     fill="#93c5fd"
+     font-size="9.75454px"
+     font-weight="bold"
+     font-family="monospace"
+     id="text3"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">EXECUCAO</text>
   <!-- Entrega -->
-  <rect x="524" y="54" width="316" height="268" rx="6" fill="#2d2010" stroke="#f0b429" stroke-width="1.2"/>
-  <text x="682" y="76" text-anchor="middle" fill="#fcd34d" font-size="10" font-weight="bold" font-family="monospace">ENTREGA</text>
-
+  <rect
+     x="597.81287"
+     y="53.881535"
+     width="193.49545"
+     height="268.23694"
+     rx="3.673964"
+     fill="#2d2010"
+     stroke="#f0b429"
+     stroke-width="0.939432"
+     id="rect4" />
+  <text
+     x="714.05225"
+     y="74.134529"
+     text-anchor="middle"
+     fill="#fcd34d"
+     font-size="9.75454px"
+     font-weight="bold"
+     font-family="monospace"
+     id="text4"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">ENTREGA</text>
   <!-- Timeline spine -->
-  <line x1="40" y1="154" x2="820" y2="154" stroke="#ffffff" stroke-width="2"/>
-
+  <line
+     x1="64.697639"
+     y1="154"
+     x2="821.93958"
+     y2="154"
+     stroke="#ffffff"
+     stroke-width="1.9706"
+     id="line4" />
   <!-- ── EVENT NODES ── -->
-
   <!-- 1: Publicacao do EIR -->
-  <circle cx="68" cy="154" r="7" fill="#4ade80" stroke="#1a2535" stroke-width="2"/>
-  <line x1="68" y1="147" x2="68" y2="108" stroke="#4ade80" stroke-width="1.2"/>
-  <rect x="20" y="84" width="96" height="38" rx="4" fill="#223322" stroke="#4ade80" stroke-width="1"/>
-  <text x="68" y="99" text-anchor="middle" fill="#86efac" font-size="8.5" font-weight="bold" font-family="sans-serif">Publicacao</text>
-  <text x="68" y="111" text-anchor="middle" fill="#86efac" font-size="8.5" font-weight="bold" font-family="sans-serif">do EIR</text>
-  <text x="68" y="178" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">Contratante</text>
-  <text x="68" y="190" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">define requisitos</text>
-
+  <ellipse
+     cx="64.488075"
+     cy="154"
+     fill="#4ade80"
+     stroke="#1a2535"
+     stroke-width="1.95091"
+     id="circle4"
+     rx="6.6605778"
+     ry="7" />
+  <line
+     x1="64.488075"
+     y1="147"
+     x2="64.488075"
+     y2="108"
+     stroke="#4ade80"
+     stroke-width="1.17055"
+     id="line5" />
+  <rect
+     x="18.815542"
+     y="84"
+     width="91.34507"
+     height="38"
+     rx="3.8060443"
+     fill="#223322"
+     stroke="#4ade80"
+     stroke-width="0.975454"
+     id="rect5" />
+  <text
+     x="66.110809"
+     y="96.569977"
+     text-anchor="middle"
+     fill="#86efac"
+     font-size="8.29136px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text5"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">Publicacao</text>
+  <text
+     x="66.110809"
+     y="108.27543"
+     text-anchor="middle"
+     fill="#86efac"
+     font-size="8.29136px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text6"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">do EIR</text>
+  <text
+     x="66.110809"
+     y="173.63087"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="7.31591px"
+     font-family="sans-serif"
+     id="text7"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">Contratante</text>
+  <text
+     x="66.110809"
+     y="185.33632"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="7.31591px"
+     font-family="sans-serif"
+     id="text8"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">define requisitos</text>
   <!-- 2: BEP pre-contrato -->
-  <circle cx="138" cy="154" r="7" fill="#4ade80" stroke="#1a2535" stroke-width="2"/>
-  <line x1="138" y1="161" x2="138" y2="207" stroke="#4ade80" stroke-width="1.2"/>
-  <rect x="90" y="208" width="96" height="38" rx="4" fill="#223322" stroke="#4ade80" stroke-width="1"/>
-  <text x="138" y="223" text-anchor="middle" fill="#86efac" font-size="8.5" font-weight="bold" font-family="sans-serif">BEP</text>
-  <text x="138" y="235" text-anchor="middle" fill="#86efac" font-size="8.5" font-weight="bold" font-family="sans-serif">pre-contrato</text>
-  <text x="138" y="130" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">Equipes elaboram</text>
-  <text x="138" y="142" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">proposta BIM</text>
-
+  <ellipse
+     cx="131.09386"
+     cy="154"
+     fill="#4ade80"
+     stroke="#1a2535"
+     stroke-width="1.95091"
+     id="circle8"
+     rx="6.6605778"
+     ry="7" />
+  <line
+     x1="131.09386"
+     y1="161"
+     x2="131.09386"
+     y2="207"
+     stroke="#4ade80"
+     stroke-width="1.17055"
+     id="line8" />
+  <rect
+     x="85.421318"
+     y="208"
+     width="91.34507"
+     height="38"
+     rx="3.8060443"
+     fill="#223322"
+     stroke="#4ade80"
+     stroke-width="0.975454"
+     id="rect8" />
+  <text
+     x="134.39261"
+     y="217.52631"
+     text-anchor="middle"
+     fill="#86efac"
+     font-size="8.29136px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text9"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">BEP</text>
+  <text
+     x="134.39261"
+     y="229.23177"
+     text-anchor="middle"
+     fill="#86efac"
+     font-size="8.29136px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text10"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">pre-contrato</text>
+  <text
+     x="134.39261"
+     y="126.80906"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="7.31591px"
+     font-family="sans-serif"
+     id="text11"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">Equipes elaboram</text>
+  <text
+     x="134.39261"
+     y="138.51451"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="7.31591px"
+     font-family="sans-serif"
+     id="text12"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">proposta BIM</text>
   <!-- 3: Avaliacao e selecao -->
-  <circle cx="208" cy="154" r="7" fill="#4ade80" stroke="#1a2535" stroke-width="2"/>
-  <line x1="208" y1="147" x2="208" y2="108" stroke="#4ade80" stroke-width="1.2"/>
-  <rect x="160" y="84" width="96" height="38" rx="4" fill="#223322" stroke="#4ade80" stroke-width="1"/>
-  <text x="208" y="99" text-anchor="middle" fill="#86efac" font-size="8.5" font-weight="bold" font-family="sans-serif">Avaliacao</text>
-  <text x="208" y="111" text-anchor="middle" fill="#86efac" font-size="8.5" font-weight="bold" font-family="sans-serif">e selecao</text>
-  <text x="208" y="178" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">Contratante avalia</text>
-  <text x="208" y="190" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">e seleciona equipe</text>
-
+  <ellipse
+     cx="197.69963"
+     cy="154"
+     fill="#4ade80"
+     stroke="#1a2535"
+     stroke-width="1.95091"
+     id="circle12"
+     rx="6.6605778"
+     ry="7" />
+  <line
+     x1="197.69963"
+     y1="147"
+     x2="197.69963"
+     y2="108"
+     stroke="#4ade80"
+     stroke-width="1.17055"
+     id="line12" />
+  <rect
+     x="152.0271"
+     y="84"
+     width="91.34507"
+     height="38"
+     rx="3.8060443"
+     fill="#223322"
+     stroke="#4ade80"
+     stroke-width="0.975454"
+     id="rect12" />
+  <text
+     x="202.67441"
+     y="96.569977"
+     text-anchor="middle"
+     fill="#86efac"
+     font-size="8.29136px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text13"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">Avaliacao</text>
+  <text
+     x="202.67441"
+     y="108.27543"
+     text-anchor="middle"
+     fill="#86efac"
+     font-size="8.29136px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text14"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">e selecao</text>
+  <text
+     x="202.67441"
+     y="173.63087"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="7.31591px"
+     font-family="sans-serif"
+     id="text15"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">Contratante avalia</text>
+  <text
+     x="202.67441"
+     y="185.33632"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="7.31591px"
+     font-family="sans-serif"
+     id="text16"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">e seleciona equipe</text>
   <!-- 4: BEP pos-contrato -->
-  <circle cx="278" cy="154" r="7" fill="#4ade80" stroke="#1a2535" stroke-width="2"/>
-  <line x1="278" y1="161" x2="278" y2="207" stroke="#4ade80" stroke-width="1.2"/>
-  <rect x="230" y="208" width="96" height="38" rx="4" fill="#223322" stroke="#4ade80" stroke-width="1"/>
-  <text x="278" y="223" text-anchor="middle" fill="#86efac" font-size="8.5" font-weight="bold" font-family="sans-serif">BEP</text>
-  <text x="278" y="235" text-anchor="middle" fill="#86efac" font-size="8.5" font-weight="bold" font-family="sans-serif">pos-contrato</text>
-  <text x="278" y="130" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">Equipe confirma</text>
-  <text x="278" y="142" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">e detalha o BEP</text>
-
+  <ellipse
+     cx="264.30539"
+     cy="154"
+     fill="#4ade80"
+     stroke="#1a2535"
+     stroke-width="1.95091"
+     id="circle16"
+     rx="6.6605778"
+     ry="7" />
+  <line
+     x1="264.30539"
+     y1="161"
+     x2="264.30539"
+     y2="207"
+     stroke="#4ade80"
+     stroke-width="1.17055"
+     id="line16" />
+  <rect
+     x="218.63287"
+     y="208"
+     width="91.34507"
+     height="38"
+     rx="3.8060443"
+     fill="#223322"
+     stroke="#4ade80"
+     stroke-width="0.975454"
+     id="rect16" />
+  <text
+     x="270.95621"
+     y="217.52631"
+     text-anchor="middle"
+     fill="#86efac"
+     font-size="8.29136px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text17"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">BEP</text>
+  <text
+     x="270.95621"
+     y="229.23177"
+     text-anchor="middle"
+     fill="#86efac"
+     font-size="8.29136px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text18"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">pos-contrato</text>
+  <text
+     x="270.95621"
+     y="126.80906"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="7.31591px"
+     font-family="sans-serif"
+     id="text19"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">Equipe confirma</text>
+  <text
+     x="270.95621"
+     y="138.51451"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="7.31591px"
+     font-family="sans-serif"
+     id="text20"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">e detalha o BEP</text>
   <!-- 5: Fase LP / AP -->
-  <circle cx="356" cy="154" r="7" fill="#60a5fa" stroke="#1a2535" stroke-width="2"/>
-  <line x1="356" y1="147" x2="356" y2="108" stroke="#60a5fa" stroke-width="1.2"/>
-  <rect x="308" y="84" width="96" height="38" rx="4" fill="#0f2035" stroke="#60a5fa" stroke-width="1"/>
-  <text x="356" y="99" text-anchor="middle" fill="#93c5fd" font-size="8.5" font-weight="bold" font-family="sans-serif">Fase</text>
-  <text x="356" y="111" text-anchor="middle" fill="#93c5fd" font-size="8.5" font-weight="bold" font-family="sans-serif">LP / AP</text>
-  <text x="356" y="178" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">Revisao e</text>
-  <text x="356" y="190" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">atualizacao BEP</text>
-
+  <ellipse
+     cx="385.77805"
+     cy="154"
+     fill="#60a5fa"
+     stroke="#1a2535"
+     stroke-width="1.95091"
+     id="circle20"
+     rx="6.6605778"
+     ry="7" />
+  <line
+     x1="385.77805"
+     y1="147"
+     x2="385.77805"
+     y2="108"
+     stroke="#60a5fa"
+     stroke-width="1.17055"
+     id="line20" />
+  <rect
+     x="340.1055"
+     y="84"
+     width="91.34507"
+     height="38"
+     rx="3.8060443"
+     fill="#0f2035"
+     stroke="#60a5fa"
+     stroke-width="0.975454"
+     id="rect20" />
+  <text
+     x="395.4855"
+     y="96.569977"
+     text-anchor="middle"
+     fill="#93c5fd"
+     font-size="8.29136px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text21"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">Fase</text>
+  <text
+     x="395.4855"
+     y="108.27543"
+     text-anchor="middle"
+     fill="#93c5fd"
+     font-size="8.29136px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text22"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">LP / AP</text>
+  <text
+     x="395.4855"
+     y="173.63087"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="7.31591px"
+     font-family="sans-serif"
+     id="text23"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">Revisao e</text>
+  <text
+     x="395.4855"
+     y="185.33632"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="7.31591px"
+     font-family="sans-serif"
+     id="text24"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">atualizacao BEP</text>
   <!-- 6: Fase EP -->
-  <circle cx="426" cy="154" r="7" fill="#60a5fa" stroke="#1a2535" stroke-width="2"/>
-  <line x1="426" y1="161" x2="426" y2="207" stroke="#60a5fa" stroke-width="1.2"/>
-  <rect x="378" y="208" width="96" height="38" rx="4" fill="#0f2035" stroke="#60a5fa" stroke-width="1"/>
-  <text x="426" y="223" text-anchor="middle" fill="#93c5fd" font-size="8.5" font-weight="bold" font-family="sans-serif">Fase EP</text>
-  <text x="426" y="235" text-anchor="middle" fill="#93c5fd" font-size="8.5" font-weight="bold" font-family="sans-serif">(Proj. Exec.)</text>
-  <text x="426" y="130" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">Revisao e</text>
-  <text x="426" y="142" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">atualizacao BEP</text>
-
+  <ellipse
+     cx="452.38382"
+     cy="154"
+     fill="#60a5fa"
+     stroke="#1a2535"
+     stroke-width="1.95091"
+     id="circle24"
+     rx="6.6605778"
+     ry="7" />
+  <line
+     x1="452.38382"
+     y1="161"
+     x2="452.38382"
+     y2="207"
+     stroke="#60a5fa"
+     stroke-width="1.17055"
+     id="line24" />
+  <rect
+     x="406.7113"
+     y="208"
+     width="91.34507"
+     height="38"
+     rx="3.8060443"
+     fill="#0f2035"
+     stroke="#60a5fa"
+     stroke-width="0.975454"
+     id="rect24" />
+  <text
+     x="463.7673"
+     y="217.52631"
+     text-anchor="middle"
+     fill="#93c5fd"
+     font-size="8.29136px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text25"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">Fase EP</text>
+  <text
+     x="463.7673"
+     y="229.23177"
+     text-anchor="middle"
+     fill="#93c5fd"
+     font-size="8.29136px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text26"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">(Proj. Exec.)</text>
+  <text
+     x="463.7673"
+     y="126.80906"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="7.31591px"
+     font-family="sans-serif"
+     id="text27"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">Revisao e</text>
+  <text
+     x="463.7673"
+     y="138.51451"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="7.31591px"
+     font-family="sans-serif"
+     id="text28"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">atualizacao BEP</text>
   <!-- 7: Fase de Obras -->
-  <circle cx="496" cy="154" r="7" fill="#60a5fa" stroke="#1a2535" stroke-width="2"/>
-  <line x1="496" y1="147" x2="496" y2="108" stroke="#60a5fa" stroke-width="1.2"/>
-  <rect x="448" y="84" width="96" height="38" rx="4" fill="#0f2035" stroke="#60a5fa" stroke-width="1"/>
-  <text x="496" y="99" text-anchor="middle" fill="#93c5fd" font-size="8.5" font-weight="bold" font-family="sans-serif">Fase de</text>
-  <text x="496" y="111" text-anchor="middle" fill="#93c5fd" font-size="8.5" font-weight="bold" font-family="sans-serif">Obras</text>
-  <text x="496" y="178" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">Revisao e</text>
-  <text x="496" y="190" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">atualizacao BEP</text>
-
+  <ellipse
+     cx="518.98962"
+     cy="154"
+     fill="#60a5fa"
+     stroke="#1a2535"
+     stroke-width="1.95091"
+     id="circle28"
+     rx="6.6605778"
+     ry="7" />
+  <line
+     x1="518.98962"
+     y1="147"
+     x2="518.98962"
+     y2="108"
+     stroke="#60a5fa"
+     stroke-width="1.17055"
+     id="line28" />
+  <rect
+     x="473.31708"
+     y="84"
+     width="91.34507"
+     height="38"
+     rx="3.8060443"
+     fill="#0f2035"
+     stroke="#60a5fa"
+     stroke-width="0.975454"
+     id="rect28" />
+  <text
+     x="532.04913"
+     y="96.569977"
+     text-anchor="middle"
+     fill="#93c5fd"
+     font-size="8.29136px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text29"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">Fase de</text>
+  <text
+     x="532.04913"
+     y="108.27543"
+     text-anchor="middle"
+     fill="#93c5fd"
+     font-size="8.29136px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text30"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">Obras</text>
+  <text
+     x="532.04913"
+     y="173.63087"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="7.31591px"
+     font-family="sans-serif"
+     id="text31"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">Revisao e</text>
+  <text
+     x="532.04913"
+     y="185.33632"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="7.31591px"
+     font-family="sans-serif"
+     id="text32"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">atualizacao BEP</text>
   <!-- 8: Handover -->
-  <circle cx="682" cy="154" r="10" fill="#f0b429" stroke="#1a2535" stroke-width="2"/>
-  <line x1="682" y1="164" x2="682" y2="207" stroke="#f0b429" stroke-width="1.5"/>
-  <rect x="594" y="208" width="176" height="50" rx="4" fill="#2d2010" stroke="#f0b429" stroke-width="1.5"/>
-  <text x="682" y="228" text-anchor="middle" fill="#fcd34d" font-size="9" font-weight="bold" font-family="sans-serif">Handover</text>
-  <text x="682" y="243" text-anchor="middle" fill="#fbbf24" font-size="8" font-family="sans-serif">Atualizacao final do BEP</text>
-  <text x="682" y="255" text-anchor="middle" fill="#fbbf24" font-size="8" font-family="sans-serif">para FM / operacao</text>
-  <text x="682" y="130" text-anchor="middle" fill="#fcd34d" font-size="8" font-weight="bold" font-family="sans-serif">ENTREGA FINAL</text>
-
+  <ellipse
+     cx="696.52533"
+     cy="154"
+     fill="#f0b429"
+     stroke="#1a2535"
+     stroke-width="1.95091"
+     id="circle32"
+     rx="9.515111"
+     ry="10" />
+  <line
+     x1="696.52533"
+     y1="164"
+     x2="696.52533"
+     y2="207"
+     stroke="#f0b429"
+     stroke-width="1.46318"
+     id="line32" />
+  <rect
+     x="612.79236"
+     y="208"
+     width="167.46596"
+     height="50"
+     rx="3.8060443"
+     fill="#2d2010"
+     stroke="#f0b429"
+     stroke-width="1.46318"
+     id="rect32" />
+  <text
+     x="714.05225"
+     y="222.40358"
+     text-anchor="middle"
+     fill="#fcd34d"
+     font-size="8.77909px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text33"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">Handover</text>
+  <text
+     x="714.05225"
+     y="237.0354"
+     text-anchor="middle"
+     fill="#fbbf24"
+     font-size="7.80363px"
+     font-family="sans-serif"
+     id="text34"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">Atualizacao final do BEP</text>
+  <text
+     x="714.05225"
+     y="248.74084"
+     text-anchor="middle"
+     fill="#fbbf24"
+     font-size="7.80363px"
+     font-family="sans-serif"
+     id="text35"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">para FM / operacao</text>
+  <text
+     x="714.05225"
+     y="126.80906"
+     text-anchor="middle"
+     fill="#fcd34d"
+     font-size="7.80363px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text36"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">ENTREGA FINAL</text>
   <!-- arrow cap at end of timeline -->
-  <polygon points="824,154 812,148 812,160" fill="#ffffff"/>
-  <text x="840" y="158" text-anchor="middle" fill="#ffffff" font-size="9" font-family="sans-serif">tempo</text>
+  <polygon
+     points="812,160 824,154 812,148 "
+     fill="#ffffff"
+     id="polygon36"
+     transform="matrix(0.95151111,0,0,1,47.594756,0)" />
+  <text
+     x="774.26215"
+     y="161.24309"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="8.77909px"
+     font-family="sans-serif"
+     id="text37"
+     transform="scale(0.97545431,1.0251633)"
+     style="stroke-width:0.975454">linha do tempo</text>
 </svg>
