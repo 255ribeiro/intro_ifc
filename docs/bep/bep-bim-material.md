@@ -51,8 +51,8 @@ flowchart TD
     A([Contratante]) -->|publica| B["EIR\nEmployer's Information\nRequirements"]
     B -->|fundamenta| C["BEP\nBIM Execution Plan"]
     C -->|responde a| B
-    C -->|governa| D["Execucao BIM\ndo Projeto"]
-    D -->|gera| E["Entregaveis\nIFC · COBie · BCF"]
+    C -->|governa| D["Execução BIM\ndo Projeto"]
+    D -->|gera| E["Entregáveis\nIFC · COBie · BCF"]
     E -->|validados contra| F["IDS\nInformation Delivery\nSpecification"]
     F -->|derivado do| B
 ```
@@ -126,13 +126,13 @@ Com base na ISO 19650, Penn State BEP Guide e NBIMS-US, as seções essenciais d
 graph LR
     BEP(("BEP"))
 
-    BEP --> A["Identificacao"]
-    A --> A1["Capa e controle de revisoes"]
+    BEP --> A["Identificação"]
+    A --> A1["Capa e controle de revisões"]
     A --> A2["Informacoes do projeto"]
 
     BEP --> B["Estrategia BIM"]
     B --> B1["Objetivos e BIM Uses"]
-    B --> B2["Niveis de informacao LOD/LOI"]
+    B --> B2["Níveis de informação LOD/LOI"]
     B --> B3["Estrategia de entrega MIDP/TIDP"]
 
     BEP --> C["Pessoas"]
@@ -140,18 +140,18 @@ graph LR
     C --> C2["Matriz RACI"]
 
     BEP --> D["Processos"]
-    D --> D1["Processos de colaboracao"]
-    D --> D2["Gestao de qualidade QA/QC"]
-    D --> D3["Seguranca da informacao"]
+    D --> D1["Processos de colaboração"]
+    D --> D2["Gestão de qualidade QA/QC"]
+    D --> D3["Segurança da informação"]
 
     BEP --> E["Tecnologia"]
     E --> E1["Infraestrutura de software"]
     E --> E2["Common Data Environment CDE"]
-    E --> E3["Padroes e convencoes"]
+    E --> E3["Padrões e convenções"]
 
     BEP --> F["Entrega"]
     F --> F1["Handover e FM"]
-    F --> F2["Apendices e templates"]
+    F --> F2["Apêndices e templates"]
 ```
 
 A NATSPEC estrutura as seções do BEP em três aspectos conforme a **ISO 19650.1, Seção 5**:[^10]
@@ -322,7 +322,7 @@ flowchart TD
 
     SH["Shared\nCompartilhado\npara revisão interna"]
 
-    SH -->|"Revisao solicita\ncorrecoes"| WIP
+    SH -->|"Revisão solicita\ncorreções"| WIP
     SH -->|"BIM Manager\naprova"| PUB
 
     PUB["Published\nAprovado para uso\nFonte de verdade do projeto"]
@@ -365,15 +365,15 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[BIM Author\nconclui modelagem] --> B{Verificacao\nvisual}
-    B -->|Aprovado| C{Verificacao\nde consistencia\nIfcOpenShell / Solibri}
+    A[BIM Author\nconclui modelagem] --> B{Verificação\nvisual}
+    B -->|Aprovado| C{Verificação\nde consistência\nIfcOpenShell / Solibri}
     B -->|Reprovado| A
-    C -->|Aprovado| D{Verificacao\nde propriedades\nIDS}
+    C -->|Aprovado| D{Verificação\nde propriedades\nIDS}
     C -->|Reprovado| A
     D -->|100pct PASS| E[Status: Shared\nno CDE]
     D -->|FAIL| A
     E --> F{Clash\ndetection}
-    F -->|Zero hard clashes| G[Aprovacao\nBIM Manager]
+    F -->|Zero hard clashes| G[Aprovação\nBIM Manager]
     F -->|Clashes encontrados| H[Issue BCF\ncriada]
     H --> A
     G --> I[Status: Published\nno CDE]
@@ -452,20 +452,20 @@ A **ISO 19650-2:2018**[^5] é a norma internacional que regula a gestão da info
 sequenceDiagram
     autonumber
     actor CP as Contratante
-    actor LE as Lider da Equipe
+    actor LE as Líder da Equipe
     actor EQ as Equipes
 
-    CP->>LE: Publica EIR + documentos de licitacao
+    CP->>LE: Publica EIR + documentos de licitação
     LE->>CP: Entrega BEP pre-contrato (ISO 19650-2 §5.3.2)
     CP->>LE: Avalia e seleciona equipe
-    CP->>LE: Confirmacao da contratacao
-    LE->>EQ: Solicita contribuicao para BEP pos-contrato
-    EQ->>LE: Entregam TIDPs e informacoes de processo
+    CP->>LE: Confirmação da contratação
+    LE->>EQ: Solicita contribuição para BEP pos-contrato
+    EQ->>LE: Entregam TIDPs e informações de processo
     LE->>CP: Entrega BEP pos-contrato (ISO 19650-2 §5.4.1)
-    CP->>LE: Aprovacao formal do BEP
-    Note over LE,EQ: Execucao - BEP e referencia operacional
-    LE->>CP: Revisao do BEP a cada nova fase
-    CP->>LE: Aprovacao das revisoes
+    CP->>LE: Aprovação formal do BEP
+    Note over LE,EQ: Execução - BEP e referencia operacional
+    LE->>CP: Revisão do BEP a cada nova fase
+    CP->>LE: Aprovação das revisões
 ```
 
 ### Hierarquia de documentos na ISO 19650
@@ -473,8 +473,8 @@ sequenceDiagram
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"fontSize": "15px", "lineColor": "#999999", "primaryColor": "#2a2f3e", "primaryTextColor": "#e8eaf0", "primaryBorderColor": "#666666", "edgeLabelBackground": "#2a2f3e", "tertiaryColor": "#2a2f3e"}}}%%
 graph TD
-    OIR["OIR\nOrganizational Information\n Requirements\nnivel organizacional"]
-    PIR["PIR\nProject Information\n Requirements\nnivel de projeto"]
+    OIR["OIR\nOrganizational Information\n Requirements\nnível organizacional"]
+    PIR["PIR\nProject Information\n Requirements\nnível de projeto"]
     EIR["EIR\nEmployer's Information\n Requirements\nlicitação / contratação"]
     preBEP["BEP pre-contrato\npre-appointment BEP\nfase de licitação / proposta"]
     dtBEP["BEP pos-contrato\ndelivery team BEP\ndocumento operacional"]
@@ -501,17 +501,17 @@ graph TD
 ```mermaid
 %%{init: {"themeVariables": {"fontSize": "14px"}}}%%
 flowchart TD
-    S1["1. Revisar EIR e objetivos\nLevantar requisitos mandatorios\ne objetivos estrategicos"]
-    S2["2. Definir BIM Uses\nSelecionar usos aplicaveis\nDefinir meta mensuravel"]
+    S1["1. Revisar EIR e objetivos\nLevantar requisitos mandatórios\ne objetivos estratégicos"]
+    S2["2. Definir BIM Uses\nSelecionar usos aplicáveis\nDefinir meta mensurável"]
     S3["3. Mapear equipe\nIdentificar participantes\nOrganograma e RACI"]
-    S4["4. Padroes e CDE\nNomenclatura, coordenadas\nPlataforma e templates"]
-    S5["5. Elaborar MIDP e TIDPs\nEntregaveis, datas e LOD\npor disciplina"]
-    S6["6. Definir QA/QC\nRotinas de verificacao\nFluxo de aprovacao"]
+    S4["4. Padrões e CDE\nNomenclatura, coordenadas\nPlataforma e templates"]
+    S5["5. Elaborar MIDP e TIDPs\nEntregáveis, datas e LOD\npor disciplina"]
+    S6["6. Definir QA/QC\nRotinas de verificação\nFluxo de aprovação"]
     S7["7. Revisar e publicar\nFeedback de todas as partes\nPublicar no CDE"]
-    S8["8. Manter e atualizar\nRevisar a cada nova fase\nRegistrar no historico"]
+    S8["8. Manter e atualizar\nRevisar a cada nova fase\nRegistrar no histórico"]
 
     S1 --> S2 --> S3 --> S4 --> S5 --> S6 --> S7 --> S8
-    S8 -.->|"nova fase\nou mudanca"| S1
+    S8 -.->|"nova fase\nou mudança"| S1
 ```
 
 ### Boas práticas de elaboração
