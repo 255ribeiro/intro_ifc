@@ -77,10 +77,9 @@ Os documentos abaixo formam o contexto informacional em que o BEP está inserido
 
 A ISO 19650-2 define duas iterações principais do BEP ao longo do processo de licitação/contratação e execução do projeto.[^5]
 
-> **Siglas de fases do projeto usadas neste documento:** LP = Levantamento Preliminar (Estudo Preliminar) · AP = Anteprojeto · EP = Projeto Executivo
+> **Siglas de fases do projeto usadas neste documento:** EP = Estudo Preliminar · AP = Anteprojeto · PE = Projeto Executivo
 
-![Bep Timeline](./bep-timeline.svg
-)
+![Bep Timeline](./figs/bep-timeline.svg)
 
 ### BEP pré-contrato (*pre-appointment BEP*)
 
@@ -197,7 +196,7 @@ Identifica o documento e registra seu histórico.
 | Nome do projeto | [Nome oficial] |
 | Localização | [Endereço completo] |
 | Cliente / Contratante | [Razão social + CNPJ] |
-| Fases cobertas | LP (Levantamento Preliminar) / AP (Anteprojeto) / EP (Projeto Executivo) / Obras / Operação |
+| Fases cobertas |  EP / AP (Anteprojeto) / PE (Projeto Executivo) / Obras / Operação |
 | Disciplinas | [ARQ / EST / HID / ELT / AR-COND / ...] |
 | Versão IFC adotada | [IFC 4 / IFC 4.3] |
 | Norma de referência | ISO 19650-2:2018 / ABNT NBR ISO 19650 |
@@ -210,9 +209,9 @@ Lista os BIM Uses definidos para o projeto, com objetivos mensuráveis para cada
 
 | # | BIM Use | Fase | Objetivo mensurável | Responsável |
 |---|---------|------|---------------------|-------------|
-| 01 | Modelagem de projeto | LP → EP | Modelo único de referência por disciplina | BIM Author |
-| 02 | Coordenação 3D / Clash detection | AP → EP | Zero clashes hard antes do início da obra | BIM Coordinator |
-| 03 | Quantitativos e orçamento | EP | Extração automática com desvio ≤ 5% | Orçamentista |
+| 01 | Modelagem de projeto | EP → PE | Modelo único de referência por disciplina | BIM Author |
+| 02 | Coordenação 3D / Clash detection | AP → PE | Zero clashes hard antes do início da obra | BIM Coordinator |
+| 03 | Quantitativos e orçamento | PE | Extração automática com desvio ≤ 5% | Orçamentista |
 | 04 | Planejamento 4D | Obras | Sequenciamento vinculado ao cronograma Ms Project | Const. BIM |
 | 05 | Análise de sustentabilidade | AP | Simulação energética para LEED/AQUA | Consultor |
 | 06 | Gestão de ativos (FM) | Entrega | Modelo COBie para CMMS do cliente | FM Manager |
