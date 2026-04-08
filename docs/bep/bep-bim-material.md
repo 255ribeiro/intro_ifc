@@ -283,7 +283,7 @@ O **MIDP**[^bd-midp] (Master Information Delivery Plan) consolida todos os entre
 
 #### Sistema de coordenadas
 
-- **Sistema:** SIRGAS 2000 / UTM Fuso 23S (adaptar conforme localização)
+- **Sistema:** SIRGAS 2000 / UTM Fuso 24S (adaptar conforme localização)
 - **Ponto de origem compartilhado:** definido no arquivo de vínculo de coordenadas no CDE
 - **Elevação Z=0,000:** corresponde ao nível ±0 = piso acabado do pavimento térreo
 
@@ -316,21 +316,21 @@ O **MIDP**[^bd-midp] (Master Information Delivery Plan) consolida todos os entre
 flowchart TD
     ST([Inicio]) --> WIP
 
-    WIP["WIP · Work In Progress\nEm elaboracao\nAcesso: equipe autora"]
+    WIP["WIP · Work In Progress\nEm elaboração\nAcesso: equipe autora"]
 
-    WIP -->|"Autora publica\npara revisao"| SH
+    WIP -->|"Autora publica\npara revisão"| SH
 
-    SH["Shared\nCompartilhado\npara revisao interna"]
+    SH["Shared\nCompartilhado\npara revisão interna"]
 
     SH -->|"Revisao solicita\ncorrecoes"| WIP
     SH -->|"BIM Manager\naprova"| PUB
 
     PUB["Published\nAprovado para uso\nFonte de verdade do projeto"]
 
-    PUB -->|"Nova versao\npublicada"| ARC
+    PUB -->|"Nova versão\npublicada"| ARC
     PUB -->|"Documento\ncancelado"| VOI
 
-    ARC["Archived\nVersao arquivada"]
+    ARC["Archived\nVersão arquivada"]
     VOI["Void\nDocumento obsoleto"]
 
     ARC --> FIM([Fim])
@@ -381,11 +381,11 @@ flowchart TD
 
 | Tipo de verificação | Ferramenta | Frequência | Critério de aprovação |
 |--------------------|-----------|:----------:|----------------------|
-| Visual (walkaround) | Navisworks / BIMvision | Antes de cada entrega | Sem objetos faltantes ou mal posicionados |
-| Consistência IFC | Solibri / BIMcollab Zoom | Antes de cada entrega | Zero erros críticos de schema |
+| Visual (walkaround) | Navisworks / BIMvision / BonsaiBIM | Antes de cada entrega | Sem objetos faltantes ou mal posicionados |
+| Consistência IFC | Solibri / BIMcollab Zoom / IfcOpenShell | Antes de cada entrega | Zero erros críticos de schema |
 | Propriedades (IDS) | Solibri / IfcOpenShell | A cada entrega | 100% PASS nas specs obrigatórias |
-| Clash detection (hard) | Navisworks / Solibri | Semanal | Zero clashes hard não resolvidos |
-| Clash detection (soft) | Navisworks | Quinzenal | Registro e priorização de todos |
+| Clash detection (hard) | Navisworks / Solibri / IfcOpenShell | Semanal | Zero clashes hard não resolvidos |
+| Clash detection (soft) | Navisworks / IfcOpenShell | Quinzenal | Registro e priorização de todos |
 | Revisão de fase | — | Por marco | Aprovação formal no CDE pelo contratante |
 
 ---
