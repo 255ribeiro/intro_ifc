@@ -1,0 +1,100 @@
+<svg viewBox="0 0 860 340" width="860" height="340" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="340" rx="8" fill="#1e2535"/>
+
+  <!-- Title -->
+  <text x="430" y="32" text-anchor="middle" fill="#e2e8f0" font-size="13" font-weight="bold" font-family="sans-serif">Evolucao do BEP ao longo do projeto</text>
+
+  <!-- Section labels (vertical banners) -->
+  <!-- Licitacao / Contratacao -->
+  <rect x="20" y="54" width="276" height="268" rx="6" fill="#1a2a1a" stroke="#4ade80" stroke-width="1.2"/>
+  <text x="158" y="76" text-anchor="middle" fill="#86efac" font-size="10" font-weight="bold" font-family="monospace">LICITACAO / CONTRATACAO</text>
+
+  <!-- Execucao -->
+  <rect x="308" y="54" width="204" height="268" rx="6" fill="#1a2035" stroke="#60a5fa" stroke-width="1.2"/>
+  <text x="410" y="76" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="bold" font-family="monospace">EXECUCAO</text>
+
+  <!-- Entrega -->
+  <rect x="524" y="54" width="316" height="268" rx="6" fill="#2d2010" stroke="#f0b429" stroke-width="1.2"/>
+  <text x="682" y="76" text-anchor="middle" fill="#fcd34d" font-size="10" font-weight="bold" font-family="monospace">ENTREGA</text>
+
+  <!-- Timeline spine -->
+  <line x1="40" y1="154" x2="820" y2="154" stroke="#ffffff" stroke-width="2"/>
+
+  <!-- ── EVENT NODES ── -->
+
+  <!-- 1: Publicacao do EIR -->
+  <circle cx="68" cy="154" r="7" fill="#4ade80" stroke="#1a2535" stroke-width="2"/>
+  <line x1="68" y1="147" x2="68" y2="108" stroke="#4ade80" stroke-width="1.2"/>
+  <rect x="20" y="84" width="96" height="38" rx="4" fill="#223322" stroke="#4ade80" stroke-width="1"/>
+  <text x="68" y="99" text-anchor="middle" fill="#86efac" font-size="8.5" font-weight="bold" font-family="sans-serif">Publicacao</text>
+  <text x="68" y="111" text-anchor="middle" fill="#86efac" font-size="8.5" font-weight="bold" font-family="sans-serif">do EIR</text>
+  <text x="68" y="178" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">Contratante</text>
+  <text x="68" y="190" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">define requisitos</text>
+
+  <!-- 2: BEP pre-contrato -->
+  <circle cx="138" cy="154" r="7" fill="#4ade80" stroke="#1a2535" stroke-width="2"/>
+  <line x1="138" y1="161" x2="138" y2="207" stroke="#4ade80" stroke-width="1.2"/>
+  <rect x="90" y="208" width="96" height="38" rx="4" fill="#223322" stroke="#4ade80" stroke-width="1"/>
+  <text x="138" y="223" text-anchor="middle" fill="#86efac" font-size="8.5" font-weight="bold" font-family="sans-serif">BEP</text>
+  <text x="138" y="235" text-anchor="middle" fill="#86efac" font-size="8.5" font-weight="bold" font-family="sans-serif">pre-contrato</text>
+  <text x="138" y="130" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">Equipes elaboram</text>
+  <text x="138" y="142" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">proposta BIM</text>
+
+  <!-- 3: Avaliacao e selecao -->
+  <circle cx="208" cy="154" r="7" fill="#4ade80" stroke="#1a2535" stroke-width="2"/>
+  <line x1="208" y1="147" x2="208" y2="108" stroke="#4ade80" stroke-width="1.2"/>
+  <rect x="160" y="84" width="96" height="38" rx="4" fill="#223322" stroke="#4ade80" stroke-width="1"/>
+  <text x="208" y="99" text-anchor="middle" fill="#86efac" font-size="8.5" font-weight="bold" font-family="sans-serif">Avaliacao</text>
+  <text x="208" y="111" text-anchor="middle" fill="#86efac" font-size="8.5" font-weight="bold" font-family="sans-serif">e selecao</text>
+  <text x="208" y="178" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">Contratante avalia</text>
+  <text x="208" y="190" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">e seleciona equipe</text>
+
+  <!-- 4: BEP pos-contrato -->
+  <circle cx="278" cy="154" r="7" fill="#4ade80" stroke="#1a2535" stroke-width="2"/>
+  <line x1="278" y1="161" x2="278" y2="207" stroke="#4ade80" stroke-width="1.2"/>
+  <rect x="230" y="208" width="96" height="38" rx="4" fill="#223322" stroke="#4ade80" stroke-width="1"/>
+  <text x="278" y="223" text-anchor="middle" fill="#86efac" font-size="8.5" font-weight="bold" font-family="sans-serif">BEP</text>
+  <text x="278" y="235" text-anchor="middle" fill="#86efac" font-size="8.5" font-weight="bold" font-family="sans-serif">pos-contrato</text>
+  <text x="278" y="130" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">Equipe confirma</text>
+  <text x="278" y="142" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">e detalha o BEP</text>
+
+  <!-- 5: Fase LP / AP -->
+  <circle cx="356" cy="154" r="7" fill="#60a5fa" stroke="#1a2535" stroke-width="2"/>
+  <line x1="356" y1="147" x2="356" y2="108" stroke="#60a5fa" stroke-width="1.2"/>
+  <rect x="308" y="84" width="96" height="38" rx="4" fill="#0f2035" stroke="#60a5fa" stroke-width="1"/>
+  <text x="356" y="99" text-anchor="middle" fill="#93c5fd" font-size="8.5" font-weight="bold" font-family="sans-serif">Fase</text>
+  <text x="356" y="111" text-anchor="middle" fill="#93c5fd" font-size="8.5" font-weight="bold" font-family="sans-serif">LP / AP</text>
+  <text x="356" y="178" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">Revisao e</text>
+  <text x="356" y="190" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">atualizacao BEP</text>
+
+  <!-- 6: Fase EP -->
+  <circle cx="426" cy="154" r="7" fill="#60a5fa" stroke="#1a2535" stroke-width="2"/>
+  <line x1="426" y1="161" x2="426" y2="207" stroke="#60a5fa" stroke-width="1.2"/>
+  <rect x="378" y="208" width="96" height="38" rx="4" fill="#0f2035" stroke="#60a5fa" stroke-width="1"/>
+  <text x="426" y="223" text-anchor="middle" fill="#93c5fd" font-size="8.5" font-weight="bold" font-family="sans-serif">Fase EP</text>
+  <text x="426" y="235" text-anchor="middle" fill="#93c5fd" font-size="8.5" font-weight="bold" font-family="sans-serif">(Proj. Exec.)</text>
+  <text x="426" y="130" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">Revisao e</text>
+  <text x="426" y="142" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">atualizacao BEP</text>
+
+  <!-- 7: Fase de Obras -->
+  <circle cx="496" cy="154" r="7" fill="#60a5fa" stroke="#1a2535" stroke-width="2"/>
+  <line x1="496" y1="147" x2="496" y2="108" stroke="#60a5fa" stroke-width="1.2"/>
+  <rect x="448" y="84" width="96" height="38" rx="4" fill="#0f2035" stroke="#60a5fa" stroke-width="1"/>
+  <text x="496" y="99" text-anchor="middle" fill="#93c5fd" font-size="8.5" font-weight="bold" font-family="sans-serif">Fase de</text>
+  <text x="496" y="111" text-anchor="middle" fill="#93c5fd" font-size="8.5" font-weight="bold" font-family="sans-serif">Obras</text>
+  <text x="496" y="178" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">Revisao e</text>
+  <text x="496" y="190" text-anchor="middle" fill="#ffffff" font-size="7.5" font-family="sans-serif">atualizacao BEP</text>
+
+  <!-- 8: Handover -->
+  <circle cx="682" cy="154" r="10" fill="#f0b429" stroke="#1a2535" stroke-width="2"/>
+  <line x1="682" y1="164" x2="682" y2="207" stroke="#f0b429" stroke-width="1.5"/>
+  <rect x="594" y="208" width="176" height="50" rx="4" fill="#2d2010" stroke="#f0b429" stroke-width="1.5"/>
+  <text x="682" y="228" text-anchor="middle" fill="#fcd34d" font-size="9" font-weight="bold" font-family="sans-serif">Handover</text>
+  <text x="682" y="243" text-anchor="middle" fill="#fbbf24" font-size="8" font-family="sans-serif">Atualizacao final do BEP</text>
+  <text x="682" y="255" text-anchor="middle" fill="#fbbf24" font-size="8" font-family="sans-serif">para FM / operacao</text>
+  <text x="682" y="130" text-anchor="middle" fill="#fcd34d" font-size="8" font-weight="bold" font-family="sans-serif">ENTREGA FINAL</text>
+
+  <!-- arrow cap at end of timeline -->
+  <polygon points="824,154 812,148 812,160" fill="#ffffff"/>
+  <text x="840" y="158" text-anchor="middle" fill="#ffffff" font-size="9" font-family="sans-serif">tempo</text>
+</svg>

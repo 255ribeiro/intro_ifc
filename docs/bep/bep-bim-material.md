@@ -79,30 +79,8 @@ A ISO 19650-2 define duas iterações principais do BEP ao longo do processo de 
 
 > **Siglas de fases do projeto usadas neste documento:** LP = Levantamento Preliminar (Estudo Preliminar) · AP = Anteprojeto · EP = Projeto Executivo
 
-<div style="background: #FFFFE0; border-radius: 10px; color: #000000";>
 
-```mermaid
-
-%%{init: {"theme": "base", "themeVariables": {
-  "titleColor": "#000000",
-}}}%%
-
-timeline
-    title Evolucao do BEP ao longo do projeto
-    section Licitacao / Contratacao
-        Publicacao do EIR : Contratante define requisitos
-        BEP pre-contrato  : Equipes concorrentes elaboram proposta BIM
-        Avaliacao e selecao : Contratante avalia os BEPs e seleciona equipe
-        BEP pos-contrato  : Equipe contratada confirma e detalha o BEP
-    section Execucao
-        Fase LP / AP      : Revisao e atualizacao do BEP por fase
-        Fase EP           : Revisao e atualizacao do BEP por fase
-        Fase de Obras     : Revisao e atualizacao do BEP por fase
-    section Entrega
-        Handover          : Atualizacao final do BEP para FM / operacao
-```
-
-</div>
+![Bep Timeline](./bep-timeline.svg)
 
 ### BEP pré-contrato (*pre-appointment BEP*)
 
