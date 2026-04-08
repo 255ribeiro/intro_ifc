@@ -79,8 +79,8 @@ A ISO 19650-2 define duas iterações principais do BEP ao longo do processo de 
 
 > **Siglas de fases do projeto usadas neste documento:** LP = Levantamento Preliminar (Estudo Preliminar) · AP = Anteprojeto · EP = Projeto Executivo
 
-
-![Bep Timeline](./bep-timeline.svg)
+![Bep Timeline](./bep-timeline.svg
+)
 
 ### BEP pré-contrato (*pre-appointment BEP*)
 
