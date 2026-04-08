@@ -473,10 +473,10 @@ sequenceDiagram
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"fontSize": "15px", "lineColor": "#999999", "primaryColor": "#2a2f3e", "primaryTextColor": "#e8eaf0", "primaryBorderColor": "#666666", "edgeLabelBackground": "#2a2f3e", "tertiaryColor": "#2a2f3e"}}}%%
 graph TD
-    OIR["OIR\nOrganizational Information Requirements\nnivel organizacional"]
-    PIR["PIR\nProject Information Requirements\nnivel de projeto"]
-    EIR["EIR\nEmployer's Information Requirements\nlicitacao / contratacao"]
-    preBEP["BEP pre-contrato\npre-appointment BEP\nfase de licitacao / proposta"]
+    OIR["OIR\nOrganizational Information\n Requirements\nnivel organizacional"]
+    PIR["PIR\nProject Information\n Requirements\nnivel de projeto"]
+    EIR["EIR\nEmployer's Information\n Requirements\nlicitação / contratação"]
+    preBEP["BEP pre-contrato\npre-appointment BEP\nfase de licitação / proposta"]
     dtBEP["BEP pos-contrato\ndelivery team BEP\ndocumento operacional"]
     MIDP["MIDP\nMaster Information\nDelivery Plan"]
     TIDPs["TIDPs\nTask Information Delivery Plans\npor disciplina"]
