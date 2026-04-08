@@ -32,7 +32,10 @@ nav = [
     ],  icon = "<fontawesome/regula/eye"},
   ],  icon = "fontawesome/solid/screwdriver-wrench"},
   {"BEP" = "bep/bep-bim-material.md"},
+
+
   {"Exportação IFC" = [
+
     {"Revit" = [
       {"IFC" = [
         {"Atualizar exportador IFC do Revit" = "exportacao/Revit/IFC/revit_IFC_install.md"},
@@ -49,15 +52,21 @@ nav = [
       ]},
       {"Georreferenciamento" = "exportacao/Revit/georref/georref.md"}
     ]},
+    
     {"Archicad" = [
       {"IFC" = "exportacao/Archicad/archicad_ifc.md"}
     ]},
+    
   ], icon = "fontawesome/solid/building-circle-arrow-right"}, 
+
+
   {"IFC" = [
     {"Introdução" = "IFC/ifc_intro.md"},
     {"IfcWall" = "IFC/IfcWall/IfcWall.md"},
     {"IfcCovering" = "IFC/ifcCovering/IfcCovering.md"}
   ]},
+
+
   {"IDS" = [
     {"IDS" = "IDS/ids-bim-material.md"},
     {"IDS | editores Online" = "IDS/ids_editor.md"}
@@ -76,6 +85,8 @@ nav = [
 
   
   {"Clash detection" = "clash/clash-detection-material.md"},
+
+  {"Exemplos" = "exemplos/exemplos.md"},
 
 ]
 
