@@ -142,6 +142,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/zipp-3.23.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstandard-0.23.0-py313h536fd9c_2.conda
       - pypi: https://files.pythonhosted.org/packages/14/39/3179a0e6684f91aae3f41cb80d99b97d40177f0fb8a08a971bb45ae4c115/mmdc-0.4.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/9b/6e/75da3f2c256a4a73e752f0bf662b1aa243fae23f47c8b5b98185e2c92c89/ogc2qgis-0.1.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/87/76/24065a7ab6e771575a74e071dfe39a17a9447ab8cd2e0b92ea31eeb60b70/phasma-0.5.0-py3-none-manylinux_2_17_x86_64.whl
       osx-64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/_python_abi3_support-1.0-hd8ed1ab_2.conda
@@ -268,6 +269,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/zipp-3.23.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/zstandard-0.23.0-py313h63b0ddb_2.conda
       - pypi: https://files.pythonhosted.org/packages/14/39/3179a0e6684f91aae3f41cb80d99b97d40177f0fb8a08a971bb45ae4c115/mmdc-0.4.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/9b/6e/75da3f2c256a4a73e752f0bf662b1aa243fae23f47c8b5b98185e2c92c89/ogc2qgis-0.1.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d9/f2/c6f39c7a3b2ddcd6fea71c8158a27480a498de7e85d0165d44fb15087062/phasma-0.5.0-py3-none-macosx_10_9_universal2.whl
       osx-arm64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/_python_abi3_support-1.0-hd8ed1ab_2.conda
@@ -394,6 +396,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/zipp-3.23.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstandard-0.23.0-py313h90d716c_2.conda
       - pypi: https://files.pythonhosted.org/packages/14/39/3179a0e6684f91aae3f41cb80d99b97d40177f0fb8a08a971bb45ae4c115/mmdc-0.4.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/9b/6e/75da3f2c256a4a73e752f0bf662b1aa243fae23f47c8b5b98185e2c92c89/ogc2qgis-0.1.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d9/f2/c6f39c7a3b2ddcd6fea71c8158a27480a498de7e85d0165d44fb15087062/phasma-0.5.0-py3-none-macosx_10_9_universal2.whl
       win-64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/_python_abi3_support-1.0-hd8ed1ab_2.conda
@@ -519,6 +522,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/zipp-3.23.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/zstandard-0.23.0-py313ha7868ed_2.conda
       - pypi: https://files.pythonhosted.org/packages/14/39/3179a0e6684f91aae3f41cb80d99b97d40177f0fb8a08a971bb45ae4c115/mmdc-0.4.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/9b/6e/75da3f2c256a4a73e752f0bf662b1aa243fae23f47c8b5b98185e2c92c89/ogc2qgis-0.1.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/3b/04/809333d3ad0676c982fa016df88e94d3830bf1413b07de679ae74930c9fa/phasma-0.5.0-py3-none-win_amd64.whl
 packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
@@ -2282,6 +2286,11 @@ packages:
   - pkg:pypi/nest-asyncio?source=hash-mapping
   size: 11543
   timestamp: 1733325673691
+- pypi: https://files.pythonhosted.org/packages/9b/6e/75da3f2c256a4a73e752f0bf662b1aa243fae23f47c8b5b98185e2c92c89/ogc2qgis-0.1.2-py3-none-any.whl
+  name: ogc2qgis
+  version: 0.1.2
+  sha256: 3ec8717797777ae3e661f15df637d1f0b7efb82627bcb7a84ff81cd78d997e45
+  requires_python: '>=3.8,<4.0'
 - conda: https://conda.anaconda.org/conda-forge/linux-64/openssl-3.5.1-h7b32b05_0.conda
   sha256: 942347492164190559e995930adcdf84e2fea05307ec8012c02a505f5be87462
   md5: c87df2ab1448ba69169652ab9547082d
