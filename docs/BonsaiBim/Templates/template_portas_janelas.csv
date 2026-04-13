@@ -1,0 +1,10 @@
+Index,Identification,Name,Quantity,Unit,Value,TotalPrice,Property,Query
+1,,Total,,,,,,
+2,,Esquadrias,,,,,,
+3,,Portas - Total,,,,,Count,IfcDoor
+4,,Porta P1,,,un,150.00,,Count,"IfcDoor, type=""P1"""
+4,,Porta P2,,,un,180.00,,Count,"IfcDoor, type=""P2"""
+4,,Porta P3,,,un,200.00,,Count,"IfcDoor, type=""P3"""
+3,,Janelas - Total,,,,,Count,IfcWindow
+4,,Janela J1,,,un,180.00,,Count,"IfcWindow, type=""J1"""
+4,,Janela J2,,,un,250.00,,Count,"IfcWindow, type=""J2"""

@@ -1,0 +1,8 @@
+Index,Identification,Name,Quantity,Unit,Value,TotalPrice,Property,Query
+1,,Total,,,,,,
+2,,Portas,,,,,,
+3,,Portas - Total (todas),,,un,,,IfcDoor
+3,,Portas 60cm,,,un,150.00,,Name,IfcDoor
+3,,Portas 70cm,,,un,180.00,,Name,IfcDoor
+3,,Portas 80cm,,,un,200.00,,Name,IfcDoor
+3,,Portas 90cm,,,un,220.00,,Name,IfcDoor

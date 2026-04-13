@@ -1,0 +1,6 @@
+Index,Identification,Name,Quantity,Unit,Value,TotalPrice,Property,Query
+1,,Total,,,,,,
+2,,Categoria Principal,,,,,,
+3,,Subtotal do Grupo,,,,,Property,IfcTipo
+4,,Item de Trabalho 1,,unidade,preço,,Property,"IfcTipo, filtro=""valor"""
+4,,Item de Trabalho 2,,unidade,preço,,Property,"IfcTipo, filtro=""valor"""

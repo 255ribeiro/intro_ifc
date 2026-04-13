@@ -1,0 +1,199 @@
+# 📦 Material BonsaiBIM - Leia-me
+
+## 📥 Conteúdo do Pacote
+
+Este arquivo ZIP contém todo o material didático para o curso de BonsaiBIM (3 aulas).
+
+---
+
+## 📂 Estrutura de Pastas
+
+```
+Material_BonsaiBIM/
+├── README_Material_Didatico.md          ⭐ COMECE POR AQUI
+├── RESUMO_Conversa.md                   📝 Contexto do desenvolvimento
+├── GUIA_PROFESSOR_BonsaiBIM_3aulas.md   👨‍🏫 Planejamento completo
+│
+├── Aulas/                               📚 Documentação das 3 aulas
+│   ├── AULA1_Interface_Blender_BonsaiBIM.md
+│   ├── AULA2_Search_BonsaiBIM.md
+│   └── AULA3_Quantificacao_BonsaiBIM.md
+│
+├── Guias/                               📋 Material de apoio
+│   ├── GUIA_RAPIDO_Salvar_CSV.md       🖨️ IMPRIMIR para alunos
+│   ├── EXEMPLO_CSV_Correto_vs_Errado.md
+│   └── DOCUMENTACAO_BonsaiBIM_Quantificacao.md (referência)
+│
+├── Templates/                           📁 Arquivos CSV prontos
+│   ├── template_basico.csv
+│   ├── template_portas_janelas.csv
+│   ├── template_estrutura_concreto.csv
+│   ├── template_location_type.csv
+│   ├── portas_por_tipo.csv
+│   └── portas_e_janelas.csv
+│
+└── Arquivos_Teste/                      🧪 CSVs de troubleshooting
+    └── (vários arquivos test_*.csv)
+```
+
+---
+
+## 🚀 Como Usar Este Material
+
+### 1️⃣ Para Professores:
+
+1. **Leia primeiro:**
+   - `README_Material_Didatico.md` (visão geral)
+   - `GUIA_PROFESSOR_BonsaiBIM_3aulas.md` (planejamento detalhado)
+
+2. **Prepare o curso:**
+   - Instale Blender 3.6+ em todos os computadores
+   - Baixe arquivo IFC de exemplo
+   - **Imprima:** `Guias/GUIA_RAPIDO_Salvar_CSV.md` (1 por aluno)
+
+3. **Distribua aos alunos:**
+   - Pasta `Aulas/` completa
+   - Pasta `Templates/` completa
+
+4. **Durante as aulas:**
+   - Siga o roteiro do guia do professor
+   - Use os templates como exemplos
+   - Enfatize o problema da vírgula decimal (Aula 3)
+
+---
+
+### 2️⃣ Para Alunos:
+
+1. **Estude as aulas na ordem:**
+   - Aula 1: Interface Blender e BonsaiBIM
+   - Aula 2: Search (queries)
+   - Aula 3: Quantificação e custos
+
+2. **Material de apoio:**
+   - `Guias/GUIA_RAPIDO_Salvar_CSV.md` - tenha sempre à mão!
+   - `Guias/EXEMPLO_CSV_Correto_vs_Errado.md` - exemplos visuais
+
+3. **Templates:**
+   - Use os arquivos da pasta `Templates/` como base
+   - Adapte para seu projeto
+
+---
+
+## 🎯 Estrutura do Curso
+
+### Aula 1: Interface Blender e BonsaiBIM (2-3h)
+- Interface do Blender
+- Instalação do BonsaiBIM
+- Abrir arquivos IFC
+- Navegação 3D
+- Salvar .blend vs .ifc
+
+### Aula 2: Search (2-3h)
+- Sintaxe de queries
+- Filtros: location, type, name
+- Tipos IFC comuns
+- Exemplos práticos
+
+### Aula 3: Quantificação (2-3h)
+- Estrutura do CSV
+- Properties (GrossVolume, Count, etc.)
+- **CRÍTICO:** Como salvar CSV corretamente
+- Casos de uso práticos
+
+---
+
+## ⚠️ ATENÇÃO - Problema da Vírgula Decimal
+
+**Este é o erro #1 dos alunos brasileiros!**
+
+❌ **ERRADO:** `450,00` (vírgula)  
+✅ **CORRETO:** `450.00` (ponto)
+
+**Solução:** Veja instruções detalhadas em:
+- `Guias/GUIA_RAPIDO_Salvar_CSV.md`
+- `AULA3_Quantificacao_BonsaiBIM.md` (seção "Como Salvar CSV")
+
+**Google Sheets (recomendado):**
+1. Editar normalmente
+2. **ANTES de baixar:** Arquivo → Configurações → Localidade → Estados Unidos
+3. Baixar → CSV
+4. Verificar no Bloco de Notas
+
+---
+
+## 📊 Cronogramas Disponíveis
+
+### Intensivo (2 dias - 9h):
+- Dia 1 Manhã: Aula 1
+- Dia 1 Tarde: Aula 2
+- Dia 2 Manhã: Aula 3
+
+### Semanal (3 semanas):
+- Semana 1: Aula 1 + exercícios
+- Semana 2: Aula 2 + lista queries
+- Semana 3: Aula 3 + trabalho final
+
+---
+
+## 🛠️ Requisitos Técnicos
+
+- **Blender:** 3.6 ou superior
+- **BonsaiBIM:** 0.8.5 (instalado como add-on)
+- **Sistema:** Windows, Mac ou Linux
+- **Arquivo IFC de exemplo:** Fornecido pelo professor
+
+---
+
+## 📞 Suporte
+
+### Comunidade BonsaiBIM:
+- 💬 [OSArch Community](https://community.osarch.org/)
+- 📖 [Documentação](https://docs.bonsaibim.org/)
+- 🎥 [YouTube](https://www.youtube.com/@BonsaiBIM)
+
+### Documentação Técnica:
+- 📚 [IfcOpenShell Selector Syntax](https://docs.ifcopenshell.org/ifcopenshell-python/selector_syntax.html)
+
+---
+
+## 📝 Sobre Este Material
+
+**Criado em:** Abril 2026  
+**Versão BonsaiBIM:** 0.8.5  
+**Idioma:** Português (Brasil)  
+**Licença:** Uso livre para fins educacionais
+
+**Desenvolvido para:**
+- Cursos de BIM
+- Aulas de orçamento
+- Workshops de software livre
+- Ensino técnico e superior
+
+---
+
+## ✅ Checklist Rápido
+
+### Para dar as aulas:
+
+- [ ] Li o README
+- [ ] Li o GUIA_PROFESSOR
+- [ ] Instalei Blender + BonsaiBIM
+- [ ] Testei abrir arquivo IFC
+- [ ] Imprimi guia rápido CSV (1 por aluno)
+- [ ] Preparei templates no Drive/USB
+- [ ] Testei processo completo das 3 aulas
+
+---
+
+## 🎓 Próximos Passos
+
+1. Descompacte este arquivo
+2. Leia `README_Material_Didatico.md`
+3. Se for professor: leia `GUIA_PROFESSOR_BonsaiBIM_3aulas.md`
+4. Se for aluno: comece pela `AULA1`
+
+**Bom curso! 🚀**
+
+---
+
+*Dúvidas? Consulte a comunidade OSArch ou o guia do professor.*

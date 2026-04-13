@@ -1,0 +1,14 @@
+Index,Identification,Name,Quantity,Unit,Value,TotalPrice,Property,Query
+1,,Total,,,,,,
+2,,Estrutura de Concreto,,,,,,
+3,,Pilares - Total,,,,,GrossVolume,IfcColumn
+4,,Pilares Subsolo,,m³,450.00,,GrossVolume,"IfcColumn, location=""Subsolo"""
+4,,Pilares Térreo,,m³,450.00,,GrossVolume,"IfcColumn, location=""Térreo"""
+4,,Pilares 1º Pavimento,,m³,450.00,,GrossVolume,"IfcColumn, location=""1º Pavimento"""
+3,,Vigas - Total,,,,,GrossVolume,IfcBeam
+4,,Vigas Subsolo,,m³,420.00,,GrossVolume,"IfcBeam, location=""Subsolo"""
+4,,Vigas Térreo,,m³,420.00,,GrossVolume,"IfcBeam, location=""Térreo"""
+4,,Vigas 1º Pavimento,,m³,420.00,,GrossVolume,"IfcBeam, location=""1º Pavimento"""
+3,,Lajes - Total,,,,,GrossVolume,IfcSlab
+4,,Lajes Térreo,,m³,380.00,,GrossVolume,"IfcSlab, location=""Térreo"""
+4,,Lajes 1º Pavimento,,m³,380.00,,GrossVolume,"IfcSlab, location=""1º Pavimento"""

@@ -1,0 +1,10 @@
+Index,Identification,Name,Quantity,Unit,Value,TotalPrice,Property,Query
+1,,Total,,,,,,
+2,,Esquadrias,,,,,,
+3,,Portas - Todas,,,un,,,IfcDoor
+3,,Portas Internas,,,un,150.00,,ObjectType,IfcDoor
+3,,Portas Externas,,,un,250.00,,ObjectType,IfcDoor
+3,,Portas de Correr,,,un,300.00,,ObjectType,IfcDoor
+4,,Janelas - Todas,,,un,,,IfcWindow
+3,,Janelas 100x100,,,un,200.00,,Name,IfcWindow
+3,,Janelas 120x120,,,un,250.00,,Name,IfcWindow

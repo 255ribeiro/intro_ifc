@@ -1,0 +1,11 @@
+Index,Identification,Name,Quantity,Unit,Value,TotalPrice,Property,Query
+1,,Total,,,,,,
+2,,Esquadrias por Pavimento,,,,,,
+3,,Térreo - Esquadrias,,,,,Count,"IfcDoor, location=""Térreo"""
+4,,Térreo - Porta P1,,,un,150.00,,Count,"IfcDoor, location=""Térreo"", type=""P1"""
+4,,Térreo - Porta P2,,,un,180.00,,Count,"IfcDoor, location=""Térreo"", type=""P2"""
+4,,Térreo - Janela J1,,,un,180.00,,Count,"IfcWindow, location=""Térreo"", type=""J1"""
+3,,1º Pavimento - Esquadrias,,,,,Count,"IfcDoor, location=""1º Pavimento"""
+4,,1º Pav - Porta P1,,,un,150.00,,Count,"IfcDoor, location=""1º Pavimento"", type=""P1"""
+4,,1º Pav - Porta P2,,,un,180.00,,Count,"IfcDoor, location=""1º Pavimento"", type=""P2"""
+4,,1º Pav - Janela J1,,,un,180.00,,Count,"IfcWindow, location=""1º Pavimento"", type=""J1"""

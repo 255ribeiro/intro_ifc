@@ -1,0 +1,6 @@
+Index,Identification,Name,Quantity,Unit,RateSubtotal,TotalPrice,Property,Query
+1,,Total,,,0,,,
+2,,Concreto,,,0,,,
+3,,Pilares,,m³,10,,GrossVolume,IfcColumn
+3,,Vigas,,m³,10,,GrossVolume,IfcBeam
+3,,Lajes,,m³,10,,GrossVolume,IfcSlab
