@@ -1,0 +1,1 @@
+"%appdata%\Blender Foundation\Blender\5.0\extensions\blender_org\bonsai"
