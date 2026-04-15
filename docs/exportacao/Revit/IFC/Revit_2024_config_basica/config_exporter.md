@@ -4,9 +4,11 @@
 
 ### Baixando configurações de exportação
 
-[IFC Configuration - MIC_2025_V02.json](<IFC Configuration - MIC_2025_V02.json>) -> exportar os arquivos individualmente
+[configuração 01]("IFC Configuration_MIC_2026_V00.json") -> exportar os arquivos individualmente
 
-[IFC Configuration - MIC_2025_BONSAIBIM_V01.json](<IFC Configuration - MIC_2025_BONSAIBIM_V01.json>) -> exportar o modelo federado 
+[ginfiguração_02]("IFC Configuration_MIC_2026_todos_V00.json") -> exportar todos os arquivos a partir do modelo federado como arquivos IFC separados
+
+[configuração 02](<IFC Configuration - MIC_2025_BONSAIBIM_V01.json>) -> exportar todos os arquivos a partir do modelo federado como um único arquivo IFC
 
 ### Configurações básicas
 
