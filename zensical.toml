@@ -88,6 +88,12 @@ nav = [
 
   {"Exemplos" = "exemplos/exemplos.md"},
 
+  {"Editais" = [
+    {"Edital AV1" = "editais/edital_av1.md"},
+    {"Edital AV2" = "editais/edital_av2.md"}
+
+  ]}
+
 ]
 
 [project.theme]
