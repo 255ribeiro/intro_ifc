@@ -62,7 +62,8 @@ Diretrizes da atividade (BEP aplicado)
    2. pasta de IFCs exportados;
    3. pasta de arquivos BCF;
    4. pasta do projeto de coordenação (BIMcollab/Navisworks/Bonsai BIM ou equivalente);
-   5. indicação de como todos os arquivos foram nomeados.
+   5. pasta para arquivos auxiliares (configurações de exortação, arquivos de parâmetros compartilhados)
+   6. indicação de como todos os arquivos foram nomeados.
 3. A equipe deve listar os softwares e versões utilizados no desenvolvimento e coordenação.
 4. A equipe deve declarar explicitamente:
    1. versão de exportação IFC adotada: IFC 4;
@@ -72,8 +73,8 @@ Diretrizes da atividade (BEP aplicado)
    1. marcação de paredes como internas e externas;
    2. marcação de portas como internas e externas;
    3. modelagem de revestimentos de parede em lógica de "parede cebola";
-   4. classificação dos revestimentos como IfcCovering tipo Cladding.
-   5. Padronizar no documento a nomeação de materiais para: paredes, revestimentos de paredes (internos, externos e áreas molhadas, esse último apenas para os sanitários) e aplicar por solicitação BCF.
+   4. classificação dos revestimentos de paredes como IfcCovering tipo Cladding.
+   5. Padronizar no documento a nomeação de materiais para: paredes, revestimentos de paredes (internos, externos e áreas molhadas, esse último apenas para os sanitários) com espessuras e outras informações técnicas que se entendam pertinentes. Solicitar mudança por BCF.
    6. Os revestimentos de paredes dos sanitários devem ir apenas até a altura do forro.
    7. Caso ão tenham modelado, os IfcSpaces de cada ambiente devem ser requeridos por BCF e modelados.
 
