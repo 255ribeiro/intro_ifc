@@ -88,8 +88,8 @@ Diretrizes da atividade (BEP aplicado)
    4. classificação dos revestimentos de paredes como IfcCovering tipo Cladding.
    5. Os revestimentos de paredes dos sanitários devem ir apenas até a altura do forro.
    6. Caso não tenham modelado, os IfcSpaces de cada ambiente devem ser requeridos por BCF e modelados.
-
-3. Cada issue BCF deve conter título, descrição objetiva, responsável, prazo e status de resolução.
+   7. Elementos fundamentais (via orientação) do edital 1 que não foram resolvidos, solicitados via BCF e resolvidos.
+   8. Cada issue BCF deve conter título, descrição objetiva, responsável, prazo e status de resolução.
 
 Obs. Verifique a seção sobre BEP do material de estudo da disciplina
 
