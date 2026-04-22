@@ -91,7 +91,7 @@ Diretrizes da atividade (BEP aplicado)
 
 3. Cada issue BCF deve conter título, descrição objetiva, responsável, prazo e status de resolução.
 
-
+Obs. Verifique a seção sobre BEP do material de estudo da disciplina
 
 <h4 style="background:lightblue">
 Itens da entrega
