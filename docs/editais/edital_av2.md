@@ -53,33 +53,45 @@ Todas as entregas devem evidenciar organização, rastreabilidade de revisões e
 Diretrizes da atividade (BEP aplicado)
 </h4>
 
-1. A equipe deve produzir um documento de texto (PDF ou .docx) com os seguintes tópicos mínimos:
-   1. Convenção de nomenclatura dos arquivos adotada pela equipe, conforme orientação do BEP;
-   2. Tabela com padrão de nomenclatura utilizado (campos e siglas);
-   3. Exemplo de nomes de arquivos nativos, IFC, BCF e arquivo federado.
-2. A equipe deve apresentar a organização de pastas do projeto, incluindo obrigatoriamente:
-   1. pasta de arquivos nativos por disciplina;
-   2. pasta de IFCs exportados;
-   3. pasta de arquivos BCF;
-   4. pasta do projeto de coordenação (BIMcollab/Navisworks/Bonsai BIM ou equivalente);
-   5. pasta para arquivos auxiliares (configurações de exortação, arquivos de parâmetros compartilhados)
-   6. indicação de como todos os arquivos foram nomeados.
-3. A equipe deve listar os softwares e versões utilizados no desenvolvimento e coordenação.
-4. A equipe deve declarar explicitamente:
-   1. versão de exportação IFC adotada: IFC 4;
-   2. versão de BCF utilizada no fluxo de issues (recomendado: BCF 2.1).
-5. A forma de modelagem das paredes e nomenclatura dos materiais de paredes e revestimentos devem constar em tópico do documento.
-6. Algumas atividades devem ser abertas por issue BCF e executadas nos arquivos disciplinares:
+1. A equipe deve produzir um documento de texto (PDF ou .docx) Abaixo seguem ás seções obrigatórias do documento e os tópicos que cada seção deve conter:
+   1. Capa
+   2. Equipe com o nome dos membros e-mails da instituição
+   3. Ambiente de trabalho
+      1. Convenção de nomenclatura dos arquivos adotada pela equipe, conforme orientação do BEP;
+      2. Tabela com padrão de nomenclatura utilizado (campos e siglas);
+      3. Exemplo de nomes de arquivos nativos, IFC, BCF e arquivo federado.
+      4. A equipe deve apresentar a organização de pastas do projeto, incluindo obrigatoriamente:
+         1. pasta de arquivos nativos por disciplina;
+         2. pasta de IFCs exportados;
+         3. pasta de arquivos BCF;
+         4. pasta do projeto de coordenação (BIMcollab/Navisworks/Bonsai BIM ou equivalente);
+         5. pasta para arquivos auxiliares (configurações de exortação, arquivos de parâmetros compartilhados, ...)
+   4. Tecnologia
+      1. A equipe deve listar os softwares e versões utilizados no desenvolvimento e coordenação.
+      2. A equipe deve declarar explicitamente:
+            - versão de exportação IFC adotada: IFC 4;
+            - versão de BCF utilizada no fluxo de issues (recomendado: BCF 2.1).
+   5. LOD/LOI
+      1. A forma de modelagem das paredes (cebola) descrevendo as camadas com espessura definida.
+      2. nomenclatura dos materiais de paredes e revestimentos (internas, externas e áreas molhadas)
+      3. Os revestimentos devem ser exortados como IfcCovering to tipo Cladding
+      4. Os tipos devem ter nomenclatura definida para cada caso (internas, externas e áreas molhadas)
+   6. Entrega: o Arquivo IFC deve ser exportado contendo os dados listados abaixo.
+      1. As paredes, revestimento e portas deve ser exportados contendo:
+         - Pset: Common para cada classe
+         - Qto: Base para cada Classe
+         - Atrubuto IfcIsExternal corretamente definido.
+2. Após a definição dos elementos do BEP, algumas atividades devem ser abertas por issue BCF e executadas nos arquivos disciplinares:
    1. marcação de paredes como internas e externas;
    2. marcação de portas como internas e externas;
    3. modelagem de revestimentos de parede em lógica de "parede cebola";
    4. classificação dos revestimentos de paredes como IfcCovering tipo Cladding.
-   5. Padronizar no documento a nomeação de materiais para: paredes, revestimentos de paredes (internos, externos e áreas molhadas, esse último apenas para os sanitários) com espessuras e outras informações técnicas que se entendam pertinentes. Solicitar mudança por BCF.
-   6. Os revestimentos de paredes dos sanitários devem ir apenas até a altura do forro.
-   7. Caso ão tenham modelado, os IfcSpaces de cada ambiente devem ser requeridos por BCF e modelados.
+   5. Os revestimentos de paredes dos sanitários devem ir apenas até a altura do forro.
+   6. Caso não tenham modelado, os IfcSpaces de cada ambiente devem ser requeridos por BCF e modelados.
 
-7. Cada issue BCF deve conter título, descrição objetiva, responsável, prazo e status de resolução.
- 
+3. Cada issue BCF deve conter título, descrição objetiva, responsável, prazo e status de resolução.
+
+
 
 <h4 style="background:lightblue">
 Itens da entrega
