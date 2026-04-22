@@ -122,4 +122,4 @@ Os trabalhos devem ser enviados em arquivo compactado (.zip, .rar, .7z, .tar.gz)
 5. Consistência da exportação e interoperabilidade (IFC 4 e BCF informado).
 
 <h4 style="background:lightblue"> Data de entrega</h4>
-   a definir pelo docente
+   24/05/2026 pelo AVA da disciplina
