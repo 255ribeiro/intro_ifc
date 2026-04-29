@@ -14,7 +14,15 @@ Na aba gerenciar, escolha a opção *parâmetros compartilhados"
 
 Escolha ```Criar``` e defina um nome para seu arquivo de parâmetros compartilhados e o local onde deve ser salvo.
 
+## Parâmetros compartilhados para IFC
 
+Arquivos de configuração de parâmetros compartilhados para IFC:
+
+[Parâmetros de instância](<./IFC Shared Parameters-RevitIFCBuiltIn_ALL.txt>)
+
+[Parâmetros de tipo](<./IFC Shared Parameters-RevitIFCBuiltIn-Type_ALL.txt>)
+
+---
 
 
 
