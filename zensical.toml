@@ -40,7 +40,7 @@ nav = [
       {"IFC" = [
         {"Atualizar exportador IFC do Revit" = "exportacao/Revit/IFC/revit_IFC_install.md"},
         {"Dados do projeto" = "exportacao/Revit/IFC/ifc_project_data.md"},
-        {"Configuração básica do exportador IFC do Revit" = "exportacao/Revit/IFC/Revit_2024_config_basica/config_exporter.md"}
+        {"Configuração básica do exportador IFC do Revit" = "exportacao/Revit/config_basica/config_exporter.md"}
       ]},
       {"Informações e parâmetros" = [
         {"Organizando as pastas do projeto" = "exportacao/Revit/projeto_revit/projeto.md"},
