@@ -23,7 +23,3 @@ Arquivos de configuração de parâmetros compartilhados para IFC:
 [Parâmetros de tipo](<./IFC Shared Parameters-RevitIFCBuiltIn-Type_ALL.txt>)
 
 ---
-
-
-
-
