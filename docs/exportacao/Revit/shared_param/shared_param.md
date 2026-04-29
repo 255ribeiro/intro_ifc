@@ -8,7 +8,8 @@
 
 !!! note Organize suas pastas
 
-    É importante pensar na organização das pastas do projeto. Se não pensou em uma organização de pastas para seu projeto, baixe a [sugestão de orgaização de pastas](../projeto_revit/pastas_do_projeto.zip)
+    É importante pensar na organização das pastas do projeto.
+    <!-- Se não pensou em uma organização de pastas para seu projeto, baixe a [sugestão de orgaização de pastas](../projeto_revit/pastas_do_projeto.zip) -->
 
 Na aba gerenciar, escolha a opção *parâmetros compartilhados*
 
