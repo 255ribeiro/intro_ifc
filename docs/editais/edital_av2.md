@@ -53,10 +53,11 @@ Todas as entregas devem evidenciar organização, rastreabilidade de revisões e
 Diretrizes da atividade (BEP aplicado)
 </h4>
 
-1. A equipe deve produzir um documento de texto (PDF ou .docx) Abaixo seguem ás seções obrigatórias do documento e os tópicos que cada seção deve conter:
+#### A equipe deve produzir um documento de texto (PDF ou .docx) Abaixo seguem ás seções obrigatórias do documento e os tópicos que cada seção deve conter:
+
    1. Capa
    2. Equipe com o nome dos membros e-mails da instituição
-   3. Ambiente de trabalho
+   3. Ambiente de trabalho contendo:
       1. Convenção de nomenclatura dos arquivos adotada pela equipe, conforme orientação do BEP;
       2. Tabela com padrão de nomenclatura utilizado (campos e siglas);
       3. Exemplo de nomes de arquivos nativos, IFC, BCF e arquivo federado.
@@ -66,22 +67,23 @@ Diretrizes da atividade (BEP aplicado)
          3. pasta de arquivos BCF;
          4. pasta do projeto de coordenação (BIMcollab/Navisworks/Bonsai BIM ou equivalente);
          5. pasta para arquivos auxiliares (configurações de exortação, arquivos de parâmetros compartilhados, ...)
-   4. Tecnologia
+   4. Tecnologia:
       1. A equipe deve listar os softwares e versões utilizados no desenvolvimento e coordenação.
       2. A equipe deve declarar explicitamente:
             - versão de exportação IFC adotada: IFC 4;
             - versão de BCF utilizada no fluxo de issues (recomendado: BCF 2.1).
-   5. LOD/LOI
+   5. LOD/LOI:
       1. A forma de modelagem das paredes (cebola) descrevendo as camadas com espessura definida.
       2. nomenclatura dos materiais de paredes e revestimentos (internas, externas e áreas molhadas)
       3. Os revestimentos devem ser exortados como IfcCovering to tipo Cladding
       4. Os tipos devem ter nomenclatura definida para cada caso (internas, externas e áreas molhadas)
+      5. Os revestimentos das áreas molhadas devem ser modelados até a altura do forro.
    6. Entrega: o Arquivo IFC deve ser exportado contendo os dados listados abaixo.
       1. As paredes, revestimento e portas deve ser exportados contendo:
          - Pset: Common para cada classe
          - Qto: Base para cada Classe
          - Atrubuto IfcIsExternal corretamente definido.
-2. Após a definição dos elementos do BEP, algumas atividades devem ser abertas por issue BCF e executadas nos arquivos disciplinares:
+#### Após a definição dos elementos do BEP, algumas atividades devem ser abertas por issue BCF e executadas nos arquivos disciplinares:
    1. marcação de paredes como internas e externas;
    2. marcação de portas como internas e externas;
    3. modelagem de revestimentos de parede em lógica de "parede cebola";
@@ -91,7 +93,7 @@ Diretrizes da atividade (BEP aplicado)
    7. Elementos fundamentais (via orientação) do edital 1 que não foram resolvidos, solicitados via BCF e resolvidos.
    8. Cada issue BCF deve conter título, descrição objetiva, responsável, prazo e status de resolução.
 
-Obs. Verifique a seção sobre BEP do material de estudo da disciplina
+#### Obs. Verifique a seção sobre BEP do material de estudo da disciplina
 
 <h4 style="background:lightblue">
 Itens da entrega
