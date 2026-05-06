@@ -62,11 +62,12 @@ Diretrizes da atividade (BEP aplicado)
       2. Tabela com padrão de nomenclatura utilizado (campos e siglas);
       3. Exemplo de nomes de arquivos nativos, IFC, BCF e arquivo federado.
       4. A equipe deve apresentar a organização de pastas do projeto, incluindo obrigatoriamente:
-         1. pasta de arquivos nativos por disciplina;
-         2. pasta de IFCs exportados;
-         3. pasta de arquivos BCF;
-         4. pasta do projeto de coordenação (BIMcollab/Navisworks/Bonsai BIM ou equivalente);
-         5. pasta para arquivos auxiliares (configurações de exortação, arquivos de parâmetros compartilhados, ...)
+         1. Pasta com o(s) templates dos arquivos de projeto
+         2. pasta de arquivos nativos por disciplina;
+         3. pasta de IFCs exportados;
+         4. pasta de arquivos BCF;
+         5. pasta do projeto de coordenação (BIMcollab/Navisworks/Bonsai BIM ou equivalente);
+         6. pasta para arquivos auxiliares (configurações de exortação, arquivos de parâmetros compartilhados, ...)
    4. Tecnologia:
       1. A equipe deve listar os softwares e versões utilizados no desenvolvimento e coordenação.
       2. A equipe deve declarar explicitamente:
