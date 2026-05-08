@@ -92,7 +92,9 @@ nav = [
     {"Edital AV1" = "editais/edital_av1.md"},
     {"Edital AV2" = "editais/edital_av2.md"}
 
-  ]}
+  ]},
+
+  {"Videos de apoio" = "playlist_aulas"},
 
 ]
 
