@@ -1,5 +1,9 @@
 # Archicad IFC
 
+## Configurando os tradutores
+
+![alt text](./figs/config_exp.gif)
+
 ## Instruções de como configurar o exportador
 
 [https://help.graphisoft.com/AC/27/INT/_AC27_Help/121_IFC/121_IFC-4.htm](https://help.graphisoft.com/AC/27/INT/_AC27_Help/121_IFC/121_IFC-4.htm)
