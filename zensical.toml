@@ -63,7 +63,8 @@ nav = [
   {"IFC" = [
     {"Introdução" = "IFC/ifc_intro.md"},
     {"IfcWall" = "IFC/IfcWall/IfcWall.md"},
-    {"IfcCovering" = "IFC/ifcCovering/IfcCovering.md"}
+    {"IfcCovering" = "IFC/ifcCovering/IfcCovering.md"},
+
   ]},
 
 
