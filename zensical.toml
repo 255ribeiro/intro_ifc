@@ -30,6 +30,7 @@ nav = [
       {"DDS Cad Viewer" = "install_tools/dds_cad_install/dds_cad_install.md"},
       {"KIT Tools" = "install_tools/kit_tools_install/kit_tools_install.md"}
     ],  icon = "<fontawesome/regula/eye"},
+    {"Visualizadores Online de IFC" = "other_editors/online_ifc_viewers.md"},
   ],  icon = "fontawesome/solid/screwdriver-wrench"},
   {"BEP" = "bep/bep-bim-material.md"},
 
