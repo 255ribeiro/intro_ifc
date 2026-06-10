@@ -68,6 +68,15 @@ nav = [
 
   ]},
 
+  {BonsaiBIM = [
+    {"Interface" = "BonsaiBim/Aulas/AULA1_Interface_Blender_BonsaiBIM.md"},
+    {"Search - parte 1" = "BonsaiBim/Aulas/AULA2_a_Search_BonsaiBIM.md"},
+    {"Search - parte 2" = "BonsaiBim/Aulas/AULA2_b_bonsai_filtros_selecao.md"},
+    {"Merge Ifc Projects" = "BonsaiBim/merge_ifc_plus/index.md"},
+    {"Quantificação" = "BonsaiBim/Aulas/AULA3_Quantificacao_BonsaiBIM.md"},
+
+  ]},
+
 
   {"IDS" = [
     {"IDS" = "IDS/ids-bim-material.md"},

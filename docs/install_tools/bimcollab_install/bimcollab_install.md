@@ -31,3 +31,9 @@ Caso não seja possível instalar pelo instalador, os programas tem que ser inst
 Acesse o link para criar uma conta:
 
 [https://my.bimcollab.com/createUserAccount](https://my.bimcollab.com/createUserAccount)
+
+---
+
+## script de transformação de caminhos relativos no arquivo BCP
+
+[link](https://github.com/255ribeiro/bcp_converter_app)
