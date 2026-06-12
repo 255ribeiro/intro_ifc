@@ -1,6 +1,4 @@
-# Aula 2: Search no BonsaiBIM (conteúdo integrado)
-
-> Material integrado das aulas AULA2_a e AULA2_b, sem repetições.
+# Aula 2: Search Groups no BonsaiBIM
 
 ## Objetivo
 
