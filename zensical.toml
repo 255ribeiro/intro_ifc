@@ -70,7 +70,7 @@ nav = [
 
   {BonsaiBIM = [
     {"Interface" = "BonsaiBim/Aulas/AULA1_Interface_Blender_BonsaiBIM.md"},
-    {"Search Groups" = "BonsaiBim/Aulas/AULA2_Search_BonsaiBIM.md"},
+    {"Search Groups" = "BonsaiBim/Aulas/AULA_2_Search_BonsaiBIM.md"},
     {"Search Groups - referências" = "BonsaiBim/Aulas/AULA_2_search_references.md"},
     {"Merge Ifc Projects" = "BonsaiBim/merge_ifc_plus/index.md"},
     {"Quantificação" = "BonsaiBim/Aulas/AULA3_Quantificacao_BonsaiBIM.md"},
